@@ -5,7 +5,7 @@ from folium.plugins import MarkerCluster
 
 # csvからのデータ読み込み(必要なカラムだけを抽出)
 df1 = pd.read_csv(
-    './open_data/201_福祉・健康・医療/108_AED設置個所一覧/122033_108_aed.csv',
+    './open_data/201_福祉・健康・医療/108_AED設置箇所一覧/122033_108_aed.csv',
     encoding='cp932',
     )
 
