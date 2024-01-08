@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_95ee9e0b67bd6d2fa699020ad81479c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_95ee9e0b67bd6d2fa699020ad81479c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_95ee9e0b67bd6d2fa699020ad81479c8 = L.map(
+                "map_95ee9e0b67bd6d2fa699020ad81479c8",
+                {
+                    center: [35.72179702, 139.9310206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67edb9ba5f179785038a6713d571aaf8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_67edb9ba5f179785038a6713d571aaf8.addTo(map_95ee9e0b67bd6d2fa699020ad81479c8);
+    
+            var marker_cluster_237ea70a65907dd48e8140323effe6a0 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_6bd578e8b7c7a811d7b36256f9e1f581 = L.marker(
+                [35.68566311, 139.9163834],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_acb910defc52e58c8fee1fd39b4a7bbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6bd578e8b7c7a811d7b36256f9e1f581.setIcon(icon_acb910defc52e58c8fee1fd39b4a7bbb);
+        
+    
+        var popup_589b5868c990006282388e2ff4d85789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8599ab02bb5f883d7c7beec4246ad2c2 = $(`<div id="html_8599ab02bb5f883d7c7beec4246ad2c2" style="width: 100.0%; height: 100.0%;">【設置場所】行徳支所  【住所】千葉県市川市末広1丁目1-31</div>`)[0];
+                popup_589b5868c990006282388e2ff4d85789.setContent(html_8599ab02bb5f883d7c7beec4246ad2c2);
+            
+        
+
+        marker_6bd578e8b7c7a811d7b36256f9e1f581.bindPopup(popup_589b5868c990006282388e2ff4d85789)
+        ;
+
+        
+    
+    
+            var marker_961bb2db75fee62a7342038b6dabdd79 = L.marker(
+                [35.73886422, 139.9127571],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_efd6d3c64f775f64abbfc01268506452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_961bb2db75fee62a7342038b6dabdd79.setIcon(icon_efd6d3c64f775f64abbfc01268506452);
+        
+    
+        var popup_1981ab3348b1495fdd8e511499bd67e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6064118ed890f3beff124d21b53864f1 = $(`<div id="html_6064118ed890f3beff124d21b53864f1" style="width: 100.0%; height: 100.0%;">【設置場所】須和田公園  【住所】千葉県市川市真間5丁目1-13</div>`)[0];
+                popup_1981ab3348b1495fdd8e511499bd67e7.setContent(html_6064118ed890f3beff124d21b53864f1);
+            
+        
+
+        marker_961bb2db75fee62a7342038b6dabdd79.bindPopup(popup_1981ab3348b1495fdd8e511499bd67e7)
+        ;
+
+        
+    
+    
+            var marker_35b2775627e78c9d89ac1ab825af983f = L.marker(
+                [35.75400336, 139.9043792],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_a1c872a599b22814a3d347097f940397 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35b2775627e78c9d89ac1ab825af983f.setIcon(icon_a1c872a599b22814a3d347097f940397);
+        
+    
+        var popup_6b967ac06f40d00c4cb1820d0fa3a745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a489ba8d4e7bebd114e55e508b5464a = $(`<div id="html_5a489ba8d4e7bebd114e55e508b5464a" style="width: 100.0%; height: 100.0%;">【設置場所】じゅん菜池緑地  【住所】千葉県市川市中国分4丁目2７</div>`)[0];
+                popup_6b967ac06f40d00c4cb1820d0fa3a745.setContent(html_5a489ba8d4e7bebd114e55e508b5464a);
+            
+        
+
+        marker_35b2775627e78c9d89ac1ab825af983f.bindPopup(popup_6b967ac06f40d00c4cb1820d0fa3a745)
+        ;
+
+        
+    
+    
+            var marker_19fb550cc22977cf00562b99193c143d = L.marker(
+                [35.7373488, 139.9653355],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_2e2d781f30f02b70e371d54356f58e8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19fb550cc22977cf00562b99193c143d.setIcon(icon_2e2d781f30f02b70e371d54356f58e8e);
+        
+    
+        var popup_8b869ba98b3d9a2b5be5464c3b607b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81532584f235734a6448502dd623565b = $(`<div id="html_81532584f235734a6448502dd623565b" style="width: 100.0%; height: 100.0%;">【設置場所】姥山貝塚公園  【住所】千葉県市川市柏井町1丁目1235</div>`)[0];
+                popup_8b869ba98b3d9a2b5be5464c3b607b74.setContent(html_81532584f235734a6448502dd623565b);
+            
+        
+
+        marker_19fb550cc22977cf00562b99193c143d.bindPopup(popup_8b869ba98b3d9a2b5be5464c3b607b74)
+        ;
+
+        
+    
+    
+            var marker_05c032996eb9db7a3ce7b231391a55b0 = L.marker(
+                [35.73994769, 139.9626201],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_afabfaa28da463f0be6a23cf823164c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05c032996eb9db7a3ce7b231391a55b0.setIcon(icon_afabfaa28da463f0be6a23cf823164c5);
+        
+    
+        var popup_a40e3391acd6e08fc5d1337cac3377b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c185b11b6f33c99780600818a98f417 = $(`<div id="html_0c185b11b6f33c99780600818a98f417" style="width: 100.0%; height: 100.0%;">【設置場所】柏井市営住宅  【住所】千葉県市川市柏井町2丁目1358</div>`)[0];
+                popup_a40e3391acd6e08fc5d1337cac3377b1.setContent(html_0c185b11b6f33c99780600818a98f417);
+            
+        
+
+        marker_05c032996eb9db7a3ce7b231391a55b0.bindPopup(popup_a40e3391acd6e08fc5d1337cac3377b1)
+        ;
+
+        
+    
+    
+            var marker_6fc36aa990818f787fd9197e227b73ad = L.marker(
+                [35.67391336, 139.9101519],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_f8eb417958e86ef8f537a990068877aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6fc36aa990818f787fd9197e227b73ad.setIcon(icon_f8eb417958e86ef8f537a990068877aa);
+        
+    
+        var popup_6bd2ac23fba1ad5c675fd5704f7a8682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf4adcf23decdf7879d4abf36012357d = $(`<div id="html_bf4adcf23decdf7879d4abf36012357d" style="width: 100.0%; height: 100.0%;">【設置場所】福栄中学校  【住所】千葉県市川市福栄3丁目4-1</div>`)[0];
+                popup_6bd2ac23fba1ad5c675fd5704f7a8682.setContent(html_bf4adcf23decdf7879d4abf36012357d);
+            
+        
+
+        marker_6fc36aa990818f787fd9197e227b73ad.bindPopup(popup_6bd2ac23fba1ad5c675fd5704f7a8682)
+        ;
+
+        
+    
+    
+            var marker_3245e842bf8877c86094d426ff6399af = L.marker(
+                [35.72200047, 139.9457125],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_a148760a8f4cc716ea5eebe7bdda15f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3245e842bf8877c86094d426ff6399af.setIcon(icon_a148760a8f4cc716ea5eebe7bdda15f7);
+        
+    
+        var popup_1f9d3a2466fc7eca167b89e71a7240cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2040a0196d42831cddcf06ccc3313b = $(`<div id="html_af2040a0196d42831cddcf06ccc3313b" style="width: 100.0%; height: 100.0%;">【設置場所】第四中学校  【住所】千葉県市川市中山1丁目11-1</div>`)[0];
+                popup_1f9d3a2466fc7eca167b89e71a7240cc.setContent(html_af2040a0196d42831cddcf06ccc3313b);
+            
+        
+
+        marker_3245e842bf8877c86094d426ff6399af.bindPopup(popup_1f9d3a2466fc7eca167b89e71a7240cc)
+        ;
+
+        
+    
+    
+            var marker_6050cb85518cfdd882d7aeee9f23293a = L.marker(
+                [35.74033678, 139.9325817],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_50cc597a99255302c516aa994e0a9058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6050cb85518cfdd882d7aeee9f23293a.setIcon(icon_50cc597a99255302c516aa994e0a9058);
+        
+    
+        var popup_dd9519a4c0f47e22e8f383c8c698cb20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d534a48ee0bfa83ea039086d08320b8 = $(`<div id="html_0d534a48ee0bfa83ea039086d08320b8" style="width: 100.0%; height: 100.0%;">【設置場所】第三中学校  【住所】千葉県市川市曽谷3丁目2-1</div>`)[0];
+                popup_dd9519a4c0f47e22e8f383c8c698cb20.setContent(html_0d534a48ee0bfa83ea039086d08320b8);
+            
+        
+
+        marker_6050cb85518cfdd882d7aeee9f23293a.bindPopup(popup_dd9519a4c0f47e22e8f383c8c698cb20)
+        ;
+
+        
+    
+    
+            var marker_2d8803ea448321edece9e2b9c691ae45 = L.marker(
+                [35.73241156, 139.9453845],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_3443d9e21c06646cd987991d8ca43564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d8803ea448321edece9e2b9c691ae45.setIcon(icon_3443d9e21c06646cd987991d8ca43564);
+        
+    
+        var popup_6ae570f12ee55bee3413db01519a4d2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca3b53c768eeaa93f0131ca75bf1dc5a = $(`<div id="html_ca3b53c768eeaa93f0131ca75bf1dc5a" style="width: 100.0%; height: 100.0%;">【設置場所】北方小学校  【住所】千葉県市川市北方町4丁目1356-1</div>`)[0];
+                popup_6ae570f12ee55bee3413db01519a4d2f.setContent(html_ca3b53c768eeaa93f0131ca75bf1dc5a);
+            
+        
+
+        marker_2d8803ea448321edece9e2b9c691ae45.bindPopup(popup_6ae570f12ee55bee3413db01519a4d2f)
+        ;
+
+        
+    
+    
+            var marker_9152147689f18cd74bf57eeb2f934c35 = L.marker(
+                [35.7335845, 139.9224139],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_677c4977f460985016767f3ec2d24c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9152147689f18cd74bf57eeb2f934c35.setIcon(icon_677c4977f460985016767f3ec2d24c60);
+        
+    
+        var popup_a15ef64c33ace9fe7c9bc4ce3475d116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5c5285c63838e245e75c72f97560a95 = $(`<div id="html_d5c5285c63838e245e75c72f97560a95" style="width: 100.0%; height: 100.0%;">【設置場所】東京歯科大学市川総合病院  【住所】千葉県市川市菅野5丁目11-13</div>`)[0];
+                popup_a15ef64c33ace9fe7c9bc4ce3475d116.setContent(html_d5c5285c63838e245e75c72f97560a95);
+            
+        
+
+        marker_9152147689f18cd74bf57eeb2f934c35.bindPopup(popup_a15ef64c33ace9fe7c9bc4ce3475d116)
+        ;
+
+        
+    
+    
+            var marker_5556f27a76a4e23c353ee1288484ab47 = L.marker(
+                [35.72511311, 139.9204589],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_e22a8367846af2ed39e7aa76d1f443e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5556f27a76a4e23c353ee1288484ab47.setIcon(icon_e22a8367846af2ed39e7aa76d1f443e5);
+        
+    
+        var popup_4668a00438587cc727d88e344eff49ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16ad141c7d9fad80fc8f63de17f84ec8 = $(`<div id="html_16ad141c7d9fad80fc8f63de17f84ec8" style="width: 100.0%; height: 100.0%;">【設置場所】市川クリニック  【住所】千葉県市川市平田1丁目1７-19</div>`)[0];
+                popup_4668a00438587cc727d88e344eff49ae.setContent(html_16ad141c7d9fad80fc8f63de17f84ec8);
+            
+        
+
+        marker_5556f27a76a4e23c353ee1288484ab47.bindPopup(popup_4668a00438587cc727d88e344eff49ae)
+        ;
+
+        
+    
+    
+            var marker_612ab8c6a2df88a4022cd60d15b97472 = L.marker(
+                [35.71851334, 139.909841],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_737a30cee167416e4d9a3fdbc907a264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_612ab8c6a2df88a4022cd60d15b97472.setIcon(icon_737a30cee167416e4d9a3fdbc907a264);
+        
+    
+        var popup_a69a01d3a31ac9fa7bd1bd2c33785bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd12849c5e1a590e4d6ad229bcdebb8f = $(`<div id="html_dd12849c5e1a590e4d6ad229bcdebb8f" style="width: 100.0%; height: 100.0%;">【設置場所】大洲防災公園  【住所】千葉県市川市大洲1丁目18</div>`)[0];
+                popup_a69a01d3a31ac9fa7bd1bd2c33785bf1.setContent(html_dd12849c5e1a590e4d6ad229bcdebb8f);
+            
+        
+
+        marker_612ab8c6a2df88a4022cd60d15b97472.bindPopup(popup_a69a01d3a31ac9fa7bd1bd2c33785bf1)
+        ;
+
+        
+    
+    
+            var marker_7a096a17693f75bac429729a3040b371 = L.marker(
+                [35.67872549, 139.889396],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_5faa468cd24ac042fdfe8de953061f19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a096a17693f75bac429729a3040b371.setIcon(icon_5faa468cd24ac042fdfe8de953061f19);
+        
+    
+        var popup_ebb617a675d27fe794e8755874e0077f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b35f1c3f67a1d23cb6dae7735471727 = $(`<div id="html_5b35f1c3f67a1d23cb6dae7735471727" style="width: 100.0%; height: 100.0%;">【設置場所】広尾防災倉庫  【住所】千葉県市川市広尾2丁目3-2</div>`)[0];
+                popup_ebb617a675d27fe794e8755874e0077f.setContent(html_5b35f1c3f67a1d23cb6dae7735471727);
+            
+        
+
+        marker_7a096a17693f75bac429729a3040b371.bindPopup(popup_ebb617a675d27fe794e8755874e0077f)
+        ;
+
+        
+    
+    
+            var marker_a5de1ebb41daaa321bb796d76cdd1d6e = L.marker(
+                [35.74682308, 139.9268273],
+                {}
+            ).addTo(marker_cluster_237ea70a65907dd48e8140323effe6a0);
+        
+    
+            var icon_04cd8ed7c3999e3896d6d970fc573d4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5de1ebb41daaa321bb796d76cdd1d6e.setIcon(icon_04cd8ed7c3999e3896d6d970fc573d4b);
+        
+    
+        var popup_dc2399d540ca609c3673afb200d8f892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c9bd3bd86df6aa158037270b4c5965 = $(`<div id="html_03c9bd3bd86df6aa158037270b4c5965" style="width: 100.0%; height: 100.0%;">【設置場所】曽谷小学校  【住所】千葉県市川市曽谷7丁目18-1</div>`)[0];
+                popup_dc2399d540ca609c3673afb200d8f892.setContent(html_03c9bd3bd86df6aa158037270b4c5965);
+            
+        
+
+        marker_a5de1ebb41daaa321bb796d76cdd1d6e.bindPopup(popup_dc2399d540ca609c3673afb200d8f892)
+        ;
+
+        
+    
+    
+                marker_cluster_237ea70a65907dd48e8140323effe6a0.addTo(map_95ee9e0b67bd6d2fa699020ad81479c8);
+</script>
+</html>

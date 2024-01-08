@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9376a0ee9fdabea51de01ce27d10a6b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9376a0ee9fdabea51de01ce27d10a6b4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9376a0ee9fdabea51de01ce27d10a6b4 = L.map(
+                "map_9376a0ee9fdabea51de01ce27d10a6b4",
+                {
+                    center: [35.72179702, 139.9310206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90b85b56e13268256ad73250a3fcbcf5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_90b85b56e13268256ad73250a3fcbcf5.addTo(map_9376a0ee9fdabea51de01ce27d10a6b4);
+    
+            var marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_ccab9c89f96915a9469cd3506b38c834 = L.marker(
+                [35.746934, 139.90589],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_fb7903dac4eb3b8b6b89afbd0301aa9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccab9c89f96915a9469cd3506b38c834.setIcon(icon_fb7903dac4eb3b8b6b89afbd0301aa9c);
+        
+    
+        var popup_8aa0a14aae9ec44a23de6fae05324189 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83647cb0f2f2f7b0f966d2ce352b5ad7 = $(`<div id="html_83647cb0f2f2f7b0f966d2ce352b5ad7" style="width: 100.0%; height: 100.0%;">【設置場所】国府台病院前  【住所】千葉県市川市国府台1丁目7-1</div>`)[0];
+                popup_8aa0a14aae9ec44a23de6fae05324189.setContent(html_83647cb0f2f2f7b0f966d2ce352b5ad7);
+            
+        
+
+        marker_ccab9c89f96915a9469cd3506b38c834.bindPopup(popup_8aa0a14aae9ec44a23de6fae05324189)
+        ;
+
+        
+    
+    
+            var marker_ef240b260d677890cdaee05c17b54d3d = L.marker(
+                [35.7335845, 139.9224139],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_6314e0b64364320a811c1303fc9a865e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef240b260d677890cdaee05c17b54d3d.setIcon(icon_6314e0b64364320a811c1303fc9a865e);
+        
+    
+        var popup_bc0c7ab97990f9f6ded6e811721f4a37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b968385a07fa6a6dae1ca6c4aaeab33f = $(`<div id="html_b968385a07fa6a6dae1ca6c4aaeab33f" style="width: 100.0%; height: 100.0%;">【設置場所】東京歯科大学市川総合病院前  【住所】千葉県市川市菅野5丁目11-13</div>`)[0];
+                popup_bc0c7ab97990f9f6ded6e811721f4a37.setContent(html_b968385a07fa6a6dae1ca6c4aaeab33f);
+            
+        
+
+        marker_ef240b260d677890cdaee05c17b54d3d.bindPopup(popup_bc0c7ab97990f9f6ded6e811721f4a37)
+        ;
+
+        
+    
+    
+            var marker_d8f42abc35c6d5f04fc315dd4dbbc30a = L.marker(
+                [35.74013, 139.94921],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_7428bf3aabb993e5174caf0b125d25ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8f42abc35c6d5f04fc315dd4dbbc30a.setIcon(icon_7428bf3aabb993e5174caf0b125d25ae);
+        
+    
+        var popup_a1d0fb01a6baf9fe5cc0bf513a6d8200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d2203bf37434a1a50edce2738b1ce5f = $(`<div id="html_1d2203bf37434a1a50edce2738b1ce5f" style="width: 100.0%; height: 100.0%;">【設置場所】大野中央病院前  【住所】千葉県市川市下貝塚3丁目3-20</div>`)[0];
+                popup_a1d0fb01a6baf9fe5cc0bf513a6d8200.setContent(html_1d2203bf37434a1a50edce2738b1ce5f);
+            
+        
+
+        marker_d8f42abc35c6d5f04fc315dd4dbbc30a.bindPopup(popup_a1d0fb01a6baf9fe5cc0bf513a6d8200)
+        ;
+
+        
+    
+    
+            var marker_d3dacc17bbbef0a142f904f04d6b716b = L.marker(
+                [35.71834, 139.91042],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_5f0d557a3d4a0bcc33d7347d485aafca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d3dacc17bbbef0a142f904f04d6b716b.setIcon(icon_5f0d557a3d4a0bcc33d7347d485aafca);
+        
+    
+        var popup_e9dedb26074bb364d555ee42f52ce7b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59d73926c67461f5b4596bf4eb5eb99b = $(`<div id="html_59d73926c67461f5b4596bf4eb5eb99b" style="width: 100.0%; height: 100.0%;">【設置場所】大洲防災公園  【住所】千葉県市川市大洲1丁目18-1</div>`)[0];
+                popup_e9dedb26074bb364d555ee42f52ce7b4.setContent(html_59d73926c67461f5b4596bf4eb5eb99b);
+            
+        
+
+        marker_d3dacc17bbbef0a142f904f04d6b716b.bindPopup(popup_e9dedb26074bb364d555ee42f52ce7b4)
+        ;
+
+        
+    
+    
+            var marker_f09faf762851d7da44ea8c7419a5f3f1 = L.marker(
+                [35.67979, 139.93153],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_780bab23f10ccfc0c75c75b96534bb1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f09faf762851d7da44ea8c7419a5f3f1.setIcon(icon_780bab23f10ccfc0c75c75b96534bb1b);
+        
+    
+        var popup_73a70ad8faef78149134aeed3a9fccc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c21eaf5ef38baf4a13f7a8510f76c04 = $(`<div id="html_6c21eaf5ef38baf4a13f7a8510f76c04" style="width: 100.0%; height: 100.0%;">【設置場所】行徳総合病院前  【住所】千葉県市川市本行徳5525-2</div>`)[0];
+                popup_73a70ad8faef78149134aeed3a9fccc7.setContent(html_6c21eaf5ef38baf4a13f7a8510f76c04);
+            
+        
+
+        marker_f09faf762851d7da44ea8c7419a5f3f1.bindPopup(popup_73a70ad8faef78149134aeed3a9fccc7)
+        ;
+
+        
+    
+    
+            var marker_5e25fd4a1d1e15fe88ab974f17b9291e = L.marker(
+                [35.67116, 139.89335],
+                {}
+            ).addTo(marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db);
+        
+    
+            var icon_0d95361aea3e64160ad1c92fda5f8687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e25fd4a1d1e15fe88ab974f17b9291e.setIcon(icon_0d95361aea3e64160ad1c92fda5f8687);
+        
+    
+        var popup_dc25468aaa39216360bf419b3c696aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8bdb57047c38217f24d8d9b3c42b547 = $(`<div id="html_f8bdb57047c38217f24d8d9b3c42b547" style="width: 100.0%; height: 100.0%;">【設置場所】東京ベイ・浦安市川医療センター前  【住所】千葉県浦安市当代島3丁目4-32</div>`)[0];
+                popup_dc25468aaa39216360bf419b3c696aaf.setContent(html_f8bdb57047c38217f24d8d9b3c42b547);
+            
+        
+
+        marker_5e25fd4a1d1e15fe88ab974f17b9291e.bindPopup(popup_dc25468aaa39216360bf419b3c696aaf)
+        ;
+
+        
+    
+    
+                marker_cluster_4c3eb38aa8550025ddfad68f0d8e57db.addTo(map_9376a0ee9fdabea51de01ce27d10a6b4);
+</script>
+</html>

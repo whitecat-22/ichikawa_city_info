@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9daf3978a75aa09bcdfc3b5026b568cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9daf3978a75aa09bcdfc3b5026b568cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9daf3978a75aa09bcdfc3b5026b568cf = L.map(
+                "map_9daf3978a75aa09bcdfc3b5026b568cf",
+                {
+                    center: [35.72179702, 139.9310206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_169ef9165252acb0fecb527a12374b5d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_169ef9165252acb0fecb527a12374b5d.addTo(map_9daf3978a75aa09bcdfc3b5026b568cf);
+    
+            var marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_b2714240beede586c91899ca3f7c0fd7 = L.marker(
+                [35.69096131, 139.9149073],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_aa094b416fe2594e22917780579e6c16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2714240beede586c91899ca3f7c0fd7.setIcon(icon_aa094b416fe2594e22917780579e6c16);
+        
+    
+        var popup_21480d11e2ca7b98e8edf3734fee45d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2bf6da9d110fcbd95040e88f239611 = $(`<div id="html_cb2bf6da9d110fcbd95040e88f239611" style="width: 100.0%; height: 100.0%;">【名称】常夜灯  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1960/10/09  【住所】千葉県市川市本行徳34地先地先  【所有者等】市川市</div>`)[0];
+                popup_21480d11e2ca7b98e8edf3734fee45d4.setContent(html_cb2bf6da9d110fcbd95040e88f239611);
+            
+        
+
+        marker_b2714240beede586c91899ca3f7c0fd7.bindPopup(popup_21480d11e2ca7b98e8edf3734fee45d4)
+        ;
+
+        
+    
+    
+            var marker_c4d0804c9ef950e7d5da9b1aea30b30d = L.marker(
+                [35.72331197, 139.9305164],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_ad86faa48b34f47af951714fa803cea7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4d0804c9ef950e7d5da9b1aea30b30d.setIcon(icon_ad86faa48b34f47af951714fa803cea7);
+        
+    
+        var popup_4426ba539a3f3ad4e1811c0e6745edc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0aaca971e607900aae6de7fdf87f019 = $(`<div id="html_b0aaca971e607900aae6de7fdf87f019" style="width: 100.0%; height: 100.0%;">【名称】隋神門  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1960/10/09  【住所】千葉県市川市八幡4丁目1-7  【所有者等】葛飾八幡宮</div>`)[0];
+                popup_4426ba539a3f3ad4e1811c0e6745edc2.setContent(html_b0aaca971e607900aae6de7fdf87f019);
+            
+        
+
+        marker_c4d0804c9ef950e7d5da9b1aea30b30d.bindPopup(popup_4426ba539a3f3ad4e1811c0e6745edc2)
+        ;
+
+        
+    
+    
+            var marker_ee63bb9573c5f4136cfe77ba9bd92078 = L.marker(
+                [35.68133447, 139.9035289],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e360f80a7d10a0f0642ed0fd20075a6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee63bb9573c5f4136cfe77ba9bd92078.setIcon(icon_e360f80a7d10a0f0642ed0fd20075a6c);
+        
+    
+        var popup_2b774551f0038b7f963da593b40b0168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9692de33a46b758b868a1f2dea6d4af5 = $(`<div id="html_9692de33a46b758b868a1f2dea6d4af5" style="width: 100.0%; height: 100.0%;">【名称】狩野浄天夫妻墓石・供養塔　附狩野浄天骨壺  【文化財分類】市指定有形文化財  【種類】建造物 歴史資料  【文化財指定日】1961/02/03  【住所】千葉県市川市香取1丁目16-26源心寺源心寺  【所有者等】狩野一廣 歴史博物館</div>`)[0];
+                popup_2b774551f0038b7f963da593b40b0168.setContent(html_9692de33a46b758b868a1f2dea6d4af5);
+            
+        
+
+        marker_ee63bb9573c5f4136cfe77ba9bd92078.bindPopup(popup_2b774551f0038b7f963da593b40b0168)
+        ;
+
+        
+    
+    
+            var marker_d9865549b71f4086302b8fa455ffa832 = L.marker(
+                [35.71958153, 139.9435906],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_9c59a74674f2f97a9ca7d204b5d76d15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9865549b71f4086302b8fa455ffa832.setIcon(icon_9c59a74674f2f97a9ca7d204b5d76d15);
+        
+    
+        var popup_e1bbadabc4c36343012359f107ece7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c874a6ee86e742c8490d79658cb599 = $(`<div id="html_b6c874a6ee86e742c8490d79658cb599" style="width: 100.0%; height: 100.0%;">【名称】元弘の板碑  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1961/02/03  【住所】千葉県市川市高石神21-9泰福寺泰福寺  【所有者等】秦福寺</div>`)[0];
+                popup_e1bbadabc4c36343012359f107ece7c2.setContent(html_b6c874a6ee86e742c8490d79658cb599);
+            
+        
+
+        marker_d9865549b71f4086302b8fa455ffa832.bindPopup(popup_e1bbadabc4c36343012359f107ece7c2)
+        ;
+
+        
+    
+    
+            var marker_5cd589c3b7cdc799f0d1fe9f2226098b = L.marker(
+                [35.73656583, 139.9710689],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_6174cad04d4807f6fc41762e1daf91d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5cd589c3b7cdc799f0d1fe9f2226098b.setIcon(icon_6174cad04d4807f6fc41762e1daf91d9);
+        
+    
+        var popup_1fb60c9d6f432cd544756e1f1f8e7d53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc36c5a0d552335571491ba3a4c80fda = $(`<div id="html_dc36c5a0d552335571491ba3a4c80fda" style="width: 100.0%; height: 100.0%;">【名称】木彫日蓮坐像  【文化財分類】市指定有形文化財  【種類】美術工芸品・彫刻  【文化財指定日】1961/09/20  【住所】千葉県市川市柏井町1丁目1696唱行寺唱行寺  【所有者等】唱行寺</div>`)[0];
+                popup_1fb60c9d6f432cd544756e1f1f8e7d53.setContent(html_dc36c5a0d552335571491ba3a4c80fda);
+            
+        
+
+        marker_5cd589c3b7cdc799f0d1fe9f2226098b.bindPopup(popup_1fb60c9d6f432cd544756e1f1f8e7d53)
+        ;
+
+        
+    
+    
+            var marker_c77dc730e63c432d9f3c873694670807 = L.marker(
+                [35.71697689, 139.9454652],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_90f896644ceb20658ed0d43cf1aaef8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c77dc730e63c432d9f3c873694670807.setIcon(icon_90f896644ceb20658ed0d43cf1aaef8f);
+        
+    
+        var popup_886e6839180885e0f7767b4ac5763053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d70ba08860d8f52b878e7449d492a333 = $(`<div id="html_d70ba08860d8f52b878e7449d492a333" style="width: 100.0%; height: 100.0%;">【名称】法華経寺黒門　附太田資順筆扁額  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1961/11/11  【住所】千葉県市川市中山4丁目15-18  【所有者等】法華経寺</div>`)[0];
+                popup_886e6839180885e0f7767b4ac5763053.setContent(html_d70ba08860d8f52b878e7449d492a333);
+            
+        
+
+        marker_c77dc730e63c432d9f3c873694670807.bindPopup(popup_886e6839180885e0f7767b4ac5763053)
+        ;
+
+        
+    
+    
+            var marker_8d5d34d94b3ca921039435a1f82c3acb = L.marker(
+                [35.71967089, 139.9476979],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e55cfa84860ee1f225c403b7cf9cdb1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8d5d34d94b3ca921039435a1f82c3acb.setIcon(icon_e55cfa84860ee1f225c403b7cf9cdb1c);
+        
+    
+        var popup_7d0b52c30a7470cefc04a1144044e0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d0bc89bd71441f4c7aa0879115c3e75 = $(`<div id="html_0d0bc89bd71441f4c7aa0879115c3e75" style="width: 100.0%; height: 100.0%;">【名称】本阿弥家分骨墓  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1961/11/11  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_7d0b52c30a7470cefc04a1144044e0a2.setContent(html_0d0bc89bd71441f4c7aa0879115c3e75);
+            
+        
+
+        marker_8d5d34d94b3ca921039435a1f82c3acb.bindPopup(popup_7d0b52c30a7470cefc04a1144044e0a2)
+        ;
+
+        
+    
+    
+            var marker_568f353a8458339f0069152c6037aee0 = L.marker(
+                [35.72087589, 139.9491112],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e346afd96e847c54557e6f6acc4b24e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_568f353a8458339f0069152c6037aee0.setIcon(icon_e346afd96e847c54557e6f6acc4b24e8);
+        
+    
+        var popup_36ec275fd864e2dd737306da5a27de53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd15652eb2e2da56a738bae09e5639bb = $(`<div id="html_bd15652eb2e2da56a738bae09e5639bb" style="width: 100.0%; height: 100.0%;">【名称】光悦筆扁額　附「通本」  【文化財分類】市指定有形文化財  【種類】美術工芸品・書跡  【文化財指定日】1961/11/11  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_36ec275fd864e2dd737306da5a27de53.setContent(html_bd15652eb2e2da56a738bae09e5639bb);
+            
+        
+
+        marker_568f353a8458339f0069152c6037aee0.bindPopup(popup_36ec275fd864e2dd737306da5a27de53)
+        ;
+
+        
+    
+    
+            var marker_151fff77095dfec4ec08c60c141b7219 = L.marker(
+                [35.74853372, 139.8983222],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_a0646ce91e9dba66ad45667cd1222681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_151fff77095dfec4ec08c60c141b7219.setIcon(icon_a0646ce91e9dba66ad45667cd1222681);
+        
+    
+        var popup_d737155e271360ec50a812e8b7dc23ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_583b491367061257c9bbd15407758a9b = $(`<div id="html_583b491367061257c9bbd15407758a9b" style="width: 100.0%; height: 100.0%;">【名称】明戸古墳石棺  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1962/06/13  【住所】千葉県市川市国府台3丁目9里見公園内里見公園内  【所有者等】市川市</div>`)[0];
+                popup_d737155e271360ec50a812e8b7dc23ab.setContent(html_583b491367061257c9bbd15407758a9b);
+            
+        
+
+        marker_151fff77095dfec4ec08c60c141b7219.bindPopup(popup_d737155e271360ec50a812e8b7dc23ab)
+        ;
+
+        
+    
+    
+            var marker_9dc5ad8f9c011bd6edfd81ff490133c3 = L.marker(
+                [35.75408319, 139.9552203],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_a46fa016cb1ae09c93a618e3fc6e7f1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dc5ad8f9c011bd6edfd81ff490133c3.setIcon(icon_a46fa016cb1ae09c93a618e3fc6e7f1c);
+        
+    
+        var popup_4949b98c979979b96e0d37d6ebc32db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e56086fb844a58e6afbc22a526970c8 = $(`<div id="html_0e56086fb844a58e6afbc22a526970c8" style="width: 100.0%; height: 100.0%;">【名称】浄光寺二王像  【文化財分類】市指定有形文化財  【種類】美術工芸品・彫刻  【文化財指定日】1965/03/04  【住所】千葉県市川市大野町3丁目1917浄光寺浄光寺  【所有者等】浄光寺</div>`)[0];
+                popup_4949b98c979979b96e0d37d6ebc32db9.setContent(html_0e56086fb844a58e6afbc22a526970c8);
+            
+        
+
+        marker_9dc5ad8f9c011bd6edfd81ff490133c3.bindPopup(popup_4949b98c979979b96e0d37d6ebc32db9)
+        ;
+
+        
+    
+    
+            var marker_fc2598dbe12df75b80a246fa75b58893 = L.marker(
+                [35.69763669, 139.9254709],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_97f84abd9ea4377d20ebd65892ba95d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc2598dbe12df75b80a246fa75b58893.setIcon(icon_97f84abd9ea4377d20ebd65892ba95d0);
+        
+    
+        var popup_fbc83711dec7b8b8af376e937e02d4dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2729bdee7ab0be44aad37b2b6b8137b = $(`<div id="html_b2729bdee7ab0be44aad37b2b6b8137b" style="width: 100.0%; height: 100.0%;">【名称】妙好寺山門  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1968/02/29  【住所】千葉県市川市妙典1丁目11-10妙好寺妙好寺  【所有者等】妙好寺</div>`)[0];
+                popup_fbc83711dec7b8b8af376e937e02d4dd.setContent(html_b2729bdee7ab0be44aad37b2b6b8137b);
+            
+        
+
+        marker_fc2598dbe12df75b80a246fa75b58893.bindPopup(popup_fbc83711dec7b8b8af376e937e02d4dd)
+        ;
+
+        
+    
+    
+            var marker_1f83a2625d9d05bbf7efb2c49db0bd8f = L.marker(
+                [35.74809433, 139.8999642],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_7eafb500b60bb18525e7c9644a684736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f83a2625d9d05bbf7efb2c49db0bd8f.setIcon(icon_7eafb500b60bb18525e7c9644a684736);
+        
+    
+        var popup_c8e665bbe4c31d316588e91e0710a1ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d2fd133e33e996d45ab91c80a48c0fe = $(`<div id="html_8d2fd133e33e996d45ab91c80a48c0fe" style="width: 100.0%; height: 100.0%;">【名称】小笠原政信夫妻供養塔  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1979/04/26  【住所】千葉県市川市国府台3丁目10-1総寧寺総寧寺  【所有者等】総寧寺</div>`)[0];
+                popup_c8e665bbe4c31d316588e91e0710a1ca.setContent(html_8d2fd133e33e996d45ab91c80a48c0fe);
+            
+        
+
+        marker_1f83a2625d9d05bbf7efb2c49db0bd8f.bindPopup(popup_c8e665bbe4c31d316588e91e0710a1ca)
+        ;
+
+        
+    
+    
+            var marker_2dd45758ae5db66540b82f4550779f50 = L.marker(
+                [35.74486967, 139.9639282],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_8693271bc9481a8f0a5f1174bdea18a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2dd45758ae5db66540b82f4550779f50.setIcon(icon_8693271bc9481a8f0a5f1174bdea18a9);
+        
+    
+        var popup_5d89b4107b8f15e86ed6b83e1178fd8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9574c01e15eb5bacdcb91fa71ed33646 = $(`<div id="html_9574c01e15eb5bacdcb91fa71ed33646" style="width: 100.0%; height: 100.0%;">【名称】庚申五層塔  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1979/04/26  【住所】千葉県市川市柏井町3丁目654子安神社子安神社  【所有者等】子安神社</div>`)[0];
+                popup_5d89b4107b8f15e86ed6b83e1178fd8a.setContent(html_9574c01e15eb5bacdcb91fa71ed33646);
+            
+        
+
+        marker_2dd45758ae5db66540b82f4550779f50.bindPopup(popup_5d89b4107b8f15e86ed6b83e1178fd8a)
+        ;
+
+        
+    
+    
+            var marker_d4fde6b4506129f1b6d6b575b8572dd3 = L.marker(
+                [35.71971661, 139.9476128],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_ebd46032fa379a3495b0580e887fbd2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4fde6b4506129f1b6d6b575b8572dd3.setIcon(icon_ebd46032fa379a3495b0580e887fbd2f);
+        
+    
+        var popup_a69ff6e0e70bbae9af8d7d037107379b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537373aa98854e81431591f1e47e9133 = $(`<div id="html_537373aa98854e81431591f1e47e9133" style="width: 100.0%; height: 100.0%;">【名称】本阿弥光悦分骨墓  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1979/09/29  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_a69ff6e0e70bbae9af8d7d037107379b.setContent(html_537373aa98854e81431591f1e47e9133);
+            
+        
+
+        marker_d4fde6b4506129f1b6d6b575b8572dd3.bindPopup(popup_a69ff6e0e70bbae9af8d7d037107379b)
+        ;
+
+        
+    
+    
+            var marker_551af300c36fb0ea29db8b328acaea30 = L.marker(
+                [35.73849033, 139.9094932],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_c55e657a00a6b1fdfeaef2b3a0ffa833 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_551af300c36fb0ea29db8b328acaea30.setIcon(icon_c55e657a00a6b1fdfeaef2b3a0ffa833);
+        
+    
+        var popup_324107bddd87ed403018cbe6e87bae10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7fb1ac2c5268abecab88ad3d80d32ea = $(`<div id="html_b7fb1ac2c5268abecab88ad3d80d32ea" style="width: 100.0%; height: 100.0%;">【名称】真間万葉顕彰碑　附鈴木長頼蔵骨器及び墓誌  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1979/09/29  【住所】千葉県市川市真間4丁目4-9  【所有者等】亀井院</div>`)[0];
+                popup_324107bddd87ed403018cbe6e87bae10.setContent(html_b7fb1ac2c5268abecab88ad3d80d32ea);
+            
+        
+
+        marker_551af300c36fb0ea29db8b328acaea30.bindPopup(popup_324107bddd87ed403018cbe6e87bae10)
+        ;
+
+        
+    
+    
+            var marker_99da8d1596479d1be43c41fab450f61c = L.marker(
+                [35.75905389, 139.9120709],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_1c3bf2cc63d26aa31260a71efe52ee3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99da8d1596479d1be43c41fab450f61c.setIcon(icon_1c3bf2cc63d26aa31260a71efe52ee3f);
+        
+    
+        var popup_af657a5c8d36e879655658ec7dcd56cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58ab1cb2d08382ad13b01ebdb3563bc4 = $(`<div id="html_58ab1cb2d08382ad13b01ebdb3563bc4" style="width: 100.0%; height: 100.0%;">【名称】鬼高遺跡出土一括遺物  【文化財分類】市指定有形文化財  【種類】美術工芸品・考古資料  【文化財指定日】1981/04/19  【住所】千葉県市川市堀之内2丁目26-1考古博物館所蔵考古博物館所蔵  【所有者等】市川市</div>`)[0];
+                popup_af657a5c8d36e879655658ec7dcd56cb.setContent(html_58ab1cb2d08382ad13b01ebdb3563bc4);
+            
+        
+
+        marker_99da8d1596479d1be43c41fab450f61c.bindPopup(popup_af657a5c8d36e879655658ec7dcd56cb)
+        ;
+
+        
+    
+    
+            var marker_131ebf45ddca5e83b536d893b12976a5 = L.marker(
+                [35.75905389, 139.9119475],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_a76d7ef281f94ece4563e53dc83b786d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_131ebf45ddca5e83b536d893b12976a5.setIcon(icon_a76d7ef281f94ece4563e53dc83b786d);
+        
+    
+        var popup_146a8f162f9efe57ca0946d9ad0c4991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8001a53f12fd935556160b736995829d = $(`<div id="html_8001a53f12fd935556160b736995829d" style="width: 100.0%; height: 100.0%;">【名称】銅造誕生釈迦如来立像  【文化財分類】県指定有形文化財  【種類】美術工芸品・彫刻  【文化財指定日】2023/03/12  【住所】千葉県市川市堀之内2丁目26-1考古博物館所蔵考古博物館所蔵  【所有者等】市川市</div>`)[0];
+                popup_146a8f162f9efe57ca0946d9ad0c4991.setContent(html_8001a53f12fd935556160b736995829d);
+            
+        
+
+        marker_131ebf45ddca5e83b536d893b12976a5.bindPopup(popup_146a8f162f9efe57ca0946d9ad0c4991)
+        ;
+
+        
+    
+    
+            var marker_aa741840278cb093bf4a211e8eb2e5f9 = L.marker(
+                [35.73916764, 139.9098271],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_4ba519d97953bd2ebbddac2268bb6ee3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa741840278cb093bf4a211e8eb2e5f9.setIcon(icon_4ba519d97953bd2ebbddac2268bb6ee3);
+        
+    
+        var popup_bd64298f160a286acd8eb70715430a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2fc7f475225258c701232618a2172d5 = $(`<div id="html_e2fc7f475225258c701232618a2172d5" style="width: 100.0%; height: 100.0%;">【名称】鈴近江翁碑  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】1982/03/12  【住所】千葉県市川市真間4丁目3-14  【所有者等】亀井院</div>`)[0];
+                popup_bd64298f160a286acd8eb70715430a84.setContent(html_e2fc7f475225258c701232618a2172d5);
+            
+        
+
+        marker_aa741840278cb093bf4a211e8eb2e5f9.bindPopup(popup_bd64298f160a286acd8eb70715430a84)
+        ;
+
+        
+    
+    
+            var marker_5fe2335902635f589d4e58fc435ed3b5 = L.marker(
+                [35.75975364, 139.9116497],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_b6bddd190f158513917ce1199b0945c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fe2335902635f589d4e58fc435ed3b5.setIcon(icon_b6bddd190f158513917ce1199b0945c0);
+        
+    
+        var popup_c4aa5a5d5a678ff25ad45d5318c6e5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7a91cd99a6df582f0c69c39a90caef6 = $(`<div id="html_d7a91cd99a6df582f0c69c39a90caef6" style="width: 100.0%; height: 100.0%;">【名称】「ワートル薬性論」版木  【文化財分類】市指定有形文化財  【種類】歴史資料  【文化財指定日】1986/11/05  【住所】千葉県市川市堀之内2丁目27-1歴史博物館所蔵歴史博物館所蔵  【所有者等】市川市</div>`)[0];
+                popup_c4aa5a5d5a678ff25ad45d5318c6e5c0.setContent(html_d7a91cd99a6df582f0c69c39a90caef6);
+            
+        
+
+        marker_5fe2335902635f589d4e58fc435ed3b5.bindPopup(popup_c4aa5a5d5a678ff25ad45d5318c6e5c0)
+        ;
+
+        
+    
+    
+            var marker_c30554acfcdefbdea1396bf22503df52 = L.marker(
+                [35.69520608, 139.9214782],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_0f0f33c28779187bd5ffc97035086a5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c30554acfcdefbdea1396bf22503df52.setIcon(icon_0f0f33c28779187bd5ffc97035086a5c);
+        
+    
+        var popup_5634406d863f7b2cba7f1682e861c536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afca70885dad4d067a8cf1d296869b30 = $(`<div id="html_afca70885dad4d067a8cf1d296869b30" style="width: 100.0%; height: 100.0%;">【名称】徳願寺山門  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】2004/03/26  【住所】千葉県市川市本行徳5-22徳願寺徳願寺  【所有者等】徳願寺</div>`)[0];
+                popup_5634406d863f7b2cba7f1682e861c536.setContent(html_afca70885dad4d067a8cf1d296869b30);
+            
+        
+
+        marker_c30554acfcdefbdea1396bf22503df52.bindPopup(popup_5634406d863f7b2cba7f1682e861c536)
+        ;
+
+        
+    
+    
+            var marker_5e752da88859d79894b95c7c692f5dc1 = L.marker(
+                [35.69519517, 139.9217169],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_de15f22d413817b242900c3a433eed6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e752da88859d79894b95c7c692f5dc1.setIcon(icon_de15f22d413817b242900c3a433eed6f);
+        
+    
+        var popup_208ce5e1a6d8055215a411174a1b66ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e7c090e149684b0e768b8ba87375e4a = $(`<div id="html_3e7c090e149684b0e768b8ba87375e4a" style="width: 100.0%; height: 100.0%;">【名称】徳願寺鐘楼  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】2004/03/26  【住所】千葉県市川市本行徳5-22徳願寺徳願寺  【所有者等】徳願寺</div>`)[0];
+                popup_208ce5e1a6d8055215a411174a1b66ba.setContent(html_3e7c090e149684b0e768b8ba87375e4a);
+            
+        
+
+        marker_5e752da88859d79894b95c7c692f5dc1.bindPopup(popup_208ce5e1a6d8055215a411174a1b66ba)
+        ;
+
+        
+    
+    
+            var marker_61083fbc8ae6a669c735b9f906b929f8 = L.marker(
+                [35.69533025, 139.9215895],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_71b6b19b011643f52e372bbdec057acf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61083fbc8ae6a669c735b9f906b929f8.setIcon(icon_71b6b19b011643f52e372bbdec057acf);
+        
+    
+        var popup_da450ac6a8ab59b5b368508018ac8b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad72c2ebdd65e7866e890dfbcf3d883 = $(`<div id="html_cad72c2ebdd65e7866e890dfbcf3d883" style="width: 100.0%; height: 100.0%;">【名称】徳願寺経蔵  【文化財分類】市指定有形文化財  【種類】建造物  【文化財指定日】2004/03/26  【住所】千葉県市川市本行徳5-22徳願寺徳願寺  【所有者等】徳願寺</div>`)[0];
+                popup_da450ac6a8ab59b5b368508018ac8b74.setContent(html_cad72c2ebdd65e7866e890dfbcf3d883);
+            
+        
+
+        marker_61083fbc8ae6a669c735b9f906b929f8.bindPopup(popup_da450ac6a8ab59b5b368508018ac8b74)
+        ;
+
+        
+    
+    
+            var marker_94131cc94ef8249a10e8f574d2c7bfc7 = L.marker(
+                [35.72015142, 139.9487214],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_16a1b55415a9a604a821882fb0ba55d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94131cc94ef8249a10e8f574d2c7bfc7.setIcon(icon_16a1b55415a9a604a821882fb0ba55d8);
+        
+    
+        var popup_20a389c76ccf1d978b15023f0d8e17da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c1ffbd2eeed3349ae1fd0560c9139e8 = $(`<div id="html_2c1ffbd2eeed3349ae1fd0560c9139e8" style="width: 100.0%; height: 100.0%;">【名称】法華経寺銅造釈迦如来坐像  【文化財分類】市指定有形文化財  【種類】美術工芸品・彫刻  【文化財指定日】2019/03/15  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_20a389c76ccf1d978b15023f0d8e17da.setContent(html_2c1ffbd2eeed3349ae1fd0560c9139e8);
+            
+        
+
+        marker_94131cc94ef8249a10e8f574d2c7bfc7.bindPopup(popup_20a389c76ccf1d978b15023f0d8e17da)
+        ;
+
+        
+    
+    
+            var marker_5f5b935dd7b8102a8be821da886a1fc7 = L.marker(
+                [35.73504672, 139.9023588],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_17947c774fd83f5f906fd4d8913808ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f5b935dd7b8102a8be821da886a1fc7.setIcon(icon_17947c774fd83f5f906fd4d8913808ff);
+        
+    
+        var popup_3a93e64358532d5ae5c3c34684ccdfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03e90885e60fbb105dff26db4416c8d1 = $(`<div id="html_03e90885e60fbb105dff26db4416c8d1" style="width: 100.0%; height: 100.0%;">【名称】武内宿禰山車人形  【文化財分類】市指定重要有形民俗文化財  【種類】（祭祀具）  【文化財指定日】2016/04/17  【住所】千葉県市川市市川3丁目20-8春日神社春日神社  【所有者等】春日神社</div>`)[0];
+                popup_3a93e64358532d5ae5c3c34684ccdfb4.setContent(html_03e90885e60fbb105dff26db4416c8d1);
+            
+        
+
+        marker_5f5b935dd7b8102a8be821da886a1fc7.bindPopup(popup_3a93e64358532d5ae5c3c34684ccdfb4)
+        ;
+
+        
+    
+    
+            var marker_1d71eef1f0c486611f81572c03943349 = L.marker(
+                [35.760196, 139.9617561],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_acf222f4febf044be29418f756ebb794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d71eef1f0c486611f81572c03943349.setIcon(icon_acf222f4febf044be29418f756ebb794);
+        
+    
+        var popup_f90d57bc31f5a223cdd1c2944060f083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0293c9f855d72cca7a5fbc86374d2d1a = $(`<div id="html_0293c9f855d72cca7a5fbc86374d2d1a" style="width: 100.0%; height: 100.0%;">【名称】御奉謝  【文化財分類】市指定重要無形民俗文化財  【種類】（祭事）  【文化財指定日】1965/03/04  【住所】千葉県市川市大野町4丁目2758駒形神社駒形神社  【所有者等】駒形神社御奉謝</div>`)[0];
+                popup_f90d57bc31f5a223cdd1c2944060f083.setContent(html_0293c9f855d72cca7a5fbc86374d2d1a);
+            
+        
+
+        marker_1d71eef1f0c486611f81572c03943349.bindPopup(popup_f90d57bc31f5a223cdd1c2944060f083)
+        ;
+
+        
+    
+    
+            var marker_bafe65477bf594dc6304e2d4e70b528e = L.marker(
+                [35.749173, 139.8989156],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_39ba97cf93dd4271f4d33ebcc334a8ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bafe65477bf594dc6304e2d4e70b528e.setIcon(icon_39ba97cf93dd4271f4d33ebcc334a8ab);
+        
+    
+        var popup_e20c2165aef98164f837fed1f582758e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f32bcafcec3460d6c8eb1241fe84c55d = $(`<div id="html_f32bcafcec3460d6c8eb1241fe84c55d" style="width: 100.0%; height: 100.0%;">【名称】国府台辻切り  【文化財分類】市指定重要無形民俗文化財  【種類】（祭事）  【文化財指定日】1979/04/26  【住所】千葉県市川市国府台3丁目11-1国府台天満宮国府台天満宮  【所有者等】国府台辻切り保存会</div>`)[0];
+                popup_e20c2165aef98164f837fed1f582758e.setContent(html_f32bcafcec3460d6c8eb1241fe84c55d);
+            
+        
+
+        marker_bafe65477bf594dc6304e2d4e70b528e.bindPopup(popup_e20c2165aef98164f837fed1f582758e)
+        ;
+
+        
+    
+    
+            var marker_3f888f1b25a9c5ffbded8bd2603241b5 = L.marker(
+                [35.72807042, 139.9516501],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_a6bba59d7634312856e46617dbff7a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f888f1b25a9c5ffbded8bd2603241b5.setIcon(icon_a6bba59d7634312856e46617dbff7a9e);
+        
+    
+        var popup_8770d952c37c9373b4263e1293bae881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5de7656bf1e52812053f516b6b311ebc = $(`<div id="html_5de7656bf1e52812053f516b6b311ebc" style="width: 100.0%; height: 100.0%;">【名称】美濃輪台遺跡　B地点  【文化財分類】市指定史跡  【種類】（遺跡）  【文化財指定日】1975/01/10  【住所】千葉県市川市本北方3丁目751の一部の一部  【所有者等】市川市</div>`)[0];
+                popup_8770d952c37c9373b4263e1293bae881.setContent(html_5de7656bf1e52812053f516b6b311ebc);
+            
+        
+
+        marker_3f888f1b25a9c5ffbded8bd2603241b5.bindPopup(popup_8770d952c37c9373b4263e1293bae881)
+        ;
+
+        
+    
+    
+            var marker_a7740caebc05db322744ecc28c98d3c9 = L.marker(
+                [35.73992019, 139.912922],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e8b6cd065080f0dda16dcc3ffa998681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7740caebc05db322744ecc28c98d3c9.setIcon(icon_e8b6cd065080f0dda16dcc3ffa998681);
+        
+    
+        var popup_fa6a889820ce2e95d229c6d6e13ef4c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f1d16fbee3b1d1504f4824a43d867e5 = $(`<div id="html_0f1d16fbee3b1d1504f4824a43d867e5" style="width: 100.0%; height: 100.0%;">【名称】須和田遺跡  【文化財分類】市指定史跡  【種類】（遺跡）  【文化財指定日】1975/01/10  【住所】千葉県市川市須和田2丁目34  【所有者等】市川市</div>`)[0];
+                popup_fa6a889820ce2e95d229c6d6e13ef4c6.setContent(html_0f1d16fbee3b1d1504f4824a43d867e5);
+            
+        
+
+        marker_a7740caebc05db322744ecc28c98d3c9.bindPopup(popup_fa6a889820ce2e95d229c6d6e13ef4c6)
+        ;
+
+        
+    
+    
+            var marker_2ffe130a8b5a4e6e802b2cf447461dff = L.marker(
+                [35.74402511, 139.9073736],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_0fe4e5c74981c5e948d4b5a82549a8ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ffe130a8b5a4e6e802b2cf447461dff.setIcon(icon_0fe4e5c74981c5e948d4b5a82549a8ff);
+        
+    
+        var popup_16563760ecba0a86dcd2bfed12ed00fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a720007688a3c21a1f7358a53986971 = $(`<div id="html_0a720007688a3c21a1f7358a53986971" style="width: 100.0%; height: 100.0%;">【名称】下総総社跡  【文化財分類】市指定史跡  【種類】（遺跡）  【文化財指定日】1975/01/10  【住所】千葉県市川市国府台1丁目6-4スポーツセンタースポーツセンター  【所有者等】市川市</div>`)[0];
+                popup_16563760ecba0a86dcd2bfed12ed00fc.setContent(html_0a720007688a3c21a1f7358a53986971);
+            
+        
+
+        marker_2ffe130a8b5a4e6e802b2cf447461dff.bindPopup(popup_16563760ecba0a86dcd2bfed12ed00fc)
+        ;
+
+        
+    
+    
+            var marker_97001ff446ed595536164aa7a7b6346e = L.marker(
+                [35.71387919, 139.9350822],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_c728c7a42cd4f4e98292ec341eabb666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97001ff446ed595536164aa7a7b6346e.setIcon(icon_c728c7a42cd4f4e98292ec341eabb666);
+        
+    
+        var popup_2cafb082241caac68782854261781892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d515e2072a0f3c2acfbe7355887d6ec = $(`<div id="html_2d515e2072a0f3c2acfbe7355887d6ec" style="width: 100.0%; height: 100.0%;">【名称】鬼高遺跡  【文化財分類】市指定史跡  【種類】（遺跡）  【文化財指定日】1988/07/07  【住所】千葉県市川市鬼高1丁目95-18  【所有者等】日本毛織（株）</div>`)[0];
+                popup_2cafb082241caac68782854261781892.setContent(html_2d515e2072a0f3c2acfbe7355887d6ec);
+            
+        
+
+        marker_97001ff446ed595536164aa7a7b6346e.bindPopup(popup_2cafb082241caac68782854261781892)
+        ;
+
+        
+    
+    
+            var marker_05f142080eaeacffc7f176f8d27abb62 = L.marker(
+                [35.77058819, 139.970019],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_dfd6d37486acebd2b859f5e92e5cc013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05f142080eaeacffc7f176f8d27abb62.setIcon(icon_dfd6d37486acebd2b859f5e92e5cc013);
+        
+    
+        var popup_a3e8b39c8ecbb462ec70d01ae90366cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e14177cec31852a5ea1d6a0343c212 = $(`<div id="html_d7e14177cec31852a5ea1d6a0343c212" style="width: 100.0%; height: 100.0%;">【名称】ヒメアカネ  【文化財分類】市指定天然記念物  【種類】（昆虫）  【文化財指定日】1976/06/14  【住所】千葉県市川市大町284大町公園自然観察園大町公園自然観察園  【所有者等】市川市</div>`)[0];
+                popup_a3e8b39c8ecbb462ec70d01ae90366cb.setContent(html_d7e14177cec31852a5ea1d6a0343c212);
+            
+        
+
+        marker_05f142080eaeacffc7f176f8d27abb62.bindPopup(popup_a3e8b39c8ecbb462ec70d01ae90366cb)
+        ;
+
+        
+    
+    
+            var marker_32210833fe28cee51c251bb8777772b7 = L.marker(
+                [35.70426236, 139.9228101],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_04d7075c72fbfa6879a6322cc4e0ec98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32210833fe28cee51c251bb8777772b7.setIcon(icon_04d7075c72fbfa6879a6322cc4e0ec98);
+        
+    
+        var popup_33d294cc47a57976f256f3099e5cee47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dadf977cfb0c0bc16eba286f89b2f12 = $(`<div id="html_0dadf977cfb0c0bc16eba286f89b2f12" style="width: 100.0%; height: 100.0%;">【名称】ヒヌマイトトンボ  【文化財分類】市指定天然記念物  【種類】（昆虫）  【文化財指定日】1976/06/14  【住所】千葉県市川市河原、稲荷木地先の江戸川河岸の湿地帯河原、稲荷木地先の江戸川河岸の湿地帯  【所有者等】市川市</div>`)[0];
+                popup_33d294cc47a57976f256f3099e5cee47.setContent(html_0dadf977cfb0c0bc16eba286f89b2f12);
+            
+        
+
+        marker_32210833fe28cee51c251bb8777772b7.bindPopup(popup_33d294cc47a57976f256f3099e5cee47)
+        ;
+
+        
+    
+    
+            var marker_97227489ffa30a4d9a542fe9cb574913 = L.marker(
+                [35.7626825, 139.9163988],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_b4be8dec5f3b2b6b4d85dd4455292744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97227489ffa30a4d9a542fe9cb574913.setIcon(icon_b4be8dec5f3b2b6b4d85dd4455292744);
+        
+    
+        var popup_024c17a4205c0e560c74c1928d218389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb6ebc7b971fe43656321e7c36b861d = $(`<div id="html_3eb6ebc7b971fe43656321e7c36b861d" style="width: 100.0%; height: 100.0%;">【名称】伊弉諾神社ハリギリ  【文化財分類】市指定天然記念物  【種類】（植物）  【文化財指定日】1979/04/26  【住所】千葉県市川市堀之内4丁目26-1伊弉諾神社伊弉諾神社  【所有者等】伊弉諾神社</div>`)[0];
+                popup_024c17a4205c0e560c74c1928d218389.setContent(html_3eb6ebc7b971fe43656321e7c36b861d);
+            
+        
+
+        marker_97227489ffa30a4d9a542fe9cb574913.bindPopup(popup_024c17a4205c0e560c74c1928d218389)
+        ;
+
+        
+    
+    
+            var marker_f56a240af50b6db1b9c42fb7cac76708 = L.marker(
+                [35.7591455, 139.9033642],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_b261825b52dc1a365afe83f10a4e9e3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f56a240af50b6db1b9c42fb7cac76708.setIcon(icon_b261825b52dc1a365afe83f10a4e9e3a);
+        
+    
+        var popup_62da5425d07ba79ffc0f3e83eddd089b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fa9edaa1ee36bbee5d91dedf67b00ce = $(`<div id="html_1fa9edaa1ee36bbee5d91dedf67b00ce" style="width: 100.0%; height: 100.0%;">【名称】愛宕神社イチョウ  【文化財分類】市指定天然記念物  【種類】（植物）  【文化財指定日】1983/11/05  【住所】千葉県市川市北国分1丁目12-24愛宕神社愛宕神社  【所有者等】愛宕神社</div>`)[0];
+                popup_62da5425d07ba79ffc0f3e83eddd089b.setContent(html_1fa9edaa1ee36bbee5d91dedf67b00ce);
+            
+        
+
+        marker_f56a240af50b6db1b9c42fb7cac76708.bindPopup(popup_62da5425d07ba79ffc0f3e83eddd089b)
+        ;
+
+        
+    
+    
+            var marker_3be319cfc5b0e69e909f5b92c3d21ba9 = L.marker(
+                [35.76497814, 139.9064236],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_c2780c1a176428483ab9ca810c1b79a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3be319cfc5b0e69e909f5b92c3d21ba9.setIcon(icon_c2780c1a176428483ab9ca810c1b79a9);
+        
+    
+        var popup_db92594e665595a04a7974c206f826bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8131100a9b575929b862751b8f715316 = $(`<div id="html_8131100a9b575929b862751b8f715316" style="width: 100.0%; height: 100.0%;">【名称】禅照庵マキ  【文化財分類】市指定天然記念物  【種類】（植物）  【文化財指定日】1983/11/05  【住所】千葉県市川市北国分4丁目13-23禅照庵禅照庵  【所有者等】禅照庵</div>`)[0];
+                popup_db92594e665595a04a7974c206f826bf.setContent(html_8131100a9b575929b862751b8f715316);
+            
+        
+
+        marker_3be319cfc5b0e69e909f5b92c3d21ba9.bindPopup(popup_db92594e665595a04a7974c206f826bf)
+        ;
+
+        
+    
+    
+            var marker_5941b980388dfd7c715c57621e450a78 = L.marker(
+                [35.72078006, 139.9491782],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_10faa6001a82995db5ed57be3fd5bea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5941b980388dfd7c715c57621e450a78.setIcon(icon_10faa6001a82995db5ed57be3fd5bea1);
+        
+    
+        var popup_f2722dbd76d8ce3db8bd762a36c7cdaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4837dbe44f08867f91aee2fc622631ae = $(`<div id="html_4837dbe44f08867f91aee2fc622631ae" style="width: 100.0%; height: 100.0%;">【名称】立正安国論  【文化財分類】国指定国宝  【種類】美術工芸品・書跡  【文化財指定日】1952/03/31  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_f2722dbd76d8ce3db8bd762a36c7cdaf.setContent(html_4837dbe44f08867f91aee2fc622631ae);
+            
+        
+
+        marker_5941b980388dfd7c715c57621e450a78.bindPopup(popup_f2722dbd76d8ce3db8bd762a36c7cdaf)
+        ;
+
+        
+    
+    
+            var marker_4875f9ca2603314c91fecd74bb5ebd68 = L.marker(
+                [35.72068861, 139.9492533],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_fdefaf7f04f2f2b986c6c4298bc618e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4875f9ca2603314c91fecd74bb5ebd68.setIcon(icon_fdefaf7f04f2f2b986c6c4298bc618e1);
+        
+    
+        var popup_09c8c54cea9f2d9f33ab23bb00708f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ed3994b291df504e5764a72046439ff = $(`<div id="html_1ed3994b291df504e5764a72046439ff" style="width: 100.0%; height: 100.0%;">【名称】勧進本尊抄　附添状　附春日山蒔絵筥  【文化財分類】国指定国宝  【種類】美術工芸品・書跡 美術工芸品・書跡 美術工芸品・工芸品  【文化財指定日】1952/03/31  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_09c8c54cea9f2d9f33ab23bb00708f66.setContent(html_1ed3994b291df504e5764a72046439ff);
+            
+        
+
+        marker_4875f9ca2603314c91fecd74bb5ebd68.bindPopup(popup_09c8c54cea9f2d9f33ab23bb00708f66)
+        ;
+
+        
+    
+    
+            var marker_d2915541c03450d18ecbe17f155c4184 = L.marker(
+                [35.720006, 139.9487149],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_62c67368036c1918e9ce34718a0ed5a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2915541c03450d18ecbe17f155c4184.setIcon(icon_62c67368036c1918e9ce34718a0ed5a9);
+        
+    
+        var popup_ae0ef643fa10f17556522b4c5b650e60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc64a24b6315aafbb40a732a99e45576 = $(`<div id="html_fc64a24b6315aafbb40a732a99e45576" style="width: 100.0%; height: 100.0%;">【名称】法華経寺五重塔  【文化財分類】国指定重要文化財  【種類】建造物  【文化財指定日】1916/05/26  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_ae0ef643fa10f17556522b4c5b650e60.setContent(html_fc64a24b6315aafbb40a732a99e45576);
+            
+        
+
+        marker_d2915541c03450d18ecbe17f155c4184.bindPopup(popup_ae0ef643fa10f17556522b4c5b650e60)
+        ;
+
+        
+    
+    
+            var marker_a0b0ca3f6f8805f264dd7b1b97ee3bf8 = L.marker(
+                [35.72063317, 139.9478325],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_601e5899a67bf9a31191986bfaf61463 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0b0ca3f6f8805f264dd7b1b97ee3bf8.setIcon(icon_601e5899a67bf9a31191986bfaf61463);
+        
+    
+        var popup_067b074bdb392d8297079b388c796bda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41dacc2d24c8670aa8f589d8b2c6db45 = $(`<div id="html_41dacc2d24c8670aa8f589d8b2c6db45" style="width: 100.0%; height: 100.0%;">【名称】法華経寺法華堂　附棟札  【文化財分類】国指定重要文化財  【種類】建造物  【文化財指定日】1916/05/26  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_067b074bdb392d8297079b388c796bda.setContent(html_41dacc2d24c8670aa8f589d8b2c6db45);
+            
+        
+
+        marker_a0b0ca3f6f8805f264dd7b1b97ee3bf8.bindPopup(popup_067b074bdb392d8297079b388c796bda)
+        ;
+
+        
+    
+    
+            var marker_d84c9d5c2b112a19a618085dc17c60cd = L.marker(
+                [35.72046767, 139.9479746],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_7100e628955a0558b917654a14da4dac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d84c9d5c2b112a19a618085dc17c60cd.setIcon(icon_7100e628955a0558b917654a14da4dac);
+        
+    
+        var popup_37f886a83f725885eb2e66fbf82e7a83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca7a607e3beb12166bcbd259d4520949 = $(`<div id="html_ca7a607e3beb12166bcbd259d4520949" style="width: 100.0%; height: 100.0%;">【名称】法華経寺四足門  【文化財分類】国指定重要文化財  【種類】建造物  【文化財指定日】1916/05/26  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_37f886a83f725885eb2e66fbf82e7a83.setContent(html_ca7a607e3beb12166bcbd259d4520949);
+            
+        
+
+        marker_d84c9d5c2b112a19a618085dc17c60cd.bindPopup(popup_37f886a83f725885eb2e66fbf82e7a83)
+        ;
+
+        
+    
+    
+            var marker_ea47cda08ffd4981dfd24403964d1fdd = L.marker(
+                [35.72017586, 139.9481865],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_94ee7f91832e16b827690a56ec29cf35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea47cda08ffd4981dfd24403964d1fdd.setIcon(icon_94ee7f91832e16b827690a56ec29cf35);
+        
+    
+        var popup_6ee9300bc0db579ea8fdc8b5cb729ffc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb5e450c44e6fcfd316660b33505a5aa = $(`<div id="html_cb5e450c44e6fcfd316660b33505a5aa" style="width: 100.0%; height: 100.0%;">【名称】法華経寺祖師堂　附棟札  【文化財分類】国指定重要文化財  【種類】建造物  【文化財指定日】1985/05/20  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_6ee9300bc0db579ea8fdc8b5cb729ffc.setContent(html_cb5e450c44e6fcfd316660b33505a5aa);
+            
+        
+
+        marker_ea47cda08ffd4981dfd24403964d1fdd.bindPopup(popup_6ee9300bc0db579ea8fdc8b5cb729ffc)
+        ;
+
+        
+    
+    
+            var marker_7232d62380f7899811abcaf97fe6f1a6 = L.marker(
+                [35.72077678, 139.9494008],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_7c63eaed67f2bdfee6671cc72ca0733d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7232d62380f7899811abcaf97fe6f1a6.setIcon(icon_7c63eaed67f2bdfee6671cc72ca0733d);
+        
+    
+        var popup_965343e9d3b2c5c83aa616360fdcaae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19237a292a16380f41c4f42c36b21f42 = $(`<div id="html_19237a292a16380f41c4f42c36b21f42" style="width: 100.0%; height: 100.0%;">【名称】絹本著色十六羅漢像  【文化財分類】国指定重要文化財  【種類】美術工芸品・絵画  【文化財指定日】1904/02/20  【住所】千葉県市川市中山2丁目10-1法華経寺法華経寺  【所有者等】法華経寺</div>`)[0];
+                popup_965343e9d3b2c5c83aa616360fdcaae5.setContent(html_19237a292a16380f41c4f42c36b21f42);
+            
+        
+
+        marker_7232d62380f7899811abcaf97fe6f1a6.bindPopup(popup_965343e9d3b2c5c83aa616360fdcaae5)
+        ;
+
+        
+    
+    
+            var marker_2f9ab9ddbb49578d043ba4afbd76ccce = L.marker(
+                [35.71995808, 139.9493345],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_1931b2b7357381696342d0f71c52c00f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f9ab9ddbb49578d043ba4afbd76ccce.setIcon(icon_1931b2b7357381696342d0f71c52c00f);
+        
+    
+        var popup_509dca784e1e74c8ffa5977d032eb649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be163eb3543eddb94283fdf91ff0a626 = $(`<div id="html_be163eb3543eddb94283fdf91ff0a626" style="width: 100.0%; height: 100.0%;">【名称】絹本著色日蓮聖人像  【文化財分類】国指定重要文化財  【種類】美術工芸品・絵画  【文化財指定日】1952/07/21  【住所】千葉県市川市中山3丁目10-4浄光院浄光院  【所有者等】浄光院</div>`)[0];
+                popup_509dca784e1e74c8ffa5977d032eb649.setContent(html_be163eb3543eddb94283fdf91ff0a626);
+            
+        
+
+        marker_2f9ab9ddbb49578d043ba4afbd76ccce.bindPopup(popup_509dca784e1e74c8ffa5977d032eb649)
+        ;
+
+        
+    
+    
+            var marker_9b41f26eaac3a9fe48994c20c775efb3 = L.marker(
+                [35.72084103, 139.9493378],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_056f8afb01be45bd4b82699196c0c77c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b41f26eaac3a9fe48994c20c775efb3.setIcon(icon_056f8afb01be45bd4b82699196c0c77c);
+        
+    
+        var popup_49c9a9d92272afe0e7ffb4a7b4035c8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a86a932104fc96c567e7fef83255d72b = $(`<div id="html_a86a932104fc96c567e7fef83255d72b" style="width: 100.0%; height: 100.0%;">【名称】日蓮自筆遺文　附蒔絵聖教箱  【文化財分類】国指定重要文化財  【種類】美術工芸品・書跡  【文化財指定日】1967/06/17  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_49c9a9d92272afe0e7ffb4a7b4035c8d.setContent(html_a86a932104fc96c567e7fef83255d72b);
+            
+        
+
+        marker_9b41f26eaac3a9fe48994c20c775efb3.bindPopup(popup_49c9a9d92272afe0e7ffb4a7b4035c8d)
+        ;
+
+        
+    
+    
+            var marker_f7492c52c55b6dd67520c89a792031c0 = L.marker(
+                [35.75927986, 139.9106647],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_0a4cff9373d9acd8b5dae3da9cbb7d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7492c52c55b6dd67520c89a792031c0.setIcon(icon_0a4cff9373d9acd8b5dae3da9cbb7d0d);
+        
+    
+        var popup_d493c540633a357457148d43c3c4f01c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8bf3020050c853065d3cca903510aa = $(`<div id="html_bf8bf3020050c853065d3cca903510aa" style="width: 100.0%; height: 100.0%;">【名称】堀之内貝塚  【文化財分類】国指定史跡  【種類】（貝塚）  【文化財指定日】1964/07/08  【住所】千葉県市川市堀之内2丁目15ほかほか  【所有者等】市川市ほか</div>`)[0];
+                popup_d493c540633a357457148d43c3c4f01c.setContent(html_bf8bf3020050c853065d3cca903510aa);
+            
+        
+
+        marker_f7492c52c55b6dd67520c89a792031c0.bindPopup(popup_d493c540633a357457148d43c3c4f01c)
+        ;
+
+        
+    
+    
+            var marker_2b3143daf0cf27d6c8cbe6ba60149549 = L.marker(
+                [35.73761225, 139.9652968],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_420455ccbe343082a795ca1567a0be53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b3143daf0cf27d6c8cbe6ba60149549.setIcon(icon_420455ccbe343082a795ca1567a0be53);
+        
+    
+        var popup_6519ee1fcb83567fa92e994959685a2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb7b8ab3d5d6f62db77c3de92f154e2 = $(`<div id="html_cbb7b8ab3d5d6f62db77c3de92f154e2" style="width: 100.0%; height: 100.0%;">【名称】姥山貝塚  【文化財分類】国指定史跡  【種類】（貝塚）  【文化財指定日】1967/08/19  【住所】千葉県市川市柏井町1丁目1223ほかほか  【所有者等】市川市</div>`)[0];
+                popup_6519ee1fcb83567fa92e994959685a2b.setContent(html_cbb7b8ab3d5d6f62db77c3de92f154e2);
+            
+        
+
+        marker_2b3143daf0cf27d6c8cbe6ba60149549.bindPopup(popup_6519ee1fcb83567fa92e994959685a2b)
+        ;
+
+        
+    
+    
+            var marker_11243d323b61d9a9541c08eb03f84b58 = L.marker(
+                [35.74393881, 139.9166686],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_276be62797260498179c724b51950563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11243d323b61d9a9541c08eb03f84b58.setIcon(icon_276be62797260498179c724b51950563);
+        
+    
+        var popup_a8f74b1e91187f3887bf02992d49251a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecb3ba60163add00e92faaa4340a9757 = $(`<div id="html_ecb3ba60163add00e92faaa4340a9757" style="width: 100.0%; height: 100.0%;">【名称】下総国分寺跡　附北下瓦窯跡  【文化財分類】国指定史跡  【種類】（遺跡）  【文化財指定日】1967/12/29  【住所】千葉県市川市国分3丁目20-1ほかほか  【所有者等】市川市ほか</div>`)[0];
+                popup_a8f74b1e91187f3887bf02992d49251a.setContent(html_ecb3ba60163add00e92faaa4340a9757);
+            
+        
+
+        marker_11243d323b61d9a9541c08eb03f84b58.bindPopup(popup_a8f74b1e91187f3887bf02992d49251a)
+        ;
+
+        
+    
+    
+            var marker_98c89eac3a4ab6336b40da5ed9d2f74f = L.marker(
+                [35.74643794, 139.9132139],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e763d48f447d9ace4e3792802dfb8d3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98c89eac3a4ab6336b40da5ed9d2f74f.setIcon(icon_e763d48f447d9ace4e3792802dfb8d3a);
+        
+    
+        var popup_599eb16f952ee8b6d0dd9c7736311408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c40ce75763d023c1d6635c8575d64c = $(`<div id="html_29c40ce75763d023c1d6635c8575d64c" style="width: 100.0%; height: 100.0%;">【名称】下総国分尼寺跡  【文化財分類】国指定史跡  【種類】（遺跡）  【文化財指定日】1967/12/29  【住所】千葉県市川市国分4丁目17-1ほかほか  【所有者等】市川市ほか</div>`)[0];
+                popup_599eb16f952ee8b6d0dd9c7736311408.setContent(html_29c40ce75763d023c1d6635c8575d64c);
+            
+        
+
+        marker_98c89eac3a4ab6336b40da5ed9d2f74f.bindPopup(popup_599eb16f952ee8b6d0dd9c7736311408)
+        ;
+
+        
+    
+    
+            var marker_bcfa78c05b1c2d1f59b5de07bd0fef2f = L.marker(
+                [35.74682886, 139.9354526],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_9339e7642b10ad48cacf42305258d8f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bcfa78c05b1c2d1f59b5de07bd0fef2f.setIcon(icon_9339e7642b10ad48cacf42305258d8f7);
+        
+    
+        var popup_897713d25830bede66f031c71d9edef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812dec7801fa1df6b2c43a1b48b47b0b = $(`<div id="html_812dec7801fa1df6b2c43a1b48b47b0b" style="width: 100.0%; height: 100.0%;">【名称】曽谷貝塚  【文化財分類】国指定史跡  【種類】（貝塚）  【文化財指定日】1979/12/24  【住所】千葉県市川市曽谷2丁目15  【所有者等】市川市ほか</div>`)[0];
+                popup_897713d25830bede66f031c71d9edef1.setContent(html_812dec7801fa1df6b2c43a1b48b47b0b);
+            
+        
+
+        marker_bcfa78c05b1c2d1f59b5de07bd0fef2f.bindPopup(popup_897713d25830bede66f031c71d9edef1)
+        ;
+
+        
+    
+    
+            var marker_1deaa7589d7d918c8c4d663b0a74a41c = L.marker(
+                [35.72412253, 139.9312166],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_5732a7c7f3ef0ca4cea47c4183d8d441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1deaa7589d7d918c8c4d663b0a74a41c.setIcon(icon_5732a7c7f3ef0ca4cea47c4183d8d441);
+        
+    
+        var popup_ced204b97e2f8affa30cd1e894b01eda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_217984ff1fb47ff86a4f2b64dc1c85cc = $(`<div id="html_217984ff1fb47ff86a4f2b64dc1c85cc" style="width: 100.0%; height: 100.0%;">【名称】千本公孫樹  【文化財分類】国指定天然記念物  【種類】（植物）  【文化財指定日】1931/02/22  【住所】千葉県市川市八幡4丁目2-1葛飾八幡宮葛飾八幡宮  【所有者等】葛飾八幡宮</div>`)[0];
+                popup_ced204b97e2f8affa30cd1e894b01eda.setContent(html_217984ff1fb47ff86a4f2b64dc1c85cc);
+            
+        
+
+        marker_1deaa7589d7d918c8c4d663b0a74a41c.bindPopup(popup_ced204b97e2f8affa30cd1e894b01eda)
+        ;
+
+        
+    
+    
+            var marker_227cd2f30ee7bf2774f9eaf06490ff3a = L.marker(
+                [35.72417694, 139.931104],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_986e512d8ffa5f74a19402d052909a00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_227cd2f30ee7bf2774f9eaf06490ff3a.setIcon(icon_986e512d8ffa5f74a19402d052909a00);
+        
+    
+        var popup_47b52a3d19ab0099d18b50a5e4778589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0561c7cf513c45f41ab22b312dbac63d = $(`<div id="html_0561c7cf513c45f41ab22b312dbac63d" style="width: 100.0%; height: 100.0%;">【名称】梵鐘  【文化財分類】県指定有形文化財  【種類】美術工芸品・工芸品  【文化財指定日】1959/04/26  【住所】千葉県市川市八幡4丁目2-1葛飾八幡宮葛飾八幡宮  【所有者等】葛飾八幡宮</div>`)[0];
+                popup_47b52a3d19ab0099d18b50a5e4778589.setContent(html_0561c7cf513c45f41ab22b312dbac63d);
+            
+        
+
+        marker_227cd2f30ee7bf2774f9eaf06490ff3a.bindPopup(popup_47b52a3d19ab0099d18b50a5e4778589)
+        ;
+
+        
+    
+    
+            var marker_d5fc30becfb8b536d7843b53e23c362e = L.marker(
+                [35.72092161, 139.9493016],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_f5e685b1c94086623b8bbfc700034825 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5fc30becfb8b536d7843b53e23c362e.setIcon(icon_f5e685b1c94086623b8bbfc700034825);
+        
+    
+        var popup_d04a95d856bd3f8860ff0c89a2fbe4a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_000f2a35ac75866467fbbd408bf9a8fe = $(`<div id="html_000f2a35ac75866467fbbd408bf9a8fe" style="width: 100.0%; height: 100.0%;">【名称】木造釈迦如来・多宝如来坐像　附像内納入品  【文化財分類】県指定有形文化財  【種類】美術工芸品・彫刻  【文化財指定日】1998/03/22  【住所】千葉県市川市中山2丁目10-1法華経寺内法華経寺内  【所有者等】法華経寺</div>`)[0];
+                popup_d04a95d856bd3f8860ff0c89a2fbe4a4.setContent(html_000f2a35ac75866467fbbd408bf9a8fe);
+            
+        
+
+        marker_d5fc30becfb8b536d7843b53e23c362e.bindPopup(popup_d04a95d856bd3f8860ff0c89a2fbe4a4)
+        ;
+
+        
+    
+    
+            var marker_724d173339bdd8909a24e8882683e6e1 = L.marker(
+                [35.71981611, 139.9494746],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_4facbaed846f7e4a0da4ff2a8e0f2dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_724d173339bdd8909a24e8882683e6e1.setIcon(icon_4facbaed846f7e4a0da4ff2a8e0f2dc3);
+        
+    
+        var popup_bbe0bd9f44967d0af04780f03afc2bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41140239b818478f74159cdcaf731619 = $(`<div id="html_41140239b818478f74159cdcaf731619" style="width: 100.0%; height: 100.0%;">【名称】絹本著色十羅刹女像  【文化財分類】県指定有形文化財  【種類】美術工芸品・絵画  【文化財指定日】2000/02/27  【住所】千葉県市川市中山3丁目10-4浄光院浄光院  【所有者等】浄光院</div>`)[0];
+                popup_bbe0bd9f44967d0af04780f03afc2bb4.setContent(html_41140239b818478f74159cdcaf731619);
+            
+        
+
+        marker_724d173339bdd8909a24e8882683e6e1.bindPopup(popup_bbe0bd9f44967d0af04780f03afc2bb4)
+        ;
+
+        
+    
+    
+            var marker_9b53225a25602110a48889463df010cf = L.marker(
+                [35.72873336, 139.9266048],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_8d65ced6d45af6fcdedb464a32a2cc7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b53225a25602110a48889463df010cf.setIcon(icon_8d65ced6d45af6fcdedb464a32a2cc7d);
+        
+    
+        var popup_3d94d3384691abe87ce8d8c93ef3d874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9778a0357cc5bee28276d2db135d0177 = $(`<div id="html_9778a0357cc5bee28276d2db135d0177" style="width: 100.0%; height: 100.0%;">【名称】柴田是真画連句額  【文化財分類】県指定有形文化財  【種類】美術工芸品・絵画  【文化財指定日】2006/03/16  【住所】千葉県市川市菅野1丁目15-2白幡天神社白幡天神社  【所有者等】白幡天神社</div>`)[0];
+                popup_3d94d3384691abe87ce8d8c93ef3d874.setContent(html_9778a0357cc5bee28276d2db135d0177);
+            
+        
+
+        marker_9b53225a25602110a48889463df010cf.bindPopup(popup_3d94d3384691abe87ce8d8c93ef3d874)
+        ;
+
+        
+    
+    
+            var marker_1e6a2754c8240ea204a3040455dc827e = L.marker(
+                [35.74711575, 139.9014551],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_62a017189c16ddd4ad1939f1b81d28db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e6a2754c8240ea204a3040455dc827e.setIcon(icon_62a017189c16ddd4ad1939f1b81d28db);
+        
+    
+        var popup_2a708679218b9ab35ed20ffc9d381c56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32e40d92a1722a7ea4b6c4fba4d638bb = $(`<div id="html_32e40d92a1722a7ea4b6c4fba4d638bb" style="width: 100.0%; height: 100.0%;">【名称】茶道　式正織部流  【文化財分類】県指定重要無形文化財  【種類】nan  【文化財指定日】1955/12/17  【住所】千葉県市川市国府台3丁目8-2  【所有者等】織部桔梗会</div>`)[0];
+                popup_2a708679218b9ab35ed20ffc9d381c56.setContent(html_32e40d92a1722a7ea4b6c4fba4d638bb);
+            
+        
+
+        marker_1e6a2754c8240ea204a3040455dc827e.bindPopup(popup_2a708679218b9ab35ed20ffc9d381c56)
+        ;
+
+        
+    
+    
+            var marker_3b183bf4a00937b4e4aab4508cd78a51 = L.marker(
+                [35.73897678, 139.9124762],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_abfaec80ec84916abd3acc42f0ea64f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b183bf4a00937b4e4aab4508cd78a51.setIcon(icon_abfaec80ec84916abd3acc42f0ea64f4);
+        
+    
+        var popup_fbba2c5c68ce5ea1ea8d37833e661650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2cc21a2391ae5ce9dd8f6917fffed8c = $(`<div id="html_e2cc21a2391ae5ce9dd8f6917fffed8c" style="width: 100.0%; height: 100.0%;">【名称】須和田遺跡  【文化財分類】県指定史跡  【種類】（遺跡）  【文化財指定日】1994/02/24  【住所】千葉県市川市須和田2丁目34須和田公園須和田公園  【所有者等】市川市</div>`)[0];
+                popup_fbba2c5c68ce5ea1ea8d37833e661650.setContent(html_e2cc21a2391ae5ce9dd8f6917fffed8c);
+            
+        
+
+        marker_3b183bf4a00937b4e4aab4508cd78a51.bindPopup(popup_fbba2c5c68ce5ea1ea8d37833e661650)
+        ;
+
+        
+    
+    
+            var marker_e13aa86f39ab39f2fa0edfdcee06ee51 = L.marker(
+                [35.75905389, 139.9120709],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_25c4861b23ca7389dc379960010b5c78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e13aa86f39ab39f2fa0edfdcee06ee51.setIcon(icon_25c4861b23ca7389dc379960010b5c78);
+        
+    
+        var popup_d951a1f165641dd58658e420cc391deb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_872ac3c74e19f5c7615393f1ed5dcb0f = $(`<div id="html_872ac3c74e19f5c7615393f1ed5dcb0f" style="width: 100.0%; height: 100.0%;">【名称】鬼高遺跡出土品  【文化財分類】県指定有形文化財  【種類】美術工芸品・考古資料  【文化財指定日】2022/03/10  【住所】千葉県市川市堀之内2丁目26-1考古博物館所蔵考古博物館所蔵  【所有者等】市川市</div>`)[0];
+                popup_d951a1f165641dd58658e420cc391deb.setContent(html_872ac3c74e19f5c7615393f1ed5dcb0f);
+            
+        
+
+        marker_e13aa86f39ab39f2fa0edfdcee06ee51.bindPopup(popup_d951a1f165641dd58658e420cc391deb)
+        ;
+
+        
+    
+    
+            var marker_be6c94b4641cd5708188bf745a2166d4 = L.marker(
+                [35.72179702, 139.9310206],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_b3df96386e224181c78d68b0f7ac7b7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be6c94b4641cd5708188bf745a2166d4.setIcon(icon_b3df96386e224181c78d68b0f7ac7b7d);
+        
+    
+        var popup_9ae1b50db6650de8725df1aef2eb9d6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_980f4c5d27a6865b8fff388706a8059c = $(`<div id="html_980f4c5d27a6865b8fff388706a8059c" style="width: 100.0%; height: 100.0%;">【名称】刀（無銘　伝兼永）  【文化財分類】国指定重要文化財  【種類】美術工芸品・工芸品  【文化財指定日】1955/02/04  【住所】千葉県市川市  【所有者等】個人蔵</div>`)[0];
+                popup_9ae1b50db6650de8725df1aef2eb9d6c.setContent(html_980f4c5d27a6865b8fff388706a8059c);
+            
+        
+
+        marker_be6c94b4641cd5708188bf745a2166d4.bindPopup(popup_9ae1b50db6650de8725df1aef2eb9d6c)
+        ;
+
+        
+    
+    
+            var marker_975b189b2cb8c39ce4ca11b75aad5d7d = L.marker(
+                [35.72999754, 139.9118578],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_396160ef2a787a3b9525f843b1d591e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_975b189b2cb8c39ce4ca11b75aad5d7d.setIcon(icon_396160ef2a787a3b9525f843b1d591e0);
+        
+    
+        var popup_399779ee98a7750f1ad03f7032140ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23c579a3a606f3526928b3ab3fed7974 = $(`<div id="html_23c579a3a606f3526928b3ab3fed7974" style="width: 100.0%; height: 100.0%;">【名称】西洋館倶楽部（渡辺家住宅）  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】1999/07/10  【住所】千葉県市川市新田5丁目6-21  【所有者等】ー</div>`)[0];
+                popup_399779ee98a7750f1ad03f7032140ea2.setContent(html_23c579a3a606f3526928b3ab3fed7974);
+            
+        
+
+        marker_975b189b2cb8c39ce4ca11b75aad5d7d.bindPopup(popup_399779ee98a7750f1ad03f7032140ea2)
+        ;
+
+        
+    
+    
+            var marker_51dabc3f4be1f8e7132c663ce5435d78 = L.marker(
+                [35.73829432, 139.9058304],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_334690895456e798a4c16b126045a340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51dabc3f4be1f8e7132c663ce5435d78.setIcon(icon_334690895456e798a4c16b126045a340);
+        
+    
+        var popup_d2d6a3cba559ba83fc16257625e8e8aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf856e0c703e3cc2d5d73e03ad46c22f = $(`<div id="html_bf856e0c703e3cc2d5d73e03ad46c22f" style="width: 100.0%; height: 100.0%;">【名称】日本福音ルーテル市川教会会堂  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2008/10/25  【住所】千葉県市川市市川4丁目1-5  【所有者等】日本福音ルーテル教会</div>`)[0];
+                popup_d2d6a3cba559ba83fc16257625e8e8aa.setContent(html_bf856e0c703e3cc2d5d73e03ad46c22f);
+            
+        
+
+        marker_51dabc3f4be1f8e7132c663ce5435d78.bindPopup(popup_d2d6a3cba559ba83fc16257625e8e8aa)
+        ;
+
+        
+    
+    
+            var marker_2efc25ec446eb3472667ca0a3cdffc36 = L.marker(
+                [35.69115753, 139.9161432],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_e87fa86fc79b447ecfb8d52c7de87067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2efc25ec446eb3472667ca0a3cdffc36.setIcon(icon_e87fa86fc79b447ecfb8d52c7de87067);
+        
+    
+        var popup_2bebe9bb337e14ba37d1bec7b5f0ce9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0228c6e7388b4ad5d87882848f97ba83 = $(`<div id="html_0228c6e7388b4ad5d87882848f97ba83" style="width: 100.0%; height: 100.0%;">【名称】加藤家住宅　主屋  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2010/04/30  【住所】千葉県市川市本行徳6-1  【所有者等】ー</div>`)[0];
+                popup_2bebe9bb337e14ba37d1bec7b5f0ce9c.setContent(html_0228c6e7388b4ad5d87882848f97ba83);
+            
+        
+
+        marker_2efc25ec446eb3472667ca0a3cdffc36.bindPopup(popup_2bebe9bb337e14ba37d1bec7b5f0ce9c)
+        ;
+
+        
+    
+    
+            var marker_7bde4d622b5e9b63528554ac958e8c5e = L.marker(
+                [35.69112845, 139.9160294],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_6bc63316bed2cbe55152a11df8bf3d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bde4d622b5e9b63528554ac958e8c5e.setIcon(icon_6bc63316bed2cbe55152a11df8bf3d97);
+        
+    
+        var popup_be0d2cceccd906fabbf3de99daa49b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59d230547438eb3cacd180d3520502ae = $(`<div id="html_59d230547438eb3cacd180d3520502ae" style="width: 100.0%; height: 100.0%;">【名称】加藤家住宅　煉瓦塀  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2010/04/30  【住所】千葉県市川市本行徳6-1  【所有者等】ー</div>`)[0];
+                popup_be0d2cceccd906fabbf3de99daa49b2c.setContent(html_59d230547438eb3cacd180d3520502ae);
+            
+        
+
+        marker_7bde4d622b5e9b63528554ac958e8c5e.bindPopup(popup_be0d2cceccd906fabbf3de99daa49b2c)
+        ;
+
+        
+    
+    
+            var marker_5624e0d6ee398f7c80e9543beadba9db = L.marker(
+                [35.69044878, 139.9154592],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_c21e2c7f159516fe47cc1aa9920dbdf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5624e0d6ee398f7c80e9543beadba9db.setIcon(icon_c21e2c7f159516fe47cc1aa9920dbdf4);
+        
+    
+        var popup_427f5100c743eabef5213ff394d587c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baf2c2e9978f49d920d55cd8a48c9685 = $(`<div id="html_baf2c2e9978f49d920d55cd8a48c9685" style="width: 100.0%; height: 100.0%;">【名称】旧浅子神輿店　店舗兼主屋  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2010/09/12  【住所】千葉県市川市本行徳37-2  【所有者等】市川市</div>`)[0];
+                popup_427f5100c743eabef5213ff394d587c7.setContent(html_baf2c2e9978f49d920d55cd8a48c9685);
+            
+        
+
+        marker_5624e0d6ee398f7c80e9543beadba9db.bindPopup(popup_427f5100c743eabef5213ff394d587c7)
+        ;
+
+        
+    
+    
+            var marker_174cdd25092a471879b4c98d982247f6 = L.marker(
+                [35.73463253, 139.9311373],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_5a404e975a8feced8e9840db139d3a73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_174cdd25092a471879b4c98d982247f6.setIcon(icon_5a404e975a8feced8e9840db139d3a73);
+        
+    
+        var popup_a704e8ee48001e8e94befd9ab0172160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b035f774cb91bf5324ce3df008587bc = $(`<div id="html_1b035f774cb91bf5324ce3df008587bc" style="width: 100.0%; height: 100.0%;">【名称】昭和学院創立記念館  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2011/01/28  【住所】千葉県市川市東菅野2丁目1-9  【所有者等】学校法人昭和学院</div>`)[0];
+                popup_a704e8ee48001e8e94befd9ab0172160.setContent(html_1b035f774cb91bf5324ce3df008587bc);
+            
+        
+
+        marker_174cdd25092a471879b4c98d982247f6.bindPopup(popup_a704e8ee48001e8e94befd9ab0172160)
+        ;
+
+        
+    
+    
+            var marker_8cd99ec0ef37d744b3e1b38626e26721 = L.marker(
+                [35.71688825, 139.940857],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_52607a77271c51ab4dac49ecc3f36097 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8cd99ec0ef37d744b3e1b38626e26721.setIcon(icon_52607a77271c51ab4dac49ecc3f36097);
+        
+    
+        var popup_ab5e56a3850243d76f71efdd550311ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07c89819e0dd655f732c47e021a71c28 = $(`<div id="html_07c89819e0dd655f732c47e021a71c28" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅主屋  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-1他  【所有者等】ー</div>`)[0];
+                popup_ab5e56a3850243d76f71efdd550311ae.setContent(html_07c89819e0dd655f732c47e021a71c28);
+            
+        
+
+        marker_8cd99ec0ef37d744b3e1b38626e26721.bindPopup(popup_ab5e56a3850243d76f71efdd550311ae)
+        ;
+
+        
+    
+    
+            var marker_47be7aa265e88e3a1474110cd3dd31cc = L.marker(
+                [35.71680928, 139.9408146],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_4d05de1e8634158f3198dc8ef703f075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_47be7aa265e88e3a1474110cd3dd31cc.setIcon(icon_4d05de1e8634158f3198dc8ef703f075);
+        
+    
+        var popup_e236e36ea2d331a11b8cab6068dfa9bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_856fd14d5e890c6c324a41eaea8304c0 = $(`<div id="html_856fd14d5e890c6c324a41eaea8304c0" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅離れ  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-2  【所有者等】ー</div>`)[0];
+                popup_e236e36ea2d331a11b8cab6068dfa9bc.setContent(html_856fd14d5e890c6c324a41eaea8304c0);
+            
+        
+
+        marker_47be7aa265e88e3a1474110cd3dd31cc.bindPopup(popup_e236e36ea2d331a11b8cab6068dfa9bc)
+        ;
+
+        
+    
+    
+            var marker_cf7108938669f6b494ea5726ea2ae7f2 = L.marker(
+                [35.71701835, 139.9407684],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_4537a7ad1ce302f5bbd01c74ea2b30cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf7108938669f6b494ea5726ea2ae7f2.setIcon(icon_4537a7ad1ce302f5bbd01c74ea2b30cd);
+        
+    
+        var popup_391fdc2a5462fa74153771e4ee5abadb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa52f1e8902a2811747a99ef7383e86 = $(`<div id="html_afa52f1e8902a2811747a99ef7383e86" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅煉瓦蔵  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-1  【所有者等】ー</div>`)[0];
+                popup_391fdc2a5462fa74153771e4ee5abadb.setContent(html_afa52f1e8902a2811747a99ef7383e86);
+            
+        
+
+        marker_cf7108938669f6b494ea5726ea2ae7f2.bindPopup(popup_391fdc2a5462fa74153771e4ee5abadb)
+        ;
+
+        
+    
+    
+            var marker_38f64bf9e37d8bb286df1066c7b40f53 = L.marker(
+                [35.71681, 139.9409296],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_61d4bcab9d9e5f32c614e90f3439c19a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38f64bf9e37d8bb286df1066c7b40f53.setIcon(icon_61d4bcab9d9e5f32c614e90f3439c19a);
+        
+    
+        var popup_e7769ae196533386e4706ee489e0369f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26a0f456b6f9108ded9b2f54334886fc = $(`<div id="html_26a0f456b6f9108ded9b2f54334886fc" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅土蔵  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-2  【所有者等】ー</div>`)[0];
+                popup_e7769ae196533386e4706ee489e0369f.setContent(html_26a0f456b6f9108ded9b2f54334886fc);
+            
+        
+
+        marker_38f64bf9e37d8bb286df1066c7b40f53.bindPopup(popup_e7769ae196533386e4706ee489e0369f)
+        ;
+
+        
+    
+    
+            var marker_239c58e0a8d2eaf23ff7fea1b4466fa9 = L.marker(
+                [35.71693418, 139.9410317],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_6fc00702539c83ae62f37935c91fbf60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_239c58e0a8d2eaf23ff7fea1b4466fa9.setIcon(icon_6fc00702539c83ae62f37935c91fbf60);
+        
+    
+        var popup_87b7ae00184f0039553a86c32c5ce811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23386d59d786f18a2b92c6d1d5218c1d = $(`<div id="html_23386d59d786f18a2b92c6d1d5218c1d" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅北蔵及び事務所  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-1  【所有者等】ー</div>`)[0];
+                popup_87b7ae00184f0039553a86c32c5ce811.setContent(html_23386d59d786f18a2b92c6d1d5218c1d);
+            
+        
+
+        marker_239c58e0a8d2eaf23ff7fea1b4466fa9.bindPopup(popup_87b7ae00184f0039553a86c32c5ce811)
+        ;
+
+        
+    
+    
+            var marker_6cd89299671f062b4f07b236a04285e7 = L.marker(
+                [35.71651877, 139.9408152],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_50cdae3e4985dd98dda10160eb2465ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6cd89299671f062b4f07b236a04285e7.setIcon(icon_50cdae3e4985dd98dda10160eb2465ee);
+        
+    
+        var popup_e3e240b63dc68750fc94aaf5b0bc39e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3884cd141b70f7d288be7525a336852 = $(`<div id="html_a3884cd141b70f7d288be7525a336852" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅倉庫  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-2  【所有者等】ー</div>`)[0];
+                popup_e3e240b63dc68750fc94aaf5b0bc39e5.setContent(html_a3884cd141b70f7d288be7525a336852);
+            
+        
+
+        marker_6cd89299671f062b4f07b236a04285e7.bindPopup(popup_e3e240b63dc68750fc94aaf5b0bc39e5)
+        ;
+
+        
+    
+    
+            var marker_919057a3b86e9b3a18a8dc2ce7b03159 = L.marker(
+                [35.71665891, 139.940552],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_675ca7af9e76b5ede8ea5beda84ad598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_919057a3b86e9b3a18a8dc2ce7b03159.setIcon(icon_675ca7af9e76b5ede8ea5beda84ad598);
+        
+    
+        var popup_ea7ee90b7d61b30b09f37f274a1b8907 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46905a2a09cba0708cc8d7c31538fe6a = $(`<div id="html_46905a2a09cba0708cc8d7c31538fe6a" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅稲荷社  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-3  【所有者等】ー</div>`)[0];
+                popup_ea7ee90b7d61b30b09f37f274a1b8907.setContent(html_46905a2a09cba0708cc8d7c31538fe6a);
+            
+        
+
+        marker_919057a3b86e9b3a18a8dc2ce7b03159.bindPopup(popup_ea7ee90b7d61b30b09f37f274a1b8907)
+        ;
+
+        
+    
+    
+            var marker_a46c19042eee24fbfad6cf35aea40430 = L.marker(
+                [35.7167494, 139.9405945],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_9ebdf97018a11a1e4355d4414c3eb58b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a46c19042eee24fbfad6cf35aea40430.setIcon(icon_9ebdf97018a11a1e4355d4414c3eb58b);
+        
+    
+        var popup_503ffb7902d509401149e7769092b302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a9270e7216e3c9bdc84718db47847c = $(`<div id="html_a3a9270e7216e3c9bdc84718db47847c" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅防空壕  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-3  【所有者等】ー</div>`)[0];
+                popup_503ffb7902d509401149e7769092b302.setContent(html_a3a9270e7216e3c9bdc84718db47847c);
+            
+        
+
+        marker_a46c19042eee24fbfad6cf35aea40430.bindPopup(popup_503ffb7902d509401149e7769092b302)
+        ;
+
+        
+    
+    
+            var marker_16fa3af6093a9c212bf47c631e508694 = L.marker(
+                [35.71698444, 139.9409581],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_f21a176fda3be1c16cfe9fb167a9f9c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16fa3af6093a9c212bf47c631e508694.setIcon(icon_f21a176fda3be1c16cfe9fb167a9f9c0);
+        
+    
+        var popup_a93d95361a2756d96641a215709391ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13a5e0bb44cb36c27e13c2c4ed2cbb89 = $(`<div id="html_13a5e0bb44cb36c27e13c2c4ed2cbb89" style="width: 100.0%; height: 100.0%;">【名称】中村家住宅門及び石塀  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2014/10/09  【住所】千葉県市川市鬼越2丁目200-1  【所有者等】ー</div>`)[0];
+                popup_a93d95361a2756d96641a215709391ad.setContent(html_13a5e0bb44cb36c27e13c2c4ed2cbb89);
+            
+        
+
+        marker_16fa3af6093a9c212bf47c631e508694.bindPopup(popup_a93d95361a2756d96641a215709391ad)
+        ;
+
+        
+    
+    
+            var marker_8c1cd5d5638b9673e2c4046170f80f41 = L.marker(
+                [35.72650575, 139.9167351],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_48991706790188e8b0786ae92ee5107b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c1cd5d5638b9673e2c4046170f80f41.setIcon(icon_48991706790188e8b0786ae92ee5107b);
+        
+    
+        var popup_d28198c08511b694b8ac5753ee3016c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f1893bc356d6a41d25d275f6ac23f21 = $(`<div id="html_6f1893bc356d6a41d25d275f6ac23f21" style="width: 100.0%; height: 100.0%;">【名称】後藤家住宅主屋  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2017/06/30  【住所】千葉県市川市新田1丁目296  【所有者等】ー</div>`)[0];
+                popup_d28198c08511b694b8ac5753ee3016c9.setContent(html_6f1893bc356d6a41d25d275f6ac23f21);
+            
+        
+
+        marker_8c1cd5d5638b9673e2c4046170f80f41.bindPopup(popup_d28198c08511b694b8ac5753ee3016c9)
+        ;
+
+        
+    
+    
+            var marker_5293c24b4031326fbf9a5f65746fe263 = L.marker(
+                [35.72675207, 139.916951],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_5603cda86752cb86b3950a13b8dbd4de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5293c24b4031326fbf9a5f65746fe263.setIcon(icon_5603cda86752cb86b3950a13b8dbd4de);
+        
+    
+        var popup_757b850ebfadf288a855722f3ac63b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_019ef25b0832c199e6a7566cde98a84b = $(`<div id="html_019ef25b0832c199e6a7566cde98a84b" style="width: 100.0%; height: 100.0%;">【名称】後藤家住宅稲荷社  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2017/06/30  【住所】千葉県市川市新田1丁目296-1  【所有者等】ー</div>`)[0];
+                popup_757b850ebfadf288a855722f3ac63b2b.setContent(html_019ef25b0832c199e6a7566cde98a84b);
+            
+        
+
+        marker_5293c24b4031326fbf9a5f65746fe263.bindPopup(popup_757b850ebfadf288a855722f3ac63b2b)
+        ;
+
+        
+    
+    
+            var marker_de583c8c603e66775c777a183a34c4f7 = L.marker(
+                [35.75572714, 139.9030435],
+                {}
+            ).addTo(marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e);
+        
+    
+            var icon_3f85053a95dadd5d42b499145a85f690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de583c8c603e66775c777a183a34c4f7.setIcon(icon_3f85053a95dadd5d42b499145a85f690);
+        
+    
+        var popup_5f700e73267ec71965942f78960feea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8d2809da18e1bbd85a339ab2f89408b = $(`<div id="html_b8d2809da18e1bbd85a339ab2f89408b" style="width: 100.0%; height: 100.0%;">【名称】式場隆三郎家住宅  【文化財分類】国登録有形文化財  【種類】建造物  【文化財指定日】2021/10/16  【住所】千葉県市川市国府台6丁目2412  【所有者等】ー</div>`)[0];
+                popup_5f700e73267ec71965942f78960feea6.setContent(html_b8d2809da18e1bbd85a339ab2f89408b);
+            
+        
+
+        marker_de583c8c603e66775c777a183a34c4f7.bindPopup(popup_5f700e73267ec71965942f78960feea6)
+        ;
+
+        
+    
+    
+                marker_cluster_4b201cf18ea039b00cb7bb0b7f03ee2e.addTo(map_9daf3978a75aa09bcdfc3b5026b568cf);
+</script>
+</html>

@@ -1,0 +1,3348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b89b71eabdbe1033c6c745a64955938 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b89b71eabdbe1033c6c745a64955938" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b89b71eabdbe1033c6c745a64955938 = L.map(
+                "map_9b89b71eabdbe1033c6c745a64955938",
+                {
+                    center: [35.72179702, 139.9310206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5b424c230884e7b54ed81e193e31c052 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_5b424c230884e7b54ed81e193e31c052.addTo(map_9b89b71eabdbe1033c6c745a64955938);
+    
+            var marker_cluster_0f11718a57f94659132ef2a3bef55381 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_895e45a047836410aaa04463707fb540 = L.marker(
+                [35.75359, 139.927977],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c7d67660015234efa9b01560df0bd85e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_895e45a047836410aaa04463707fb540.setIcon(icon_c7d67660015234efa9b01560df0bd85e);
+        
+    
+        var popup_708087fd134bb511513dbc18e5f29b5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ab5ac48a125e5677afdf4ef02ce1a69 = $(`<div id="html_5ab5ac48a125e5677afdf4ef02ce1a69" style="width: 100.0%; height: 100.0%;">【名称】県立国分高校  【住所】千葉県市川市稲越2丁目2-1  【電話番号】(047)371-6100</div>`)[0];
+                popup_708087fd134bb511513dbc18e5f29b5b.setContent(html_5ab5ac48a125e5677afdf4ef02ce1a69);
+            
+        
+
+        marker_895e45a047836410aaa04463707fb540.bindPopup(popup_708087fd134bb511513dbc18e5f29b5b)
+        ;
+
+        
+    
+    
+            var marker_c814502d03bbce82e7dd818f49d2a1ee = L.marker(
+                [35.77180422, 139.9570251],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_2154e5b0052fb53ed73af172e0670eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c814502d03bbce82e7dd818f49d2a1ee.setIcon(icon_2154e5b0052fb53ed73af172e0670eb0);
+        
+    
+        var popup_a61ebb2fdc1e75a6fe15f0646edc0a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38b3d96362722152c8990d4f45dc2a29 = $(`<div id="html_38b3d96362722152c8990d4f45dc2a29" style="width: 100.0%; height: 100.0%;">【名称】大町小学校  【住所】千葉県市川市大町84-10  【電話番号】(047)337-3610</div>`)[0];
+                popup_a61ebb2fdc1e75a6fe15f0646edc0a42.setContent(html_38b3d96362722152c8990d4f45dc2a29);
+            
+        
+
+        marker_c814502d03bbce82e7dd818f49d2a1ee.bindPopup(popup_a61ebb2fdc1e75a6fe15f0646edc0a42)
+        ;
+
+        
+    
+    
+            var marker_9e9f957b3390ebd5b067685b92889e05 = L.marker(
+                [35.75031514, 139.9538513],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_47a7e061fd356f808e08f5a4c166a442 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e9f957b3390ebd5b067685b92889e05.setIcon(icon_47a7e061fd356f808e08f5a4c166a442);
+        
+    
+        var popup_8ff8a0ae425b952f26b7f43b31555f51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_552dd4077ab1be669affbfad99c5d04a = $(`<div id="html_552dd4077ab1be669affbfad99c5d04a" style="width: 100.0%; height: 100.0%;">【名称】大柏小学校  【住所】千葉県市川市大野町2丁目1877  【電話番号】(047)337-8141</div>`)[0];
+                popup_8ff8a0ae425b952f26b7f43b31555f51.setContent(html_552dd4077ab1be669affbfad99c5d04a);
+            
+        
+
+        marker_9e9f957b3390ebd5b067685b92889e05.bindPopup(popup_8ff8a0ae425b952f26b7f43b31555f51)
+        ;
+
+        
+    
+    
+            var marker_aa696e47ca40a1f8cab4dc9e2a9ef8cd = L.marker(
+                [35.7424297, 139.9506194],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_540594eafda313164292c758fa7c1125 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa696e47ca40a1f8cab4dc9e2a9ef8cd.setIcon(icon_540594eafda313164292c758fa7c1125);
+        
+    
+        var popup_2271f5c652cd6c6a0fa0fcc875d898b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e03ed66f7632f1e070a9d030c27e4924 = $(`<div id="html_e03ed66f7632f1e070a9d030c27e4924" style="width: 100.0%; height: 100.0%;">【名称】大野小学校  【住所】千葉県市川市南大野1丁目42-1  【電話番号】(047)338-3000</div>`)[0];
+                popup_2271f5c652cd6c6a0fa0fcc875d898b6.setContent(html_e03ed66f7632f1e070a9d030c27e4924);
+            
+        
+
+        marker_aa696e47ca40a1f8cab4dc9e2a9ef8cd.bindPopup(popup_2271f5c652cd6c6a0fa0fcc875d898b6)
+        ;
+
+        
+    
+    
+            var marker_afcf8efbef86359804e9773714834504 = L.marker(
+                [35.73957426, 139.9665082],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_eaa3bfd7c2c4bb9ca59ac4e99c63f6d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afcf8efbef86359804e9773714834504.setIcon(icon_eaa3bfd7c2c4bb9ca59ac4e99c63f6d3);
+        
+    
+        var popup_8696a1a52301d5368c37fe57477a741f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeb0b3c00ad301f1eeda1d3cfc190730 = $(`<div id="html_eeb0b3c00ad301f1eeda1d3cfc190730" style="width: 100.0%; height: 100.0%;">【名称】柏井小学校  【住所】千葉県市川市柏井町1丁目1149-1  【電話番号】(047)337-8877</div>`)[0];
+                popup_8696a1a52301d5368c37fe57477a741f.setContent(html_eeb0b3c00ad301f1eeda1d3cfc190730);
+            
+        
+
+        marker_afcf8efbef86359804e9773714834504.bindPopup(popup_8696a1a52301d5368c37fe57477a741f)
+        ;
+
+        
+    
+    
+            var marker_681e3dfdf4419493f49510d0cb78b4d1 = L.marker(
+                [35.73666136, 139.9439461],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_60dbfdaa6e5da317ef7eb473ffb34a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_681e3dfdf4419493f49510d0cb78b4d1.setIcon(icon_60dbfdaa6e5da317ef7eb473ffb34a93);
+        
+    
+        var popup_6ae8133596531ab8ae020495ee8b9a1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bdb50f557ad07ddc4498da04f1623c6 = $(`<div id="html_9bdb50f557ad07ddc4498da04f1623c6" style="width: 100.0%; height: 100.0%;">【名称】宮久保小学校  【住所】千葉県市川市宮久保5丁目７-1  【電話番号】(047)371-2747</div>`)[0];
+                popup_6ae8133596531ab8ae020495ee8b9a1f.setContent(html_9bdb50f557ad07ddc4498da04f1623c6);
+            
+        
+
+        marker_681e3dfdf4419493f49510d0cb78b4d1.bindPopup(popup_6ae8133596531ab8ae020495ee8b9a1f)
+        ;
+
+        
+    
+    
+            var marker_acabf80ad7dd49ee5bd785bfebf47960 = L.marker(
+                [35.73271088, 139.945658],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c85006f166672502775c98ef07401598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acabf80ad7dd49ee5bd785bfebf47960.setIcon(icon_c85006f166672502775c98ef07401598);
+        
+    
+        var popup_00708e0516a12f00fc21a821949d21ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3abd5bea85a7b813e60325413bb4d0f = $(`<div id="html_b3abd5bea85a7b813e60325413bb4d0f" style="width: 100.0%; height: 100.0%;">【名称】北方小学校  【住所】千葉県市川市北方町4丁目1356-1  【電話番号】(047)339-1701</div>`)[0];
+                popup_00708e0516a12f00fc21a821949d21ae.setContent(html_b3abd5bea85a7b813e60325413bb4d0f);
+            
+        
+
+        marker_acabf80ad7dd49ee5bd785bfebf47960.bindPopup(popup_00708e0516a12f00fc21a821949d21ae)
+        ;
+
+        
+    
+    
+            var marker_a2e5499a923c43dafb730686d81c1a5a = L.marker(
+                [35.74496821, 139.920899],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d6a64856e492b51b90853632aa9e009a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a2e5499a923c43dafb730686d81c1a5a.setIcon(icon_d6a64856e492b51b90853632aa9e009a);
+        
+    
+        var popup_1731f207e7cff281a1b7bbb102003e8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2170997c5a83dd8882a5f5f54a4b133 = $(`<div id="html_a2170997c5a83dd8882a5f5f54a4b133" style="width: 100.0%; height: 100.0%;">【名称】国分小学校  【住所】千葉県市川市東国分2丁目4-1  【電話番号】(047)371-6793</div>`)[0];
+                popup_1731f207e7cff281a1b7bbb102003e8c.setContent(html_a2170997c5a83dd8882a5f5f54a4b133);
+            
+        
+
+        marker_a2e5499a923c43dafb730686d81c1a5a.bindPopup(popup_1731f207e7cff281a1b7bbb102003e8c)
+        ;
+
+        
+    
+    
+            var marker_7de0c7db26800cda40a41abe90a11de3 = L.marker(
+                [35.754117, 139.92407],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_7ab9ab38f37f27eb4f33935f4fb0a194 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7de0c7db26800cda40a41abe90a11de3.setIcon(icon_7ab9ab38f37f27eb4f33935f4fb0a194);
+        
+    
+        var popup_ac278162e8cb06dd7181aa1691285cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f79e8abc3cb3e5a18c2ac5214262d28c = $(`<div id="html_f79e8abc3cb3e5a18c2ac5214262d28c" style="width: 100.0%; height: 100.0%;">【名称】稲越小学校  【住所】千葉県市川市稲越３丁目21-8  【電話番号】(047)373-8401</div>`)[0];
+                popup_ac278162e8cb06dd7181aa1691285cc7.setContent(html_f79e8abc3cb3e5a18c2ac5214262d28c);
+            
+        
+
+        marker_7de0c7db26800cda40a41abe90a11de3.bindPopup(popup_ac278162e8cb06dd7181aa1691285cc7)
+        ;
+
+        
+    
+    
+            var marker_e703527d55acd6e8a0ed5b483110b300 = L.marker(
+                [35.74692438, 139.9265149],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_5b593a9f3541b833ab7f3a8853db4c5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e703527d55acd6e8a0ed5b483110b300.setIcon(icon_5b593a9f3541b833ab7f3a8853db4c5e);
+        
+    
+        var popup_7a72cde545ca6667778cf54f637781f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd3a244e4e1609fa7152cc53e7983fb = $(`<div id="html_9bd3a244e4e1609fa7152cc53e7983fb" style="width: 100.0%; height: 100.0%;">【名称】曽谷小学校  【住所】千葉県市川市曽谷７丁目18-1  【電話番号】(047)371-7888</div>`)[0];
+                popup_7a72cde545ca6667778cf54f637781f6.setContent(html_9bd3a244e4e1609fa7152cc53e7983fb);
+            
+        
+
+        marker_e703527d55acd6e8a0ed5b483110b300.bindPopup(popup_7a72cde545ca6667778cf54f637781f6)
+        ;
+
+        
+    
+    
+            var marker_8f957f88ab56c33814f555c58586338d = L.marker(
+                [35.73981939, 139.9269705],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_9a09a78f89b3d7fd930d0622150292b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f957f88ab56c33814f555c58586338d.setIcon(icon_9a09a78f89b3d7fd930d0622150292b5);
+        
+    
+        var popup_8714d1a19295861c844fd6608caff3e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee05c21c11a3c73c2dce45ff372c123a = $(`<div id="html_ee05c21c11a3c73c2dce45ff372c123a" style="width: 100.0%; height: 100.0%;">【名称】百合台小学校  【住所】千葉県市川市曽谷6丁目10-1  【電話番号】(047)374-1811</div>`)[0];
+                popup_8714d1a19295861c844fd6608caff3e4.setContent(html_ee05c21c11a3c73c2dce45ff372c123a);
+            
+        
+
+        marker_8f957f88ab56c33814f555c58586338d.bindPopup(popup_8714d1a19295861c844fd6608caff3e4)
+        ;
+
+        
+    
+    
+            var marker_0e92fa6a31c70129e6c977fa39d91f84 = L.marker(
+                [35.7536361, 139.9157922],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_2598ce071d17a52e69e07de8f2550c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e92fa6a31c70129e6c977fa39d91f84.setIcon(icon_2598ce071d17a52e69e07de8f2550c91);
+        
+    
+        var popup_a6db44f06021b84db2214125f0d589ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc73a7262147879e9e750ca86b311ee3 = $(`<div id="html_cc73a7262147879e9e750ca86b311ee3" style="width: 100.0%; height: 100.0%;">【名称】中国分小学校  【住所】千葉県市川市中国分1丁目22-1  【電話番号】(047)371-7886</div>`)[0];
+                popup_a6db44f06021b84db2214125f0d589ab.setContent(html_cc73a7262147879e9e750ca86b311ee3);
+            
+        
+
+        marker_0e92fa6a31c70129e6c977fa39d91f84.bindPopup(popup_a6db44f06021b84db2214125f0d589ab)
+        ;
+
+        
+    
+    
+            var marker_9e3a04478b5e13e5a7ef4ff30cf111b2 = L.marker(
+                [35.75382659, 139.9029049],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d2f484edcd8089d15473550734ae3899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e3a04478b5e13e5a7ef4ff30cf111b2.setIcon(icon_d2f484edcd8089d15473550734ae3899);
+        
+    
+        var popup_5489456a9526f4c250f817433c62e877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccd030e3604b904bf56ff0379a87c1b1 = $(`<div id="html_ccd030e3604b904bf56ff0379a87c1b1" style="width: 100.0%; height: 100.0%;">【名称】国府台小学校  【住所】千葉県市川市国府台5丁目25-4  【電話番号】(047)372-4672</div>`)[0];
+                popup_5489456a9526f4c250f817433c62e877.setContent(html_ccd030e3604b904bf56ff0379a87c1b1);
+            
+        
+
+        marker_9e3a04478b5e13e5a7ef4ff30cf111b2.bindPopup(popup_5489456a9526f4c250f817433c62e877)
+        ;
+
+        
+    
+    
+            var marker_8a9272acdfbf037231e9a847d27c17ba = L.marker(
+                [35.73773236, 139.9102487],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_0f0ebb9bd2d2daa32d159a4a8f3959d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a9272acdfbf037231e9a847d27c17ba.setIcon(icon_0f0ebb9bd2d2daa32d159a4a8f3959d2);
+        
+    
+        var popup_97175159c00bcc0e29050adc71af4998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73213595e55c6c5a5861b19fe2458a53 = $(`<div id="html_73213595e55c6c5a5861b19fe2458a53" style="width: 100.0%; height: 100.0%;">【名称】真間小学校  【住所】千葉県市川市真間4丁目1-1  【電話番号】(047)372-4726</div>`)[0];
+                popup_97175159c00bcc0e29050adc71af4998.setContent(html_73213595e55c6c5a5861b19fe2458a53);
+            
+        
+
+        marker_8a9272acdfbf037231e9a847d27c17ba.bindPopup(popup_97175159c00bcc0e29050adc71af4998)
+        ;
+
+        
+    
+    
+            var marker_e866029dc8e917ab979292310c390f5c = L.marker(
+                [35.73216292, 139.9051063],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_2a6d048f633ab8cf9c5c83da30f300e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e866029dc8e917ab979292310c390f5c.setIcon(icon_2a6d048f633ab8cf9c5c83da30f300e5);
+        
+    
+        var popup_cc2f422f01b05d3ccdedb485f524b529 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0cc8136510b10c91d7330e6eb6237f3 = $(`<div id="html_c0cc8136510b10c91d7330e6eb6237f3" style="width: 100.0%; height: 100.0%;">【名称】市川小学校  【住所】千葉県市川市市川2丁目32-5  【電話番号】(047)325-4758</div>`)[0];
+                popup_cc2f422f01b05d3ccdedb485f524b529.setContent(html_c0cc8136510b10c91d7330e6eb6237f3);
+            
+        
+
+        marker_e866029dc8e917ab979292310c390f5c.bindPopup(popup_cc2f422f01b05d3ccdedb485f524b529)
+        ;
+
+        
+    
+    
+            var marker_68b8830ef63e45ab2bf4cf570a4ec166 = L.marker(
+                [35.73458866, 139.9170157],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_10f12ac66635a5ff0b9ed06711f8aa6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68b8830ef63e45ab2bf4cf570a4ec166.setIcon(icon_10f12ac66635a5ff0b9ed06711f8aa6c);
+        
+    
+        var popup_a23d74f359432446e935b54705c6ad4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fd1aac4d28516950679533e59628da0 = $(`<div id="html_4fd1aac4d28516950679533e59628da0" style="width: 100.0%; height: 100.0%;">【名称】菅野小学校  【住所】千葉県市川市菅野6丁目14-1  【電話番号】(047)324-5955</div>`)[0];
+                popup_a23d74f359432446e935b54705c6ad4d.setContent(html_4fd1aac4d28516950679533e59628da0);
+            
+        
+
+        marker_68b8830ef63e45ab2bf4cf570a4ec166.bindPopup(popup_a23d74f359432446e935b54705c6ad4d)
+        ;
+
+        
+    
+    
+            var marker_ff77228ed35f9252df69c2f3f11988b5 = L.marker(
+                [35.72572721, 139.9280693],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_a160114e43d6198861ce377f351fd21a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff77228ed35f9252df69c2f3f11988b5.setIcon(icon_a160114e43d6198861ce377f351fd21a);
+        
+    
+        var popup_6f25121c42cde56e64604ced7a9326fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3a0cf109f9fda6b59371d0e8cd52d2c = $(`<div id="html_f3a0cf109f9fda6b59371d0e8cd52d2c" style="width: 100.0%; height: 100.0%;">【名称】八幡小学校  【住所】千葉県市川市八幡3丁目24-1  【電話番号】(047)325-4763</div>`)[0];
+                popup_6f25121c42cde56e64604ced7a9326fa.setContent(html_f3a0cf109f9fda6b59371d0e8cd52d2c);
+            
+        
+
+        marker_ff77228ed35f9252df69c2f3f11988b5.bindPopup(popup_6f25121c42cde56e64604ced7a9326fa)
+        ;
+
+        
+    
+    
+            var marker_2525f6d6e34c02dda206c8e0d2de416d = L.marker(
+                [35.726943, 139.9521099],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_fbb951faf5c50bea87e66af99dc4fd2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2525f6d6e34c02dda206c8e0d2de416d.setIcon(icon_fbb951faf5c50bea87e66af99dc4fd2a);
+        
+    
+        var popup_3a598330fb138f2e15b233359c8b255e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c0dcaaca9ae5fcea2073b748465a09 = $(`<div id="html_e1c0dcaaca9ae5fcea2073b748465a09" style="width: 100.0%; height: 100.0%;">【名称】若宮小学校  【住所】千葉県市川市若宮3丁目54-10  【電話番号】(047)339-2177</div>`)[0];
+                popup_3a598330fb138f2e15b233359c8b255e.setContent(html_e1c0dcaaca9ae5fcea2073b748465a09);
+            
+        
+
+        marker_2525f6d6e34c02dda206c8e0d2de416d.bindPopup(popup_3a598330fb138f2e15b233359c8b255e)
+        ;
+
+        
+    
+    
+            var marker_242f657276dffa047538ab27e3d43989 = L.marker(
+                [35.72697537, 139.9377251],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4b655afe47bea375f7b4debf7031bb9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_242f657276dffa047538ab27e3d43989.setIcon(icon_4b655afe47bea375f7b4debf7031bb9a);
+        
+    
+        var popup_bda2c67146bf33161d52f0268f3c2e6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_939013bac6f1225c166365bb03ea140f = $(`<div id="html_939013bac6f1225c166365bb03ea140f" style="width: 100.0%; height: 100.0%;">【名称】冨貴島小学校  【住所】千葉県市川市八幡6丁目10-11  【電話番号】(047)334-2624</div>`)[0];
+                popup_bda2c67146bf33161d52f0268f3c2e6c.setContent(html_939013bac6f1225c166365bb03ea140f);
+            
+        
+
+        marker_242f657276dffa047538ab27e3d43989.bindPopup(popup_bda2c67146bf33161d52f0268f3c2e6c)
+        ;
+
+        
+    
+    
+            var marker_83b5809e8bcf7b24d0eeae2de847053b = L.marker(
+                [35.72147947, 139.9438137],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_96dbe39e6291669abcc73407af82fa82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83b5809e8bcf7b24d0eeae2de847053b.setIcon(icon_96dbe39e6291669abcc73407af82fa82);
+        
+    
+        var popup_f5a7026d3405feb7ba79f8d46863a971 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3c9878549e6bdf248a4f631fdafc34 = $(`<div id="html_bd3c9878549e6bdf248a4f631fdafc34" style="width: 100.0%; height: 100.0%;">【名称】中山小学校  【住所】千葉県市川市中山1丁目1-5  【電話番号】(047)335-2711</div>`)[0];
+                popup_f5a7026d3405feb7ba79f8d46863a971.setContent(html_bd3c9878549e6bdf248a4f631fdafc34);
+            
+        
+
+        marker_83b5809e8bcf7b24d0eeae2de847053b.bindPopup(popup_f5a7026d3405feb7ba79f8d46863a971)
+        ;
+
+        
+    
+    
+            var marker_e6562fc864795a6f1c216a047ea83cbb = L.marker(
+                [35.72414447, 139.9180946],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_ca2bce3e45dbd87cbb917a87c6316903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6562fc864795a6f1c216a047ea83cbb.setIcon(icon_ca2bce3e45dbd87cbb917a87c6316903);
+        
+    
+        var popup_9be73b67630a2895095e830d51aa8d94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dce4be5b0b0d3a1ff8c526096bb0ac4 = $(`<div id="html_6dce4be5b0b0d3a1ff8c526096bb0ac4" style="width: 100.0%; height: 100.0%;">【名称】平田小学校  【住所】千葉県市川市平田3丁目28-1  【電話番号】(047)379-6761</div>`)[0];
+                popup_9be73b67630a2895095e830d51aa8d94.setContent(html_6dce4be5b0b0d3a1ff8c526096bb0ac4);
+            
+        
+
+        marker_e6562fc864795a6f1c216a047ea83cbb.bindPopup(popup_9be73b67630a2895095e830d51aa8d94)
+        ;
+
+        
+    
+    
+            var marker_f2ff43c53aa417381d5aadd4c3328a5d = L.marker(
+                [35.72686672, 139.9093152],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_5c70775ee3afc9771d79ae096befd9d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2ff43c53aa417381d5aadd4c3328a5d.setIcon(icon_5c70775ee3afc9771d79ae096befd9d2);
+        
+    
+        var popup_3e26215162c0d0eacf03619d2457387e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1721b952e98af7c2044e4efe590d10c = $(`<div id="html_b1721b952e98af7c2044e4efe590d10c" style="width: 100.0%; height: 100.0%;">【名称】宮田小学校  【住所】千葉県市川市新田4丁目8-15  【電話番号】(047)379-7647</div>`)[0];
+                popup_3e26215162c0d0eacf03619d2457387e.setContent(html_b1721b952e98af7c2044e4efe590d10c);
+            
+        
+
+        marker_f2ff43c53aa417381d5aadd4c3328a5d.bindPopup(popup_3e26215162c0d0eacf03619d2457387e)
+        ;
+
+        
+    
+    
+            var marker_4c5680d686a93b56ca0b50e66c0c6f38 = L.marker(
+                [35.71763281, 139.9216509],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_1c87a40072ef546f7bacbfebc35ce22f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c5680d686a93b56ca0b50e66c0c6f38.setIcon(icon_1c87a40072ef546f7bacbfebc35ce22f);
+        
+    
+        var popup_5f6fcbd8043ad1d7dfe113a74f94fc16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39a3c19ce51f5534671b615779fda207 = $(`<div id="html_39a3c19ce51f5534671b615779fda207" style="width: 100.0%; height: 100.0%;">【名称】大和田小学校  【住所】千葉県市川市大和田1丁目1-3  【電話番号】(047)378-5001</div>`)[0];
+                popup_5f6fcbd8043ad1d7dfe113a74f94fc16.setContent(html_39a3c19ce51f5534671b615779fda207);
+            
+        
+
+        marker_4c5680d686a93b56ca0b50e66c0c6f38.bindPopup(popup_5f6fcbd8043ad1d7dfe113a74f94fc16)
+        ;
+
+        
+    
+    
+            var marker_83f072decd5f862e67809738a8ede027 = L.marker(
+                [35.72340942, 139.9068483],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_098632c6a837c34f3278a46db5982212 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83f072decd5f862e67809738a8ede027.setIcon(icon_098632c6a837c34f3278a46db5982212);
+        
+    
+        var popup_d37fb508eef6f5d439144889ab378c6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9362bf80dcaa7bd3395aaaaa511b46e = $(`<div id="html_e9362bf80dcaa7bd3395aaaaa511b46e" style="width: 100.0%; height: 100.0%;">【名称】大洲小学校  【住所】千葉県市川市大洲4丁目18-1  【電話番号】(047)370-0300</div>`)[0];
+                popup_d37fb508eef6f5d439144889ab378c6a.setContent(html_e9362bf80dcaa7bd3395aaaaa511b46e);
+            
+        
+
+        marker_83f072decd5f862e67809738a8ede027.bindPopup(popup_d37fb508eef6f5d439144889ab378c6a)
+        ;
+
+        
+    
+    
+            var marker_c579867a758b1b17acc91bb5eeaedc6a = L.marker(
+                [35.71797588, 139.9156036],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c6ed292b4ccf1c383c978b4e16825d10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c579867a758b1b17acc91bb5eeaedc6a.setIcon(icon_c6ed292b4ccf1c383c978b4e16825d10);
+        
+    
+        var popup_e1eb42509eec4a2d19707e3309744a2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79983a91c04a30026f13e271edf7468d = $(`<div id="html_79983a91c04a30026f13e271edf7468d" style="width: 100.0%; height: 100.0%;">【名称】鶴指小学校  【住所】千葉県市川市大和田4丁目11-1  【電話番号】(047)379-3588</div>`)[0];
+                popup_e1eb42509eec4a2d19707e3309744a2e.setContent(html_79983a91c04a30026f13e271edf7468d);
+            
+        
+
+        marker_c579867a758b1b17acc91bb5eeaedc6a.bindPopup(popup_e1eb42509eec4a2d19707e3309744a2e)
+        ;
+
+        
+    
+    
+            var marker_97415780727776b0c39b8643ff03a7b5 = L.marker(
+                [35.71393002, 139.9375524],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_22913bb3d1bde672fc10662a0ef1fd47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97415780727776b0c39b8643ff03a7b5.setIcon(icon_22913bb3d1bde672fc10662a0ef1fd47);
+        
+    
+        var popup_3244bdb89cf85c1d1ab9ef24e69285aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d670dce3efcb13ea3c3fd2f50c304efd = $(`<div id="html_d670dce3efcb13ea3c3fd2f50c304efd" style="width: 100.0%; height: 100.0%;">【名称】鬼高小学校  【住所】千葉県市川市鬼高2丁目13-5  【電話番号】(047)335-0304</div>`)[0];
+                popup_3244bdb89cf85c1d1ab9ef24e69285aa.setContent(html_d670dce3efcb13ea3c3fd2f50c304efd);
+            
+        
+
+        marker_97415780727776b0c39b8643ff03a7b5.bindPopup(popup_3244bdb89cf85c1d1ab9ef24e69285aa)
+        ;
+
+        
+    
+    
+            var marker_d68b5edcb0ab28cf9209b37c669a8b3f = L.marker(
+                [35.71161877, 139.9218013],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_58b852fd9191a865625135660632e2cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d68b5edcb0ab28cf9209b37c669a8b3f.setIcon(icon_58b852fd9191a865625135660632e2cf);
+        
+    
+        var popup_ad9fd639bef7eefc1d6ebefc239d8433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_983fe9cf757c90b6526631fcf820b710 = $(`<div id="html_983fe9cf757c90b6526631fcf820b710" style="width: 100.0%; height: 100.0%;">【名称】稲荷木小学校  【住所】千葉県市川市稲荷木1丁目14-1  【電話番号】(047)376-5961</div>`)[0];
+                popup_ad9fd639bef7eefc1d6ebefc239d8433.setContent(html_983fe9cf757c90b6526631fcf820b710);
+            
+        
+
+        marker_d68b5edcb0ab28cf9209b37c669a8b3f.bindPopup(popup_ad9fd639bef7eefc1d6ebefc239d8433)
+        ;
+
+        
+    
+    
+            var marker_d8dcc60c5fd1ecb528b410878d9b7c6a = L.marker(
+                [35.69822959, 139.9440001],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3c5813d0b2e0fc0ca94f5e14693b576b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8dcc60c5fd1ecb528b410878d9b7c6a.setIcon(icon_3c5813d0b2e0fc0ca94f5e14693b576b);
+        
+    
+        var popup_a1d62c12075e1af851d91073b244791a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9139b021f095ff211a6308826a1e3f31 = $(`<div id="html_9139b021f095ff211a6308826a1e3f31" style="width: 100.0%; height: 100.0%;">【名称】信篤小学校  【住所】千葉県市川市原木2丁目16-1  【電話番号】(047)328-0165</div>`)[0];
+                popup_a1d62c12075e1af851d91073b244791a.setContent(html_9139b021f095ff211a6308826a1e3f31);
+            
+        
+
+        marker_d8dcc60c5fd1ecb528b410878d9b7c6a.bindPopup(popup_a1d62c12075e1af851d91073b244791a)
+        ;
+
+        
+    
+    
+            var marker_0f6e8952be358da634e55effc69bb91a = L.marker(
+                [35.69688832, 139.9565326],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d6fb87de836b9b4bb61e48637be94d4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f6e8952be358da634e55effc69bb91a.setIcon(icon_d6fb87de836b9b4bb61e48637be94d4b);
+        
+    
+        var popup_00ed9d7816b25848281417bf105414f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9d5097adaa588f10e1ae9f2d9ee0ae7 = $(`<div id="html_a9d5097adaa588f10e1ae9f2d9ee0ae7" style="width: 100.0%; height: 100.0%;">【名称】二俣小学校  【住所】千葉県市川市二俣6７8  【電話番号】(047)328-0105</div>`)[0];
+                popup_00ed9d7816b25848281417bf105414f1.setContent(html_a9d5097adaa588f10e1ae9f2d9ee0ae7);
+            
+        
+
+        marker_0f6e8952be358da634e55effc69bb91a.bindPopup(popup_00ed9d7816b25848281417bf105414f1)
+        ;
+
+        
+    
+    
+            var marker_c6362fc7ba6d22510b310c269d11b9b1 = L.marker(
+                [35.69602604, 139.9297468],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_ca85b8e2d7d69a4c0c0d7e04645ec644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6362fc7ba6d22510b310c269d11b9b1.setIcon(icon_ca85b8e2d7d69a4c0c0d7e04645ec644);
+        
+    
+        var popup_86f05be2973c95ffafec0795fcd185d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3a2cb58f25605f0ead54aeb5b0dd704 = $(`<div id="html_d3a2cb58f25605f0ead54aeb5b0dd704" style="width: 100.0%; height: 100.0%;">【名称】妙典小学校  【住所】千葉県市川市妙典2丁目14-2  【電話番号】(047)399-5891</div>`)[0];
+                popup_86f05be2973c95ffafec0795fcd185d7.setContent(html_d3a2cb58f25605f0ead54aeb5b0dd704);
+            
+        
+
+        marker_c6362fc7ba6d22510b310c269d11b9b1.bindPopup(popup_86f05be2973c95ffafec0795fcd185d7)
+        ;
+
+        
+    
+    
+            var marker_d60e2695398a6f7b9e29918ab696b511 = L.marker(
+                [35.69272697, 139.9237509],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d03a9b09559c6dff345bbe425f908834 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d60e2695398a6f7b9e29918ab696b511.setIcon(icon_d03a9b09559c6dff345bbe425f908834);
+        
+    
+        var popup_5cae21296caf350cacc01ca1d023c51f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff6581ff5e6f7a07b14cb026d6791831 = $(`<div id="html_ff6581ff5e6f7a07b14cb026d6791831" style="width: 100.0%; height: 100.0%;">【名称】行徳小学校  【住所】千葉県市川市富浜1丁目1-40  【電話番号】(047)357-3116</div>`)[0];
+                popup_5cae21296caf350cacc01ca1d023c51f.setContent(html_ff6581ff5e6f7a07b14cb026d6791831);
+            
+        
+
+        marker_d60e2695398a6f7b9e29918ab696b511.bindPopup(popup_5cae21296caf350cacc01ca1d023c51f)
+        ;
+
+        
+    
+    
+            var marker_41d25242093d332e8a2dae3f76d98e02 = L.marker(
+                [35.68108198, 139.9295658],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_e8777b35a3662ef54d2d3fa4f93a9dad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_41d25242093d332e8a2dae3f76d98e02.setIcon(icon_e8777b35a3662ef54d2d3fa4f93a9dad);
+        
+    
+        var popup_8f38569221ff34607a7f011b32216ba6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb4ec33a41d206b0be0f3803ec3ac354 = $(`<div id="html_eb4ec33a41d206b0be0f3803ec3ac354" style="width: 100.0%; height: 100.0%;">【名称】幸小学校  【住所】千葉県市川市幸1丁目11-1  【電話番号】(047)396-0770</div>`)[0];
+                popup_8f38569221ff34607a7f011b32216ba6.setContent(html_eb4ec33a41d206b0be0f3803ec3ac354);
+            
+        
+
+        marker_41d25242093d332e8a2dae3f76d98e02.bindPopup(popup_8f38569221ff34607a7f011b32216ba6)
+        ;
+
+        
+    
+    
+            var marker_634928ed045988b9659512ec55a89cc5 = L.marker(
+                [35.68010933, 139.9015385],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4c21db3eccfd344fcb8e18f6bdbd2710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_634928ed045988b9659512ec55a89cc5.setIcon(icon_4c21db3eccfd344fcb8e18f6bdbd2710);
+        
+    
+        var popup_234a85a4971ea1124ac8a876e10d1ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61777a65645caf5bf62b628b00ffe72d = $(`<div id="html_61777a65645caf5bf62b628b00ffe72d" style="width: 100.0%; height: 100.0%;">【名称】南行徳小学校  【住所】千葉県市川市欠真間1丁目6-38  【電話番号】(047)357-3126</div>`)[0];
+                popup_234a85a4971ea1124ac8a876e10d1ea0.setContent(html_61777a65645caf5bf62b628b00ffe72d);
+            
+        
+
+        marker_634928ed045988b9659512ec55a89cc5.bindPopup(popup_234a85a4971ea1124ac8a876e10d1ea0)
+        ;
+
+        
+    
+    
+            var marker_26746478fd3ea49bbe6ffe11fca19920 = L.marker(
+                [35.68000131, 139.9163068],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_fd36c730034f5277417106102de3c147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26746478fd3ea49bbe6ffe11fca19920.setIcon(icon_fd36c730034f5277417106102de3c147);
+        
+    
+        var popup_7b625322837487bbf6d4fbeb05faa517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6a1905935f746152e11bd0d149ad09 = $(`<div id="html_4c6a1905935f746152e11bd0d149ad09" style="width: 100.0%; height: 100.0%;">【名称】新浜小学校  【住所】千葉県市川市行徳駅前4丁目5-1  【電話番号】(047)395-5331</div>`)[0];
+                popup_7b625322837487bbf6d4fbeb05faa517.setContent(html_4c6a1905935f746152e11bd0d149ad09);
+            
+        
+
+        marker_26746478fd3ea49bbe6ffe11fca19920.bindPopup(popup_7b625322837487bbf6d4fbeb05faa517)
+        ;
+
+        
+    
+    
+            var marker_8c14a5ac936819a77e8db3662e362f02 = L.marker(
+                [35.67458248, 139.9166168],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d6ad36526c78e65460ef144764fc6b71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c14a5ac936819a77e8db3662e362f02.setIcon(icon_d6ad36526c78e65460ef144764fc6b71);
+        
+    
+        var popup_a24e5642d6a261cdec7b5f02011b304b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d99d1c08cdac36950ba7f30a7319dc79 = $(`<div id="html_d99d1c08cdac36950ba7f30a7319dc79" style="width: 100.0%; height: 100.0%;">【名称】南新浜小学校  【住所】千葉県市川市新浜1丁目26-1  【電話番号】(047)396-9731</div>`)[0];
+                popup_a24e5642d6a261cdec7b5f02011b304b.setContent(html_d99d1c08cdac36950ba7f30a7319dc79);
+            
+        
+
+        marker_8c14a5ac936819a77e8db3662e362f02.bindPopup(popup_a24e5642d6a261cdec7b5f02011b304b)
+        ;
+
+        
+    
+    
+            var marker_dd17f90bbef9730e97c7daf50b3bbd91 = L.marker(
+                [35.68387511, 139.9300908],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_7b3ff783575ee46149aab8f92aa0a857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd17f90bbef9730e97c7daf50b3bbd91.setIcon(icon_7b3ff783575ee46149aab8f92aa0a857);
+        
+    
+        var popup_bb9a0ae2616538a4f0cc80df103c56ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25838b9636dfbbffffd307057756a69d = $(`<div id="html_25838b9636dfbbffffd307057756a69d" style="width: 100.0%; height: 100.0%;">【名称】塩焼小学校  【住所】千葉県市川市塩焼5丁目9-8  【電話番号】(047)397-1231</div>`)[0];
+                popup_bb9a0ae2616538a4f0cc80df103c56ae.setContent(html_25838b9636dfbbffffd307057756a69d);
+            
+        
+
+        marker_dd17f90bbef9730e97c7daf50b3bbd91.bindPopup(popup_bb9a0ae2616538a4f0cc80df103c56ae)
+        ;
+
+        
+    
+    
+            var marker_f4707d92c9418c96a6907986f1007b10 = L.marker(
+                [35.67394011, 139.8905565],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_9ed5c6cab76036306a0053fd05340583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4707d92c9418c96a6907986f1007b10.setIcon(icon_9ed5c6cab76036306a0053fd05340583);
+        
+    
+        var popup_a3e0958b69d9b65085869946ba5d2441 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fb52e2ba7b0179780927a104a4567b2 = $(`<div id="html_2fb52e2ba7b0179780927a104a4567b2" style="width: 100.0%; height: 100.0%;">【名称】新井小学校  【住所】千葉県市川市新井1丁目18-13  【電話番号】(047)357-1722</div>`)[0];
+                popup_a3e0958b69d9b65085869946ba5d2441.setContent(html_2fb52e2ba7b0179780927a104a4567b2);
+            
+        
+
+        marker_f4707d92c9418c96a6907986f1007b10.bindPopup(popup_a3e0958b69d9b65085869946ba5d2441)
+        ;
+
+        
+    
+    
+            var marker_e817f5213116a8452c9982278517e413 = L.marker(
+                [35.67151018, 139.9053239],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_6e7b43d6fbed0ccbe4a8e55c0c94e1b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e817f5213116a8452c9982278517e413.setIcon(icon_6e7b43d6fbed0ccbe4a8e55c0c94e1b8);
+        
+    
+        var popup_4b3dbbdca995257828492fa0412c31b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89732c1540e44e8a94114e66ca5a49ea = $(`<div id="html_89732c1540e44e8a94114e66ca5a49ea" style="width: 100.0%; height: 100.0%;">【名称】富美浜小学校  【住所】千葉県市川市南行徳2丁目3-1  【電話番号】(047)396-2522</div>`)[0];
+                popup_4b3dbbdca995257828492fa0412c31b3.setContent(html_89732c1540e44e8a94114e66ca5a49ea);
+            
+        
+
+        marker_e817f5213116a8452c9982278517e413.bindPopup(popup_4b3dbbdca995257828492fa0412c31b3)
+        ;
+
+        
+    
+    
+            var marker_dcac05940590c86cfc435d78fb4f62d3 = L.marker(
+                [35.6718462, 139.9071709],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_42ed9fabe9be05d428e9935926df6aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcac05940590c86cfc435d78fb4f62d3.setIcon(icon_42ed9fabe9be05d428e9935926df6aa5);
+        
+    
+        var popup_4bc981b169b380127bbad95e65a22715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47d25750daaa5bd44290789e6f0297d3 = $(`<div id="html_47d25750daaa5bd44290789e6f0297d3" style="width: 100.0%; height: 100.0%;">【名称】福栄小学校  【住所】千葉県市川市南行徳2丁目2-1  【電話番号】(047)397-8115</div>`)[0];
+                popup_4bc981b169b380127bbad95e65a22715.setContent(html_47d25750daaa5bd44290789e6f0297d3);
+            
+        
+
+        marker_dcac05940590c86cfc435d78fb4f62d3.bindPopup(popup_4bc981b169b380127bbad95e65a22715)
+        ;
+
+        
+    
+    
+            var marker_0e03bec7e845dd8fec52089305bc01d3 = L.marker(
+                [35.665, 139.914164],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_1d83d11c88b9782b99d6d174b94adb40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e03bec7e845dd8fec52089305bc01d3.setIcon(icon_1d83d11c88b9782b99d6d174b94adb40);
+        
+    
+        var popup_a63e4dd5bbdcc596288d4a28bc20b7ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d91bf4d41b9da1fb0787b04aaaad419c = $(`<div id="html_d91bf4d41b9da1fb0787b04aaaad419c" style="width: 100.0%; height: 100.0%;">【名称】塩浜学園  【住所】千葉県市川市塩浜4丁目5-1  【電話番号】(047)397-1250</div>`)[0];
+                popup_a63e4dd5bbdcc596288d4a28bc20b7ab.setContent(html_d91bf4d41b9da1fb0787b04aaaad419c);
+            
+        
+
+        marker_0e03bec7e845dd8fec52089305bc01d3.bindPopup(popup_a63e4dd5bbdcc596288d4a28bc20b7ab)
+        ;
+
+        
+    
+    
+            var marker_a90c90acc2239464cae2bf6f7b67286c = L.marker(
+                [35.74496422, 139.9011785],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_05b1aaddeb1b9d5cddd078444bb30d69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a90c90acc2239464cae2bf6f7b67286c.setIcon(icon_05b1aaddeb1b9d5cddd078444bb30d69);
+        
+    
+        var popup_d2fbffae33e42c782f52f197ab44a43f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7fa41d462b42096425a671fa6f78a8e = $(`<div id="html_d7fa41d462b42096425a671fa6f78a8e" style="width: 100.0%; height: 100.0%;">【名称】第一中学校  【住所】千葉県市川市国府台2丁目７-1  【電話番号】(047)371-6045</div>`)[0];
+                popup_d2fbffae33e42c782f52f197ab44a43f.setContent(html_d7fa41d462b42096425a671fa6f78a8e);
+            
+        
+
+        marker_a90c90acc2239464cae2bf6f7b67286c.bindPopup(popup_d2fbffae33e42c782f52f197ab44a43f)
+        ;
+
+        
+    
+    
+            var marker_86210d72fd001997e453ccf356eca09f = L.marker(
+                [35.73913336, 139.9142289],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bf5497ccfefb262c09018ccd90a71f3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86210d72fd001997e453ccf356eca09f.setIcon(icon_bf5497ccfefb262c09018ccd90a71f3a);
+        
+    
+        var popup_47c67acdbd28467d11d1e099b2adaac9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a386875623895e4215334f647de97db7 = $(`<div id="html_a386875623895e4215334f647de97db7" style="width: 100.0%; height: 100.0%;">【名称】第二中学校  【住所】千葉県市川市須和田2丁目34-1  【電話番号】(047)371-6188</div>`)[0];
+                popup_47c67acdbd28467d11d1e099b2adaac9.setContent(html_a386875623895e4215334f647de97db7);
+            
+        
+
+        marker_86210d72fd001997e453ccf356eca09f.bindPopup(popup_47c67acdbd28467d11d1e099b2adaac9)
+        ;
+
+        
+    
+    
+            var marker_78a5e5770c94a9e03f29eb8117867586 = L.marker(
+                [35.74030109, 139.9326189],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_83e6d30bd818b0606c831b09874ab41e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78a5e5770c94a9e03f29eb8117867586.setIcon(icon_83e6d30bd818b0606c831b09874ab41e);
+        
+    
+        var popup_cfb934761d90fd5dee010ac0ef608ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dd4140e191666cac7a67521d865a0be = $(`<div id="html_9dd4140e191666cac7a67521d865a0be" style="width: 100.0%; height: 100.0%;">【名称】第三中学校  【住所】千葉県市川市曽谷3丁目2-1  【電話番号】(047)371-7341</div>`)[0];
+                popup_cfb934761d90fd5dee010ac0ef608ac4.setContent(html_9dd4140e191666cac7a67521d865a0be);
+            
+        
+
+        marker_78a5e5770c94a9e03f29eb8117867586.bindPopup(popup_cfb934761d90fd5dee010ac0ef608ac4)
+        ;
+
+        
+    
+    
+            var marker_85b64407a5a478f67235530f4dd95994 = L.marker(
+                [35.72202615, 139.9456448],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_fc5b4a0043b0a92fcf0ddc3acb5fc677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85b64407a5a478f67235530f4dd95994.setIcon(icon_fc5b4a0043b0a92fcf0ddc3acb5fc677);
+        
+    
+        var popup_95aee11c26fffce05b28af59e875097e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8dcd12cfa5cf2cf21fef1ee4d0b1fa = $(`<div id="html_ed8dcd12cfa5cf2cf21fef1ee4d0b1fa" style="width: 100.0%; height: 100.0%;">【名称】第四中学校  【住所】千葉県市川市中山1丁目11-1  【電話番号】(047)335-3431</div>`)[0];
+                popup_95aee11c26fffce05b28af59e875097e.setContent(html_ed8dcd12cfa5cf2cf21fef1ee4d0b1fa);
+            
+        
+
+        marker_85b64407a5a478f67235530f4dd95994.bindPopup(popup_95aee11c26fffce05b28af59e875097e)
+        ;
+
+        
+    
+    
+            var marker_4eca66bf9034826119dc50a8c718d0d1 = L.marker(
+                [35.75315115, 139.9568807],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_61102594b0164cf166587260310b0fc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4eca66bf9034826119dc50a8c718d0d1.setIcon(icon_61102594b0164cf166587260310b0fc2);
+        
+    
+        var popup_7a28770b63495bfa10e9de0964913dfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9442f3351a36be148c02d36df56d6cea = $(`<div id="html_9442f3351a36be148c02d36df56d6cea" style="width: 100.0%; height: 100.0%;">【名称】第五中学校  【住所】千葉県市川市大野町3丁目1993  【電話番号】(047)337-8344</div>`)[0];
+                popup_7a28770b63495bfa10e9de0964913dfd.setContent(html_9442f3351a36be148c02d36df56d6cea);
+            
+        
+
+        marker_4eca66bf9034826119dc50a8c718d0d1.bindPopup(popup_7a28770b63495bfa10e9de0964913dfd)
+        ;
+
+        
+    
+    
+            var marker_01b2832ff673f647abbf502f57424ca2 = L.marker(
+                [35.7108706, 139.9360084],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4d93aa3de269a3f8a82549ddf05db59a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_01b2832ff673f647abbf502f57424ca2.setIcon(icon_4d93aa3de269a3f8a82549ddf05db59a);
+        
+    
+        var popup_c019d4a8b7294c2d50aca5434c27e14b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b15cbb3fafae62cc9f74ccfd2206b5e = $(`<div id="html_1b15cbb3fafae62cc9f74ccfd2206b5e" style="width: 100.0%; height: 100.0%;">【名称】第六中学校  【住所】千葉県市川市鬼高3丁目16-1  【電話番号】(047)370-0535</div>`)[0];
+                popup_c019d4a8b7294c2d50aca5434c27e14b.setContent(html_1b15cbb3fafae62cc9f74ccfd2206b5e);
+            
+        
+
+        marker_01b2832ff673f647abbf502f57424ca2.bindPopup(popup_c019d4a8b7294c2d50aca5434c27e14b)
+        ;
+
+        
+    
+    
+            var marker_6388b436e9210d2364ff2af065f5d3aa = L.marker(
+                [35.68652523, 139.9172933],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_2226fb99bc08b100a58150ee3ddcef90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6388b436e9210d2364ff2af065f5d3aa.setIcon(icon_2226fb99bc08b100a58150ee3ddcef90);
+        
+    
+        var popup_6e1e1833b1450f8ebc275b413ab0650b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0be4687a03f7f8bee024b343d65852 = $(`<div id="html_5c0be4687a03f7f8bee024b343d65852" style="width: 100.0%; height: 100.0%;">【名称】第七中学校  【住所】千葉県市川市末広1丁目1-48  【電話番号】(047)357-3183</div>`)[0];
+                popup_6e1e1833b1450f8ebc275b413ab0650b.setContent(html_5c0be4687a03f7f8bee024b343d65852);
+            
+        
+
+        marker_6388b436e9210d2364ff2af065f5d3aa.bindPopup(popup_6e1e1833b1450f8ebc275b413ab0650b)
+        ;
+
+        
+    
+    
+            var marker_09765126b186c64a2adde82653fde1bd = L.marker(
+                [35.71921057, 139.9148677],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_894a08ceebd9ef2119d702e30f08f130 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09765126b186c64a2adde82653fde1bd.setIcon(icon_894a08ceebd9ef2119d702e30f08f130);
+        
+    
+        var popup_cbc2f4cede3c7ae5548a907be0882e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5276677ed6c7998de841deca1aa6cb2c = $(`<div id="html_5276677ed6c7998de841deca1aa6cb2c" style="width: 100.0%; height: 100.0%;">【名称】第八中学校  【住所】千葉県市川市大和田4丁目9-1  【電話番号】(047)370-1394</div>`)[0];
+                popup_cbc2f4cede3c7ae5548a907be0882e03.setContent(html_5276677ed6c7998de841deca1aa6cb2c);
+            
+        
+
+        marker_09765126b186c64a2adde82653fde1bd.bindPopup(popup_cbc2f4cede3c7ae5548a907be0882e03)
+        ;
+
+        
+    
+    
+            var marker_0d974a344b012d6c2afe17a1da64c7a7 = L.marker(
+                [35.74888538, 139.9229924],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_10242620f5ccf95fa18b5110eb0e9adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d974a344b012d6c2afe17a1da64c7a7.setIcon(icon_10242620f5ccf95fa18b5110eb0e9adb);
+        
+    
+        var popup_b36e2009f33946ade5fbf0f10a756937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16c192f21de386cae823946b4995ec1f = $(`<div id="html_16c192f21de386cae823946b4995ec1f" style="width: 100.0%; height: 100.0%;">【名称】東国分中学校  【住所】千葉県市川市東国分3丁目5-1  【電話番号】(047)371-5963</div>`)[0];
+                popup_b36e2009f33946ade5fbf0f10a756937.setContent(html_16c192f21de386cae823946b4995ec1f);
+            
+        
+
+        marker_0d974a344b012d6c2afe17a1da64c7a7.bindPopup(popup_b36e2009f33946ade5fbf0f10a756937)
+        ;
+
+        
+    
+    
+            var marker_d09c8ff6e2176f703c6322fa465116c9 = L.marker(
+                [35.73959506, 139.9457702],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_2c884a7a403c3a39ff20e1892fd9cd5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d09c8ff6e2176f703c6322fa465116c9.setIcon(icon_2c884a7a403c3a39ff20e1892fd9cd5f);
+        
+    
+        var popup_af7e93f048da20861b4fe5023b0f7b35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ab319338df6753caf8fd9b3d3a619b8 = $(`<div id="html_3ab319338df6753caf8fd9b3d3a619b8" style="width: 100.0%; height: 100.0%;">【名称】下貝塚中学校  【住所】千葉県市川市下貝塚3丁目13-1  【電話番号】(047)371-8800</div>`)[0];
+                popup_af7e93f048da20861b4fe5023b0f7b35.setContent(html_3ab319338df6753caf8fd9b3d3a619b8);
+            
+        
+
+        marker_d09c8ff6e2176f703c6322fa465116c9.bindPopup(popup_af7e93f048da20861b4fe5023b0f7b35)
+        ;
+
+        
+    
+    
+            var marker_bf03671c5862fc8209673eacab82c7cf = L.marker(
+                [35.69469942, 139.9452795],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_a52008f342af5b0f027a38b363f230c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf03671c5862fc8209673eacab82c7cf.setIcon(icon_a52008f342af5b0f027a38b363f230c5);
+        
+    
+        var popup_3932db94c8815a3d1b1772bf3f129c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20ed3326fdb0f40b8e58501d3a42f1bd = $(`<div id="html_20ed3326fdb0f40b8e58501d3a42f1bd" style="width: 100.0%; height: 100.0%;">【名称】高谷中学校  【住所】千葉県市川市高谷1627-4  【電話番号】(047)328-0211</div>`)[0];
+                popup_3932db94c8815a3d1b1772bf3f129c0e.setContent(html_20ed3326fdb0f40b8e58501d3a42f1bd);
+            
+        
+
+        marker_bf03671c5862fc8209673eacab82c7cf.bindPopup(popup_3932db94c8815a3d1b1772bf3f129c0e)
+        ;
+
+        
+    
+    
+            var marker_0bde07b12469ebfa3380ca872cc1b06e = L.marker(
+                [35.72111744, 139.9074261],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_6ec7549b31c37c81266b3173afc0abc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bde07b12469ebfa3380ca872cc1b06e.setIcon(icon_6ec7549b31c37c81266b3173afc0abc9);
+        
+    
+        var popup_f354c52bf3efdbb13a70d1ff08ab8a5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc84fb9f7c40c0c25772a54ddeacbf4 = $(`<div id="html_8cc84fb9f7c40c0c25772a54ddeacbf4" style="width: 100.0%; height: 100.0%;">【名称】大洲中学校  【住所】千葉県市川市大洲4丁目21-5  【電話番号】(047)378-5783</div>`)[0];
+                popup_f354c52bf3efdbb13a70d1ff08ab8a5d.setContent(html_8cc84fb9f7c40c0c25772a54ddeacbf4);
+            
+        
+
+        marker_0bde07b12469ebfa3380ca872cc1b06e.bindPopup(popup_f354c52bf3efdbb13a70d1ff08ab8a5d)
+        ;
+
+        
+    
+    
+            var marker_bab0476ce3b57c2d9ec897c5148072b6 = L.marker(
+                [35.68809629, 139.9337629],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_569c104f3b6a3985d455831cba86c14a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bab0476ce3b57c2d9ec897c5148072b6.setIcon(icon_569c104f3b6a3985d455831cba86c14a);
+        
+    
+        var popup_aed7682a1dd0bd3b1dfe7366d5fdae84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc0d8e6491e2202135291494f865f8f8 = $(`<div id="html_cc0d8e6491e2202135291494f865f8f8" style="width: 100.0%; height: 100.0%;">【名称】妙典中学校  【住所】千葉県市川市妙典5丁目22-1  【電話番号】(047)395-5811</div>`)[0];
+                popup_aed7682a1dd0bd3b1dfe7366d5fdae84.setContent(html_cc0d8e6491e2202135291494f865f8f8);
+            
+        
+
+        marker_bab0476ce3b57c2d9ec897c5148072b6.bindPopup(popup_aed7682a1dd0bd3b1dfe7366d5fdae84)
+        ;
+
+        
+    
+    
+            var marker_a3404e851cb91ffc518f96450d0fd4b8 = L.marker(
+                [35.6739144, 139.910199],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bbd1cbb31b5e4cc3b418bab02c052006 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a3404e851cb91ffc518f96450d0fd4b8.setIcon(icon_bbd1cbb31b5e4cc3b418bab02c052006);
+        
+    
+        var popup_c99130091b0494f571534de297dbf2a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4779a914efbd9350380396c4e2131a78 = $(`<div id="html_4779a914efbd9350380396c4e2131a78" style="width: 100.0%; height: 100.0%;">【名称】福栄中学校  【住所】千葉県市川市福栄3丁目4-1  【電話番号】(047)396-0701</div>`)[0];
+                popup_c99130091b0494f571534de297dbf2a6.setContent(html_4779a914efbd9350380396c4e2131a78);
+            
+        
+
+        marker_a3404e851cb91ffc518f96450d0fd4b8.bindPopup(popup_c99130091b0494f571534de297dbf2a6)
+        ;
+
+        
+    
+    
+            var marker_0ce9b3dbf6d305345926f5a86a9073b5 = L.marker(
+                [35.67091194, 139.9072854],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c481f36dbcf4e97b6654529b5f64bdc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ce9b3dbf6d305345926f5a86a9073b5.setIcon(icon_c481f36dbcf4e97b6654529b5f64bdc6);
+        
+    
+        var popup_4b773fafae340616d830fafb286eae73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b764fec554bee9b6a4d82632dbb0bf2d = $(`<div id="html_b764fec554bee9b6a4d82632dbb0bf2d" style="width: 100.0%; height: 100.0%;">【名称】南行徳中学校  【住所】千葉県市川市南行徳2丁目2-2  【電話番号】(047)397-5910</div>`)[0];
+                popup_4b773fafae340616d830fafb286eae73.setContent(html_b764fec554bee9b6a4d82632dbb0bf2d);
+            
+        
+
+        marker_0ce9b3dbf6d305345926f5a86a9073b5.bindPopup(popup_4b773fafae340616d830fafb286eae73)
+        ;
+
+        
+    
+    
+            var marker_e5a1cf9ba603095d4c11bdabbe09fdcc = L.marker(
+                [35.73273428, 139.9169205],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_b4e1c157e3630a5aa4ad565dd135ec0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5a1cf9ba603095d4c11bdabbe09fdcc.setIcon(icon_b4e1c157e3630a5aa4ad565dd135ec0d);
+        
+    
+        var popup_da0470466651a0ef19f2de4ad3ae5c47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b55090a010919412a7596b6393db3f = $(`<div id="html_86b55090a010919412a7596b6393db3f" style="width: 100.0%; height: 100.0%;">【名称】菅野公民館  【住所】千葉県市川市菅野3丁目24-2  【電話番号】(047)322-7761</div>`)[0];
+                popup_da0470466651a0ef19f2de4ad3ae5c47.setContent(html_86b55090a010919412a7596b6393db3f);
+            
+        
+
+        marker_e5a1cf9ba603095d4c11bdabbe09fdcc.bindPopup(popup_da0470466651a0ef19f2de4ad3ae5c47)
+        ;
+
+        
+    
+    
+            var marker_ecaae8ede84fd73895d73973945ed013 = L.marker(
+                [35.74597857, 139.9653946],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_93eecbf35f35caefab567ff3ebd20a69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ecaae8ede84fd73895d73973945ed013.setIcon(icon_93eecbf35f35caefab567ff3ebd20a69);
+        
+    
+        var popup_48afc0e988315808d1c7f9fc8e01562c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce16e9f907b2715419e7ad5525f48697 = $(`<div id="html_ce16e9f907b2715419e7ad5525f48697" style="width: 100.0%; height: 100.0%;">【名称】柏井公民館  【住所】千葉県市川市柏井町2丁目844  【電話番号】(047)338-2988</div>`)[0];
+                popup_48afc0e988315808d1c7f9fc8e01562c.setContent(html_ce16e9f907b2715419e7ad5525f48697);
+            
+        
+
+        marker_ecaae8ede84fd73895d73973945ed013.bindPopup(popup_48afc0e988315808d1c7f9fc8e01562c)
+        ;
+
+        
+    
+    
+            var marker_40ec8a87741c39f7bae9fee47fa9848e = L.marker(
+                [35.72875632, 139.9507903],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_8b7732d993e7cb8e25137e5b446a32ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40ec8a87741c39f7bae9fee47fa9848e.setIcon(icon_8b7732d993e7cb8e25137e5b446a32ca);
+        
+    
+        var popup_4e647d638aad5a17d7e25bcdde7abb76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1667a3a67824934f674ec46b46fbfe40 = $(`<div id="html_1667a3a67824934f674ec46b46fbfe40" style="width: 100.0%; height: 100.0%;">【名称】東部公民館  【住所】千葉県市川市本北方3丁目19-16  【電話番号】(047)337-8886</div>`)[0];
+                popup_4e647d638aad5a17d7e25bcdde7abb76.setContent(html_1667a3a67824934f674ec46b46fbfe40);
+            
+        
+
+        marker_40ec8a87741c39f7bae9fee47fa9848e.bindPopup(popup_4e647d638aad5a17d7e25bcdde7abb76)
+        ;
+
+        
+    
+    
+            var marker_748972df58f35d3e92d79506cd3703f4 = L.marker(
+                [35.71321834, 139.9387998],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d7ddda69cc19a39ca6de9cf7e67bc258 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_748972df58f35d3e92d79506cd3703f4.setIcon(icon_d7ddda69cc19a39ca6de9cf7e67bc258);
+        
+    
+        var popup_a1cc19d5ff68bc934227fbcaf2c5b6b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88db726b0b616fbc9190470dea8148d1 = $(`<div id="html_88db726b0b616fbc9190470dea8148d1" style="width: 100.0%; height: 100.0%;">【名称】鬼高公民館  【住所】千葉県市川市鬼高2丁目12-23  【電話番号】(047)334-2612</div>`)[0];
+                popup_a1cc19d5ff68bc934227fbcaf2c5b6b4.setContent(html_88db726b0b616fbc9190470dea8148d1);
+            
+        
+
+        marker_748972df58f35d3e92d79506cd3703f4.bindPopup(popup_a1cc19d5ff68bc934227fbcaf2c5b6b4)
+        ;
+
+        
+    
+    
+            var marker_9113b089fd4a67eda4f6989e83e432ed = L.marker(
+                [35.70169625, 139.9417925],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bd5007b4e7442e0e6141fd3db81d2aa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9113b089fd4a67eda4f6989e83e432ed.setIcon(icon_bd5007b4e7442e0e6141fd3db81d2aa1);
+        
+    
+        var popup_1b5e3479c8875cc5ca8c7d926b1b6d7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db92dd57e1f179e9106678e3322cd94c = $(`<div id="html_db92dd57e1f179e9106678e3322cd94c" style="width: 100.0%; height: 100.0%;">【名称】信篤公民館  【住所】千葉県市川市高谷1丁目8-1  【電話番号】(047)327-6807</div>`)[0];
+                popup_1b5e3479c8875cc5ca8c7d926b1b6d7c.setContent(html_db92dd57e1f179e9106678e3322cd94c);
+            
+        
+
+        marker_9113b089fd4a67eda4f6989e83e432ed.bindPopup(popup_1b5e3479c8875cc5ca8c7d926b1b6d7c)
+        ;
+
+        
+    
+    
+            var marker_6e783c6057df2f2d134635aa45b29e53 = L.marker(
+                [35.749265, 139.9132377],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_f358a40f3a157ff8e0fb3b4d8b2ddbc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e783c6057df2f2d134635aa45b29e53.setIcon(icon_f358a40f3a157ff8e0fb3b4d8b2ddbc8);
+        
+    
+        var popup_5b33b695a4d1aac49d49b0d25b3384a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_900f57d468d0f405e98915ba4fab7d35 = $(`<div id="html_900f57d468d0f405e98915ba4fab7d35" style="width: 100.0%; height: 100.0%;">【名称】西部公民館  【住所】千葉県市川市中国分2丁目13-8  【電話番号】(047)373-8175</div>`)[0];
+                popup_5b33b695a4d1aac49d49b0d25b3384a4.setContent(html_900f57d468d0f405e98915ba4fab7d35);
+            
+        
+
+        marker_6e783c6057df2f2d134635aa45b29e53.bindPopup(popup_5b33b695a4d1aac49d49b0d25b3384a4)
+        ;
+
+        
+    
+    
+            var marker_ecc696456312e2d3a568e2810ad108be = L.marker(
+                [35.69453896, 139.9182881],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_06aff1c28254fe0b6f93bd959d6fcb96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ecc696456312e2d3a568e2810ad108be.setIcon(icon_06aff1c28254fe0b6f93bd959d6fcb96);
+        
+    
+        var popup_9b9885e48ddc956bedc30d66bccdfb82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912299f81ac5fd4213914bcf906869f8 = $(`<div id="html_912299f81ac5fd4213914bcf906869f8" style="width: 100.0%; height: 100.0%;">【名称】本行徳公民館  【住所】千葉県市川市本行徳12-8  【電話番号】(047)359-1351</div>`)[0];
+                popup_9b9885e48ddc956bedc30d66bccdfb82.setContent(html_912299f81ac5fd4213914bcf906869f8);
+            
+        
+
+        marker_ecc696456312e2d3a568e2810ad108be.bindPopup(popup_9b9885e48ddc956bedc30d66bccdfb82)
+        ;
+
+        
+    
+    
+            var marker_8ce5ea373deed6fd54d6375116778c1c = L.marker(
+                [35.74516919, 139.9531751],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_433fe6318f49b5f7a5277d1fb7430bed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ce5ea373deed6fd54d6375116778c1c.setIcon(icon_433fe6318f49b5f7a5277d1fb7430bed);
+        
+    
+        var popup_50b3a5f8c5385058a09f9ee34432de2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaec72c7171216c204bc189feb37a219 = $(`<div id="html_aaec72c7171216c204bc189feb37a219" style="width: 100.0%; height: 100.0%;">【名称】大野公民館  【住所】千葉県市川市南大野2丁目3-19  【電話番号】(047)399-3400</div>`)[0];
+                popup_50b3a5f8c5385058a09f9ee34432de2c.setContent(html_aaec72c7171216c204bc189feb37a219);
+            
+        
+
+        marker_8ce5ea373deed6fd54d6375116778c1c.bindPopup(popup_50b3a5f8c5385058a09f9ee34432de2c)
+        ;
+
+        
+    
+    
+            var marker_5a339819ce9148a127482a70c048781b = L.marker(
+                [35.73101292, 139.9065912],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_45cb4f236570dad2794832959ca5ea11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a339819ce9148a127482a70c048781b.setIcon(icon_45cb4f236570dad2794832959ca5ea11);
+        
+    
+        var popup_7c74caba0f43be5ce54dfbce506a3975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78ab381e4f13b8f31a327181a9635a6 = $(`<div id="html_c78ab381e4f13b8f31a327181a9635a6" style="width: 100.0%; height: 100.0%;">【名称】市川公民館  【住所】千葉県市川市市川2丁目33-2  【電話番号】(047)321-1171</div>`)[0];
+                popup_7c74caba0f43be5ce54dfbce506a3975.setContent(html_c78ab381e4f13b8f31a327181a9635a6);
+            
+        
+
+        marker_5a339819ce9148a127482a70c048781b.bindPopup(popup_7c74caba0f43be5ce54dfbce506a3975)
+        ;
+
+        
+    
+    
+            var marker_03dc6caea6dcb9ad49a1698602ec8670 = L.marker(
+                [35.76598086, 139.966261],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_307840f592fdcd8a20e2cc8493dca958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03dc6caea6dcb9ad49a1698602ec8670.setIcon(icon_307840f592fdcd8a20e2cc8493dca958);
+        
+    
+        var popup_c0176afda51a7a4b1b33e0a0d6057414 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d4cc8d988503b92d3390ace095e4f4 = $(`<div id="html_e6d4cc8d988503b92d3390ace095e4f4" style="width: 100.0%; height: 100.0%;">【名称】少年自然の家  【住所】千葉県市川市大町280-4  【電話番号】(047)337-0533</div>`)[0];
+                popup_c0176afda51a7a4b1b33e0a0d6057414.setContent(html_e6d4cc8d988503b92d3390ace095e4f4);
+            
+        
+
+        marker_03dc6caea6dcb9ad49a1698602ec8670.bindPopup(popup_c0176afda51a7a4b1b33e0a0d6057414)
+        ;
+
+        
+    
+    
+            var marker_deec6ebc35da00bbab21a109bf674899 = L.marker(
+                [35.74304188, 139.9073968],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_5a6dab2192362761db3f6f49461ce38e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_deec6ebc35da00bbab21a109bf674899.setIcon(icon_5a6dab2192362761db3f6f49461ce38e);
+        
+    
+        var popup_9e84a0023c66217cf7450a56b2f9ca0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_220d9544582b972495c9141dcb727eef = $(`<div id="html_220d9544582b972495c9141dcb727eef" style="width: 100.0%; height: 100.0%;">【名称】国府台スポーツセンター  【住所】千葉県市川市国府台1丁目6-4  【電話番号】(047)373-3111</div>`)[0];
+                popup_9e84a0023c66217cf7450a56b2f9ca0c.setContent(html_220d9544582b972495c9141dcb727eef);
+            
+        
+
+        marker_deec6ebc35da00bbab21a109bf674899.bindPopup(popup_9e84a0023c66217cf7450a56b2f9ca0c)
+        ;
+
+        
+    
+    
+            var marker_591673e3959ee4e77f1899f2b38561a3 = L.marker(
+                [35.66091851, 139.9144915],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d92ff5c086aa22c84ce81074aa2f7030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_591673e3959ee4e77f1899f2b38561a3.setIcon(icon_d92ff5c086aa22c84ce81074aa2f7030);
+        
+    
+        var popup_6dd121d24dfb857ffdb16042c547aef2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4de845ded3b04bd74e0704597864d11f = $(`<div id="html_4de845ded3b04bd74e0704597864d11f" style="width: 100.0%; height: 100.0%;">【名称】塩浜市民体育館  【住所】千葉県市川市塩浜4丁目9-1  【電話番号】(047)398-2311</div>`)[0];
+                popup_6dd121d24dfb857ffdb16042c547aef2.setContent(html_4de845ded3b04bd74e0704597864d11f);
+            
+        
+
+        marker_591673e3959ee4e77f1899f2b38561a3.bindPopup(popup_6dd121d24dfb857ffdb16042c547aef2)
+        ;
+
+        
+    
+    
+            var marker_64c3dc3d0f9a586b21261d6c1b7b8298 = L.marker(
+                [35.70167376, 139.9422528],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4f8768fda628f538d74986a76381c598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_64c3dc3d0f9a586b21261d6c1b7b8298.setIcon(icon_4f8768fda628f538d74986a76381c598);
+        
+    
+        var popup_3c879b1488b0d0d7988161c45d26f934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c08f8ee59e9534e894bee11684149904 = $(`<div id="html_c08f8ee59e9534e894bee11684149904" style="width: 100.0%; height: 100.0%;">【名称】信篤市民体育館  【住所】千葉県市川市高谷1丁目8-2  【電話番号】(047)327-6336</div>`)[0];
+                popup_3c879b1488b0d0d7988161c45d26f934.setContent(html_c08f8ee59e9534e894bee11684149904);
+            
+        
+
+        marker_64c3dc3d0f9a586b21261d6c1b7b8298.bindPopup(popup_3c879b1488b0d0d7988161c45d26f934)
+        ;
+
+        
+    
+    
+            var marker_904dc6d9f6ee21ef89c00d1eca6ce76d = L.marker(
+                [35.72268622, 139.9064728],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d25ef83e8a524a19f5fa8acdea4b1f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_904dc6d9f6ee21ef89c00d1eca6ce76d.setIcon(icon_d25ef83e8a524a19f5fa8acdea4b1f30);
+        
+    
+        var popup_d0f282874277c752445197093d9858c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631a3a03ead1fe4866411e350fc7d9e8 = $(`<div id="html_631a3a03ead1fe4866411e350fc7d9e8" style="width: 100.0%; height: 100.0%;">【名称】こども発達センター  【住所】千葉県市川市大洲4丁目18-3  【電話番号】(047)370-3561</div>`)[0];
+                popup_d0f282874277c752445197093d9858c3.setContent(html_631a3a03ead1fe4866411e350fc7d9e8);
+            
+        
+
+        marker_904dc6d9f6ee21ef89c00d1eca6ce76d.bindPopup(popup_d0f282874277c752445197093d9858c3)
+        ;
+
+        
+    
+    
+            var marker_eb8d75f4d1b4c752570c66ddb4b1a1b3 = L.marker(
+                [35.71371619, 139.9273498],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_cc176e6bad3cfae59c6232f2327b4dc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb8d75f4d1b4c752570c66ddb4b1a1b3.setIcon(icon_cc176e6bad3cfae59c6232f2327b4dc5);
+        
+    
+        var popup_cad21054a3a87ad73c2b4d858f377975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_301ef65adbfb822c37c387fc88e1e74b = $(`<div id="html_301ef65adbfb822c37c387fc88e1e74b" style="width: 100.0%; height: 100.0%;">【名称】勤労福祉センター本館  【住所】千葉県市川市南八幡2丁目20-1  【電話番号】(047)370-5201</div>`)[0];
+                popup_cad21054a3a87ad73c2b4d858f377975.setContent(html_301ef65adbfb822c37c387fc88e1e74b);
+            
+        
+
+        marker_eb8d75f4d1b4c752570c66ddb4b1a1b3.bindPopup(popup_cad21054a3a87ad73c2b4d858f377975)
+        ;
+
+        
+    
+    
+            var marker_731881989f66e598d337dc6faaac1713 = L.marker(
+                [35.71879467, 139.9211164],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_896220b9221e0c7a211a4bceec333995 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_731881989f66e598d337dc6faaac1713.setIcon(icon_896220b9221e0c7a211a4bceec333995);
+        
+    
+        var popup_09fcfd68beef6163f813007fffadf880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f86fc8942c6c0db14dda6a982ee172f = $(`<div id="html_5f86fc8942c6c0db14dda6a982ee172f" style="width: 100.0%; height: 100.0%;">【名称】勤労福祉センター分館  【住所】千葉県市川市南八幡5丁目20-3  【電話番号】(047)370-1357</div>`)[0];
+                popup_09fcfd68beef6163f813007fffadf880.setContent(html_5f86fc8942c6c0db14dda6a982ee172f);
+            
+        
+
+        marker_731881989f66e598d337dc6faaac1713.bindPopup(popup_09fcfd68beef6163f813007fffadf880)
+        ;
+
+        
+    
+    
+            var marker_c53290a9fa7e85bf03ca62d27ba1a345 = L.marker(
+                [35.75907287, 139.9120292],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_a109bc8c7d434a1f9f73d17528e553a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c53290a9fa7e85bf03ca62d27ba1a345.setIcon(icon_a109bc8c7d434a1f9f73d17528e553a3);
+        
+    
+        var popup_80e3db4301338958eb979099c985f0f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833efb0803267d30bf4c597060ca86b5 = $(`<div id="html_833efb0803267d30bf4c597060ca86b5" style="width: 100.0%; height: 100.0%;">【名称】市川考古博物館  【住所】千葉県市川市堀之内2丁目26-1  【電話番号】(047)373-2202</div>`)[0];
+                popup_80e3db4301338958eb979099c985f0f3.setContent(html_833efb0803267d30bf4c597060ca86b5);
+            
+        
+
+        marker_c53290a9fa7e85bf03ca62d27ba1a345.bindPopup(popup_80e3db4301338958eb979099c985f0f3)
+        ;
+
+        
+    
+    
+            var marker_5a01fce3c6b9110bae253b13f582201a = L.marker(
+                [35.75981658, 139.9115618],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_7c0ee1e10403fa50fcb9fdedd918daef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a01fce3c6b9110bae253b13f582201a.setIcon(icon_7c0ee1e10403fa50fcb9fdedd918daef);
+        
+    
+        var popup_2feed88716964a221b13a9bab22f8a44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad06da3a0da8ffe983b3a7494e82135f = $(`<div id="html_ad06da3a0da8ffe983b3a7494e82135f" style="width: 100.0%; height: 100.0%;">【名称】市川歴史博物館  【住所】千葉県市川市堀之内2丁目27-1  【電話番号】(047)373-6351</div>`)[0];
+                popup_2feed88716964a221b13a9bab22f8a44.setContent(html_ad06da3a0da8ffe983b3a7494e82135f);
+            
+        
+
+        marker_5a01fce3c6b9110bae253b13f582201a.bindPopup(popup_2feed88716964a221b13a9bab22f8a44)
+        ;
+
+        
+    
+    
+            var marker_f7f6c0b0e441a7ef2d2f6085530499fe = L.marker(
+                [35.73694257, 139.936107],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_691c9d012a214c46aa4ae58a2410e528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7f6c0b0e441a7ef2d2f6085530499fe.setIcon(icon_691c9d012a214c46aa4ae58a2410e528);
+        
+    
+        var popup_d3d76b8f9159def280730c7c6b6b7bf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891212edf6b1a216102a4a833865ae7f = $(`<div id="html_891212edf6b1a216102a4a833865ae7f" style="width: 100.0%; height: 100.0%;">【名称】宮久保老人いこいの家  【住所】千葉県市川市宮久保4丁目2-4  【電話番号】(047)372-5755</div>`)[0];
+                popup_d3d76b8f9159def280730c7c6b6b7bf3.setContent(html_891212edf6b1a216102a4a833865ae7f);
+            
+        
+
+        marker_f7f6c0b0e441a7ef2d2f6085530499fe.bindPopup(popup_d3d76b8f9159def280730c7c6b6b7bf3)
+        ;
+
+        
+    
+    
+            var marker_be101b817d5eb0b3a46a01b45c284b1e = L.marker(
+                [35.72359256, 139.931092],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4011e53ed745991ceb63f7730a6cbb70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be101b817d5eb0b3a46a01b45c284b1e.setIcon(icon_4011e53ed745991ceb63f7730a6cbb70);
+        
+    
+        var popup_d2a0e2b0684bd5851d84bdb9217ad06a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11513a88d6a099dbafb47cbb918d2cef = $(`<div id="html_11513a88d6a099dbafb47cbb918d2cef" style="width: 100.0%; height: 100.0%;">【名称】全日警ホール（八幡市民会館）  【住所】千葉県市川市八幡4丁目2-1  【電話番号】(047)335-1542</div>`)[0];
+                popup_d2a0e2b0684bd5851d84bdb9217ad06a.setContent(html_11513a88d6a099dbafb47cbb918d2cef);
+            
+        
+
+        marker_be101b817d5eb0b3a46a01b45c284b1e.bindPopup(popup_d2a0e2b0684bd5851d84bdb9217ad06a)
+        ;
+
+        
+    
+    
+            var marker_37e255ca7ad0acfaf8214601a015e02b = L.marker(
+                [35.73768878, 139.9558348],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_ca3bca10185ac4e0ce30f00df5463996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37e255ca7ad0acfaf8214601a015e02b.setIcon(icon_ca3bca10185ac4e0ce30f00df5463996);
+        
+    
+        var popup_2775651bc1ec932494c90380ac62e967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033c58e4351c79b61b46ffd8b0bff31d = $(`<div id="html_033c58e4351c79b61b46ffd8b0bff31d" style="width: 100.0%; height: 100.0%;">【名称】県立市川東高校  【住所】千葉県市川市北方町4丁目2191  【電話番号】(047)338-6810</div>`)[0];
+                popup_2775651bc1ec932494c90380ac62e967.setContent(html_033c58e4351c79b61b46ffd8b0bff31d);
+            
+        
+
+        marker_37e255ca7ad0acfaf8214601a015e02b.bindPopup(popup_2775651bc1ec932494c90380ac62e967)
+        ;
+
+        
+    
+    
+            var marker_2d432f8b91ac8a7913f175a8a0247eac = L.marker(
+                [35.73973437, 139.923362],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3494f09402c6edf55110dfb63c9dd4e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d432f8b91ac8a7913f175a8a0247eac.setIcon(icon_3494f09402c6edf55110dfb63c9dd4e4);
+        
+    
+        var popup_11f510204e11578086ce3b2661f2e12a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3680f7e8a3e0edbbd4be08d04bcb333 = $(`<div id="html_f3680f7e8a3e0edbbd4be08d04bcb333" style="width: 100.0%; height: 100.0%;">【名称】県立市川昴高校  【住所】千葉県市川市東国分1丁目1-1  【電話番号】(047)371-2841</div>`)[0];
+                popup_11f510204e11578086ce3b2661f2e12a.setContent(html_f3680f7e8a3e0edbbd4be08d04bcb333);
+            
+        
+
+        marker_2d432f8b91ac8a7913f175a8a0247eac.bindPopup(popup_11f510204e11578086ce3b2661f2e12a)
+        ;
+
+        
+    
+    
+            var marker_1bec950813a3c9d717c2a918185951d7 = L.marker(
+                [35.74504856, 139.9044685],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_dc7c7ccc6842d17804933015162e6566 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1bec950813a3c9d717c2a918185951d7.setIcon(icon_dc7c7ccc6842d17804933015162e6566);
+        
+    
+        var popup_3a5c830700d49f898b18cf1a742e9e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a894a1fe75f1ea1f8d889ef2957c0f8e = $(`<div id="html_a894a1fe75f1ea1f8d889ef2957c0f8e" style="width: 100.0%; height: 100.0%;">【名称】県立国府台高校  【住所】千葉県市川市国府台2丁目4-1  【電話番号】(047)373-2141</div>`)[0];
+                popup_3a5c830700d49f898b18cf1a742e9e0b.setContent(html_a894a1fe75f1ea1f8d889ef2957c0f8e);
+            
+        
+
+        marker_1bec950813a3c9d717c2a918185951d7.bindPopup(popup_3a5c830700d49f898b18cf1a742e9e0b)
+        ;
+
+        
+    
+    
+            var marker_0cb6ee2c5d112541ec4e8c3ca9347b93 = L.marker(
+                [35.72318151, 139.9196087],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_48e33db898e0d5e9c900622831e2bcaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0cb6ee2c5d112541ec4e8c3ca9347b93.setIcon(icon_48e33db898e0d5e9c900622831e2bcaf);
+        
+    
+        var popup_47f69ca40ba1392a481e6a661a26a86f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6910fee8692f62d70d3960041ce09c31 = $(`<div id="html_6910fee8692f62d70d3960041ce09c31" style="width: 100.0%; height: 100.0%;">【名称】県立市川工業高校  【住所】千葉県市川市平田3丁目10-10  【電話番号】(047)378-4186</div>`)[0];
+                popup_47f69ca40ba1392a481e6a661a26a86f.setContent(html_6910fee8692f62d70d3960041ce09c31);
+            
+        
+
+        marker_0cb6ee2c5d112541ec4e8c3ca9347b93.bindPopup(popup_47f69ca40ba1392a481e6a661a26a86f)
+        ;
+
+        
+    
+    
+            var marker_0bdd6a73be8a8492730cb2c41b360c19 = L.marker(
+                [35.69326304, 139.9442232],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_64555c8902d6625006a64fc2338605cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bdd6a73be8a8492730cb2c41b360c19.setIcon(icon_64555c8902d6625006a64fc2338605cd);
+        
+    
+        var popup_efbb2d92d22d9bbf95a126fce2de6a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_549ef4a35ad67077a225bbb7470102ea = $(`<div id="html_549ef4a35ad67077a225bbb7470102ea" style="width: 100.0%; height: 100.0%;">【名称】県立市川南高校  【住所】千葉県市川市高谷1509  【電話番号】(047)328-6001</div>`)[0];
+                popup_efbb2d92d22d9bbf95a126fce2de6a32.setContent(html_549ef4a35ad67077a225bbb7470102ea);
+            
+        
+
+        marker_0bdd6a73be8a8492730cb2c41b360c19.bindPopup(popup_efbb2d92d22d9bbf95a126fce2de6a32)
+        ;
+
+        
+    
+    
+            var marker_9c4e57d89126902852145fbce552125e = L.marker(
+                [35.66536249, 139.9132412],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_627e952472c817317e349c3f9bc75e73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c4e57d89126902852145fbce552125e.setIcon(icon_627e952472c817317e349c3f9bc75e73);
+        
+    
+        var popup_5676342a17c9ba0c6c358d5db48ef5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a811d9481dcdea15b5921860d01820 = $(`<div id="html_53a811d9481dcdea15b5921860d01820" style="width: 100.0%; height: 100.0%;">【名称】県立行徳高校  【住所】千葉県市川市塩浜4丁目1-1  【電話番号】(047)395-1040</div>`)[0];
+                popup_5676342a17c9ba0c6c358d5db48ef5c8.setContent(html_53a811d9481dcdea15b5921860d01820);
+            
+        
+
+        marker_9c4e57d89126902852145fbce552125e.bindPopup(popup_5676342a17c9ba0c6c358d5db48ef5c8)
+        ;
+
+        
+    
+    
+            var marker_ad889b39f31dc0b223df9e7672df2178 = L.marker(
+                [35.73252832, 139.9464449],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_8cecf3561ef5c616141786949e130850 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad889b39f31dc0b223df9e7672df2178.setIcon(icon_8cecf3561ef5c616141786949e130850);
+        
+    
+        var popup_0639c971fae5b7d8163c7acd5f630ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f6fc86ed0aa59c5bbe941fad52ccf24 = $(`<div id="html_5f6fc86ed0aa59c5bbe941fad52ccf24" style="width: 100.0%; height: 100.0%;">【名称】市川学園  【住所】千葉県市川市本北方2丁目38-1  【電話番号】(047)339-2681</div>`)[0];
+                popup_0639c971fae5b7d8163c7acd5f630ead.setContent(html_5f6fc86ed0aa59c5bbe941fad52ccf24);
+            
+        
+
+        marker_ad889b39f31dc0b223df9e7672df2178.bindPopup(popup_0639c971fae5b7d8163c7acd5f630ead)
+        ;
+
+        
+    
+    
+            var marker_ead556e811c76e5b7268858b0f2b2f61 = L.marker(
+                [35.73074612, 139.9381714],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_38370405990c7b4686179a83701ce9ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ead556e811c76e5b7268858b0f2b2f61.setIcon(icon_38370405990c7b4686179a83701ce9ff);
+        
+    
+        var popup_30def4d399ed39622af18e7a86b0d1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e635f1e3b0f5449d0e9b2b70e618eacd = $(`<div id="html_e635f1e3b0f5449d0e9b2b70e618eacd" style="width: 100.0%; height: 100.0%;">【名称】市川学園（第１グランド等）  【住所】千葉県市川市東菅野4丁目1-1  【電話番号】(047)339-2681</div>`)[0];
+                popup_30def4d399ed39622af18e7a86b0d1a3.setContent(html_e635f1e3b0f5449d0e9b2b70e618eacd);
+            
+        
+
+        marker_ead556e811c76e5b7268858b0f2b2f61.bindPopup(popup_30def4d399ed39622af18e7a86b0d1a3)
+        ;
+
+        
+    
+    
+            var marker_2c55c38c73f0f18ae84601c6b2c41bcc = L.marker(
+                [35.733125, 139.9304186],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_5ce0f86a753e2b4cfe8ce989ab78c2f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c55c38c73f0f18ae84601c6b2c41bcc.setIcon(icon_5ce0f86a753e2b4cfe8ce989ab78c2f5);
+        
+    
+        var popup_098ed5740141baf63dc47fced5064b97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a47f4fe6324fec63eca450fc43434c2 = $(`<div id="html_3a47f4fe6324fec63eca450fc43434c2" style="width: 100.0%; height: 100.0%;">【名称】昭和学院  【住所】千葉県市川市東菅野2丁目1７-1  【電話番号】(047)323-4171</div>`)[0];
+                popup_098ed5740141baf63dc47fced5064b97.setContent(html_3a47f4fe6324fec63eca450fc43434c2);
+            
+        
+
+        marker_2c55c38c73f0f18ae84601c6b2c41bcc.bindPopup(popup_098ed5740141baf63dc47fced5064b97)
+        ;
+
+        
+    
+    
+            var marker_14c55309021585dcd69106757f88e36b = L.marker(
+                [35.74332703, 139.9038522],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4b012e2bc0a0e6e136b66df081c5921a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14c55309021585dcd69106757f88e36b.setIcon(icon_4b012e2bc0a0e6e136b66df081c5921a);
+        
+    
+        var popup_013c08f781b5f0fbe2b36188be1fa4fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fc5b585a0f105bd9c4039c2ac41ace5 = $(`<div id="html_8fc5b585a0f105bd9c4039c2ac41ace5" style="width: 100.0%; height: 100.0%;">【名称】和洋学園  【住所】千葉県市川市国府台2丁目3-1  【電話番号】(047)371-1111</div>`)[0];
+                popup_013c08f781b5f0fbe2b36188be1fa4fd.setContent(html_8fc5b585a0f105bd9c4039c2ac41ace5);
+            
+        
+
+        marker_14c55309021585dcd69106757f88e36b.bindPopup(popup_013c08f781b5f0fbe2b36188be1fa4fd)
+        ;
+
+        
+    
+    
+            var marker_9ec30319576e64f4ab3ad9275324cf9b = L.marker(
+                [35.7319177, 139.9185103],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3c82a00fededc312469b56aa2b126cab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ec30319576e64f4ab3ad9275324cf9b.setIcon(icon_3c82a00fededc312469b56aa2b126cab);
+        
+    
+        var popup_72eaf0a0704497ca7b507824400d41ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a9838ea5a204735086df44e975819a4 = $(`<div id="html_0a9838ea5a204735086df44e975819a4" style="width: 100.0%; height: 100.0%;">【名称】日出学園  【住所】千葉県市川市菅野3丁目23-1  【電話番号】(047)323-3000</div>`)[0];
+                popup_72eaf0a0704497ca7b507824400d41ae.setContent(html_0a9838ea5a204735086df44e975819a4);
+            
+        
+
+        marker_9ec30319576e64f4ab3ad9275324cf9b.bindPopup(popup_72eaf0a0704497ca7b507824400d41ae)
+        ;
+
+        
+    
+    
+            var marker_1eb7ac89bcdab2dca695a6dfaa8c0cc6 = L.marker(
+                [35.74142698, 139.9072681],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_961ba0806b819b893848151b69739abc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1eb7ac89bcdab2dca695a6dfaa8c0cc6.setIcon(icon_961ba0806b819b893848151b69739abc);
+        
+    
+        var popup_c56b400b911febef0ba60bd14ce226e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0717b578e1e2da2514ebf64c323fb79 = $(`<div id="html_b0717b578e1e2da2514ebf64c323fb79" style="width: 100.0%; height: 100.0%;">【名称】千葉商科大学  【住所】千葉県市川市国府台1丁目3-1  【電話番号】(047)372-4111</div>`)[0];
+                popup_c56b400b911febef0ba60bd14ce226e8.setContent(html_b0717b578e1e2da2514ebf64c323fb79);
+            
+        
+
+        marker_1eb7ac89bcdab2dca695a6dfaa8c0cc6.bindPopup(popup_c56b400b911febef0ba60bd14ce226e8)
+        ;
+
+        
+    
+    
+            var marker_27ac52ed317f610563696a13afd4979c = L.marker(
+                [35.72454557, 139.9295556],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_027744163fe32ec1d9d29901cb0dba40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27ac52ed317f610563696a13afd4979c.setIcon(icon_027744163fe32ec1d9d29901cb0dba40);
+        
+    
+        var popup_aad8a7bccbf38c1d29f9f65d763bd1d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e5d2468200f40a04650c2b83b9d050 = $(`<div id="html_c5e5d2468200f40a04650c2b83b9d050" style="width: 100.0%; height: 100.0%;">【名称】奥野木学園不二女子高校  【住所】千葉県市川市八幡4丁目5-７  【電話番号】(047)332-1898</div>`)[0];
+                popup_aad8a7bccbf38c1d29f9f65d763bd1d3.setContent(html_c5e5d2468200f40a04650c2b83b9d050);
+            
+        
+
+        marker_27ac52ed317f610563696a13afd4979c.bindPopup(popup_aad8a7bccbf38c1d29f9f65d763bd1d3)
+        ;
+
+        
+    
+    
+            var marker_3709603d60f504928df0bdb717a5df21 = L.marker(
+                [35.7649449, 139.967012],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_b38d90bded99c5abb8e1d766365890d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3709603d60f504928df0bdb717a5df21.setIcon(icon_b38d90bded99c5abb8e1d766365890d8);
+        
+    
+        var popup_ad33cb16b6468a5a2357c9249eb3e4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03085ee016afb258eb19f702d6453d90 = $(`<div id="html_03085ee016afb258eb19f702d6453d90" style="width: 100.0%; height: 100.0%;">【名称】奥野木学園大町不二グラウンド  【住所】千葉県市川市大町280-12  【電話番号】ー</div>`)[0];
+                popup_ad33cb16b6468a5a2357c9249eb3e4a7.setContent(html_03085ee016afb258eb19f702d6453d90);
+            
+        
+
+        marker_3709603d60f504928df0bdb717a5df21.bindPopup(popup_ad33cb16b6468a5a2357c9249eb3e4a7)
+        ;
+
+        
+    
+    
+            var marker_f9518042f4d35fc447ec4aad8caf5f7c = L.marker(
+                [35.73254495, 139.9155647],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_a4b85f3ae94e38cdd5f26f978bf521e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9518042f4d35fc447ec4aad8caf5f7c.setIcon(icon_a4b85f3ae94e38cdd5f26f978bf521e7);
+        
+    
+        var popup_de9da5972871ad7d5134db672d684df5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0798494fa8f8abb98349b3a126cfdf91 = $(`<div id="html_0798494fa8f8abb98349b3a126cfdf91" style="width: 100.0%; height: 100.0%;">【名称】国府台女子学院  【住所】千葉県市川市菅野3丁目24-1  【電話番号】(047)322-7777</div>`)[0];
+                popup_de9da5972871ad7d5134db672d684df5.setContent(html_0798494fa8f8abb98349b3a126cfdf91);
+            
+        
+
+        marker_f9518042f4d35fc447ec4aad8caf5f7c.bindPopup(popup_de9da5972871ad7d5134db672d684df5)
+        ;
+
+        
+    
+    
+            var marker_3bf82f27d7eee8c1c174d42e9c01fe82 = L.marker(
+                [35.76425015, 139.9659547],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_10261f98d32c800a7e8c7f5835d4190c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3bf82f27d7eee8c1c174d42e9c01fe82.setIcon(icon_10261f98d32c800a7e8c7f5835d4190c);
+        
+    
+        var popup_c961f28d39e93f7eb9addc8323eb4323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeaef6ef99242b690e0544e16ce3c0dc = $(`<div id="html_aeaef6ef99242b690e0544e16ce3c0dc" style="width: 100.0%; height: 100.0%;">【名称】市川自然博物館  【住所】千葉県市川市大町284  【電話番号】(047)339-0477</div>`)[0];
+                popup_c961f28d39e93f7eb9addc8323eb4323.setContent(html_aeaef6ef99242b690e0544e16ce3c0dc);
+            
+        
+
+        marker_3bf82f27d7eee8c1c174d42e9c01fe82.bindPopup(popup_c961f28d39e93f7eb9addc8323eb4323)
+        ;
+
+        
+    
+    
+            var marker_6692d9252b91242a682499ff72024514 = L.marker(
+                [35.737618, 139.9653107],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_00cc41ed3b9ac854a817d5995b949f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6692d9252b91242a682499ff72024514.setIcon(icon_00cc41ed3b9ac854a817d5995b949f55);
+        
+    
+        var popup_622dbab67663c5218544adcf5bb12091 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9c1789dde1444d5d2996358e595a24 = $(`<div id="html_6a9c1789dde1444d5d2996358e595a24" style="width: 100.0%; height: 100.0%;">【名称】姥山貝塚公園  【住所】千葉県市川市柏井町1丁目1235  【電話番号】ー</div>`)[0];
+                popup_622dbab67663c5218544adcf5bb12091.setContent(html_6a9c1789dde1444d5d2996358e595a24);
+            
+        
+
+        marker_6692d9252b91242a682499ff72024514.bindPopup(popup_622dbab67663c5218544adcf5bb12091)
+        ;
+
+        
+    
+    
+            var marker_f54324dc0c66da36aa0f6008013f7b63 = L.marker(
+                [35.75867486, 139.9071978],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3558ef7798d285f16d2461b167dbf70f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f54324dc0c66da36aa0f6008013f7b63.setIcon(icon_3558ef7798d285f16d2461b167dbf70f);
+        
+    
+        var popup_a5ecfd681dab2b69a6405c0dd4e8e8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de32c81a873dbc631049fcb2159d353f = $(`<div id="html_de32c81a873dbc631049fcb2159d353f" style="width: 100.0%; height: 100.0%;">【名称】小塚山公園  【住所】千葉県市川市北国分1丁目2７  【電話番号】ー</div>`)[0];
+                popup_a5ecfd681dab2b69a6405c0dd4e8e8b5.setContent(html_de32c81a873dbc631049fcb2159d353f);
+            
+        
+
+        marker_f54324dc0c66da36aa0f6008013f7b63.bindPopup(popup_a5ecfd681dab2b69a6405c0dd4e8e8b5)
+        ;
+
+        
+    
+    
+            var marker_678835fa3d5b49a156288d66473716d4 = L.marker(
+                [35.74948824, 139.907143],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bd0e87848e64900d6e6483d40c746f31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_678835fa3d5b49a156288d66473716d4.setIcon(icon_bd0e87848e64900d6e6483d40c746f31);
+        
+    
+        var popup_79a49c9b311183fa7ee4561fa6d06786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0d080089646b23b131b508f7a7e5c2a = $(`<div id="html_d0d080089646b23b131b508f7a7e5c2a" style="width: 100.0%; height: 100.0%;">【名称】じゅん菜池緑地  【住所】千葉県市川市中国分4丁目2７  【電話番号】(047)371-1254</div>`)[0];
+                popup_79a49c9b311183fa7ee4561fa6d06786.setContent(html_d0d080089646b23b131b508f7a7e5c2a);
+            
+        
+
+        marker_678835fa3d5b49a156288d66473716d4.bindPopup(popup_79a49c9b311183fa7ee4561fa6d06786)
+        ;
+
+        
+    
+    
+            var marker_d2cc268170ee0a47ce86334bc16bc4c0 = L.marker(
+                [35.7472002, 139.8987782],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c916b18e9bb0bb47d23b1e89fa0f0734 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2cc268170ee0a47ce86334bc16bc4c0.setIcon(icon_c916b18e9bb0bb47d23b1e89fa0f0734);
+        
+    
+        var popup_2281f788f115a1276d410ba189f4befb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_469a69022b13cfb197216b0f652380c2 = $(`<div id="html_469a69022b13cfb197216b0f652380c2" style="width: 100.0%; height: 100.0%;">【名称】里見公園  【住所】千葉県市川市国府台3丁目9  【電話番号】(047)372-0062</div>`)[0];
+                popup_2281f788f115a1276d410ba189f4befb.setContent(html_469a69022b13cfb197216b0f652380c2);
+            
+        
+
+        marker_d2cc268170ee0a47ce86334bc16bc4c0.bindPopup(popup_2281f788f115a1276d410ba189f4befb)
+        ;
+
+        
+    
+    
+            var marker_0ac680adf434412725dd21c5077366f3 = L.marker(
+                [35.73992347, 139.9078322],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_68c63bd6daba52fad81e16637ca91ed1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ac680adf434412725dd21c5077366f3.setIcon(icon_68c63bd6daba52fad81e16637ca91ed1);
+        
+    
+        var popup_6396d1e0ee14e7157ab49644547347c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f728a7d1356e563e00271a2f36052183 = $(`<div id="html_f728a7d1356e563e00271a2f36052183" style="width: 100.0%; height: 100.0%;">【名称】真間山弘法寺  【住所】千葉県市川市真間4丁目9-1  【電話番号】(047)371-2242</div>`)[0];
+                popup_6396d1e0ee14e7157ab49644547347c1.setContent(html_f728a7d1356e563e00271a2f36052183);
+            
+        
+
+        marker_0ac680adf434412725dd21c5077366f3.bindPopup(popup_6396d1e0ee14e7157ab49644547347c1)
+        ;
+
+        
+    
+    
+            var marker_991ca5fae637f3cc57623db5cdc842c8 = L.marker(
+                [35.73906393, 139.9128573],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_678309a2d5b5f68f401836690ed3beab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_991ca5fae637f3cc57623db5cdc842c8.setIcon(icon_678309a2d5b5f68f401836690ed3beab);
+        
+    
+        var popup_d22b82f1a0e0fa49800652760436464c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ce715eecac960538b0782d71a4484d = $(`<div id="html_b1ce715eecac960538b0782d71a4484d" style="width: 100.0%; height: 100.0%;">【名称】須和田公園  【住所】千葉県市川市須和田2丁目34  【電話番号】ー</div>`)[0];
+                popup_d22b82f1a0e0fa49800652760436464c.setContent(html_b1ce715eecac960538b0782d71a4484d);
+            
+        
+
+        marker_991ca5fae637f3cc57623db5cdc842c8.bindPopup(popup_d22b82f1a0e0fa49800652760436464c)
+        ;
+
+        
+    
+    
+            var marker_e326a006332e470b8f23a283291ee090 = L.marker(
+                [35.73658662, 139.9169091],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_19261e7fdfa206ce1e5f3c3b73612fd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e326a006332e470b8f23a283291ee090.setIcon(icon_19261e7fdfa206ce1e5f3c3b73612fd3);
+        
+    
+        var popup_ddde886bfd95e2d8f28ea497ab241789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b33f0eea1470e19b8c0b6f79efde3a5a = $(`<div id="html_b33f0eea1470e19b8c0b6f79efde3a5a" style="width: 100.0%; height: 100.0%;">【名称】須和田自治会館（六所神社）  【住所】千葉県市川市須和田2丁目22-７  【電話番号】(047)372-9867</div>`)[0];
+                popup_ddde886bfd95e2d8f28ea497ab241789.setContent(html_b33f0eea1470e19b8c0b6f79efde3a5a);
+            
+        
+
+        marker_e326a006332e470b8f23a283291ee090.bindPopup(popup_ddde886bfd95e2d8f28ea497ab241789)
+        ;
+
+        
+    
+    
+            var marker_93783624f3f1aafea954d80fc90ee4c0 = L.marker(
+                [35.73562472, 139.9268969],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_c3a9dbd473d18ab6263fbdd31453a08d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93783624f3f1aafea954d80fc90ee4c0.setIcon(icon_c3a9dbd473d18ab6263fbdd31453a08d);
+        
+    
+        var popup_df22ed04df282de37ecd271030829624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92f02089a40d94c661ee851380eff703 = $(`<div id="html_92f02089a40d94c661ee851380eff703" style="width: 100.0%; height: 100.0%;">【名称】東菅野児童交通公園  【住所】千葉県市川市東菅野2丁目23-5  【電話番号】(047)324-2990</div>`)[0];
+                popup_df22ed04df282de37ecd271030829624.setContent(html_92f02089a40d94c661ee851380eff703);
+            
+        
+
+        marker_93783624f3f1aafea954d80fc90ee4c0.bindPopup(popup_df22ed04df282de37ecd271030829624)
+        ;
+
+        
+    
+    
+            var marker_3dca577241f86603ba2af7d32bc9a466 = L.marker(
+                [35.72489343, 139.9446641],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3d33f93c2e333a34fcdbfd3e9dc88535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3dca577241f86603ba2af7d32bc9a466.setIcon(icon_3d33f93c2e333a34fcdbfd3e9dc88535);
+        
+    
+        var popup_fd9a821add2e6e770904ab8849cb817c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a6f81f3176129d554ff2ff7d846d7c1 = $(`<div id="html_2a6f81f3176129d554ff2ff7d846d7c1" style="width: 100.0%; height: 100.0%;">【名称】子之神社北方会館  【住所】千葉県市川市北方3丁目17-23  【電話番号】(047)334-3966</div>`)[0];
+                popup_fd9a821add2e6e770904ab8849cb817c.setContent(html_2a6f81f3176129d554ff2ff7d846d7c1);
+            
+        
+
+        marker_3dca577241f86603ba2af7d32bc9a466.bindPopup(popup_fd9a821add2e6e770904ab8849cb817c)
+        ;
+
+        
+    
+    
+            var marker_175427f40286774683c78084e4825c9e = L.marker(
+                [35.72421533, 139.9311188],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_e7a9227f062e9c7f925446f5a2f75515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_175427f40286774683c78084e4825c9e.setIcon(icon_e7a9227f062e9c7f925446f5a2f75515);
+        
+    
+        var popup_bcc3318dce3c6d2fabb1d56738cc36af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85a0f80f439d31314135574b2a45bf7a = $(`<div id="html_85a0f80f439d31314135574b2a45bf7a" style="width: 100.0%; height: 100.0%;">【名称】葛飾八幡宮  【住所】千葉県市川市八幡4丁目2-1  【電話番号】(047)336-4918</div>`)[0];
+                popup_bcc3318dce3c6d2fabb1d56738cc36af.setContent(html_85a0f80f439d31314135574b2a45bf7a);
+            
+        
+
+        marker_175427f40286774683c78084e4825c9e.bindPopup(popup_bcc3318dce3c6d2fabb1d56738cc36af)
+        ;
+
+        
+    
+    
+            var marker_683c743e3612c769a1ee6404312a6c7a = L.marker(
+                [35.72076031, 139.9494078],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_481f9ffbdbb0534902aad5702447d371 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_683c743e3612c769a1ee6404312a6c7a.setIcon(icon_481f9ffbdbb0534902aad5702447d371);
+        
+    
+        var popup_66a7e789e7ab714c7bf68f5e49c33023 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e0a6d54ba218467394587b87af1f6e0 = $(`<div id="html_3e0a6d54ba218467394587b87af1f6e0" style="width: 100.0%; height: 100.0%;">【名称】法華経寺  【住所】千葉県市川市中山2丁目10-1  【電話番号】(047)334-3433</div>`)[0];
+                popup_66a7e789e7ab714c7bf68f5e49c33023.setContent(html_3e0a6d54ba218467394587b87af1f6e0);
+            
+        
+
+        marker_683c743e3612c769a1ee6404312a6c7a.bindPopup(popup_66a7e789e7ab714c7bf68f5e49c33023)
+        ;
+
+        
+    
+    
+            var marker_6b9d0adb853b94afea6897291828a003 = L.marker(
+                [35.72590358, 139.8991932],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_a70f1033b2ddcf22ac8c81d042243d73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b9d0adb853b94afea6897291828a003.setIcon(icon_a70f1033b2ddcf22ac8c81d042243d73);
+        
+    
+        var popup_822bc85e1d99bc2417b69ec29752c1fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5450c8fc659386acbad11a58c087113b = $(`<div id="html_5450c8fc659386acbad11a58c087113b" style="width: 100.0%; height: 100.0%;">【名称】江戸川河川敷緑地  【住所】千葉県市川市市川南3地先地先  【電話番号】ー</div>`)[0];
+                popup_822bc85e1d99bc2417b69ec29752c1fd.setContent(html_5450c8fc659386acbad11a58c087113b);
+            
+        
+
+        marker_6b9d0adb853b94afea6897291828a003.bindPopup(popup_822bc85e1d99bc2417b69ec29752c1fd)
+        ;
+
+        
+    
+    
+            var marker_c17947b5c628bf57e8bd358909971bd3 = L.marker(
+                [35.71878729, 139.9107321],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_00a191b4100c8af4184ec6a2efbb346e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c17947b5c628bf57e8bd358909971bd3.setIcon(icon_00a191b4100c8af4184ec6a2efbb346e);
+        
+    
+        var popup_7a0e7303fecda6c62170024be3306940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9774a5e9c1dc99e34ffad37f1f5e24c6 = $(`<div id="html_9774a5e9c1dc99e34ffad37f1f5e24c6" style="width: 100.0%; height: 100.0%;">【名称】大洲防災公園  【住所】千葉県市川市大洲1丁目18  【電話番号】ー</div>`)[0];
+                popup_7a0e7303fecda6c62170024be3306940.setContent(html_9774a5e9c1dc99e34ffad37f1f5e24c6);
+            
+        
+
+        marker_c17947b5c628bf57e8bd358909971bd3.bindPopup(popup_7a0e7303fecda6c62170024be3306940)
+        ;
+
+        
+    
+    
+            var marker_751b435e9f16525dba3834afb0025bb9 = L.marker(
+                [35.71693809, 139.9339898],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_564d9db7fa986ddd843190f184499d28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_751b435e9f16525dba3834afb0025bb9.setIcon(icon_564d9db7fa986ddd843190f184499d28);
+        
+    
+        var popup_c7bd5959b8cd0c9196cfd843738c8953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e9db98ea1ad4b8bdffddb1be0f9120 = $(`<div id="html_a8e9db98ea1ad4b8bdffddb1be0f9120" style="width: 100.0%; height: 100.0%;">【名称】ニッケコルトンプラザ  【住所】千葉県市川市鬼高1丁目1-1  【電話番号】(047)378-3551</div>`)[0];
+                popup_c7bd5959b8cd0c9196cfd843738c8953.setContent(html_a8e9db98ea1ad4b8bdffddb1be0f9120);
+            
+        
+
+        marker_751b435e9f16525dba3834afb0025bb9.bindPopup(popup_c7bd5959b8cd0c9196cfd843738c8953)
+        ;
+
+        
+    
+    
+            var marker_79f4745a62fa2b06f45bc2ed56c9a468 = L.marker(
+                [35.71039138, 139.9285948],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bf73c0a5845d0436620e0b0e43eb2e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79f4745a62fa2b06f45bc2ed56c9a468.setIcon(icon_bf73c0a5845d0436620e0b0e43eb2e08);
+        
+    
+        var popup_3e51734008d0ff3fa43beae1d0708d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bc98b74d29d6a77aacef3040dadeaf5 = $(`<div id="html_4bc98b74d29d6a77aacef3040dadeaf5" style="width: 100.0%; height: 100.0%;">【名称】地方卸売市場  【住所】千葉県市川市鬼高4丁目5-1  【電話番号】(047)378-3611</div>`)[0];
+                popup_3e51734008d0ff3fa43beae1d0708d01.setContent(html_4bc98b74d29d6a77aacef3040dadeaf5);
+            
+        
+
+        marker_79f4745a62fa2b06f45bc2ed56c9a468.bindPopup(popup_3e51734008d0ff3fa43beae1d0708d01)
+        ;
+
+        
+    
+    
+            var marker_0983a7f958e5d0b785929f58c99131ad = L.marker(
+                [35.70232632, 139.9477235],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_4b1ea1337153cbacd71bb601bc10d609 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0983a7f958e5d0b785929f58c99131ad.setIcon(icon_4b1ea1337153cbacd71bb601bc10d609);
+        
+    
+        var popup_6e797ceecdbcfa661849b0ea0f7ff4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40f8c96e7f12fe1f6c08469be249682b = $(`<div id="html_40f8c96e7f12fe1f6c08469be249682b" style="width: 100.0%; height: 100.0%;">【名称】原木山妙行寺  【住所】千葉県市川市原木1丁目24-1  【電話番号】(047)327-1461</div>`)[0];
+                popup_6e797ceecdbcfa661849b0ea0f7ff4c0.setContent(html_40f8c96e7f12fe1f6c08469be249682b);
+            
+        
+
+        marker_0983a7f958e5d0b785929f58c99131ad.bindPopup(popup_6e797ceecdbcfa661849b0ea0f7ff4c0)
+        ;
+
+        
+    
+    
+            var marker_828ba00e7bbe6b3aa3f97a2d93c09bfa = L.marker(
+                [35.69189904, 139.9272306],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_d91b11adcc4ce58a1615e700d88bdcdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_828ba00e7bbe6b3aa3f97a2d93c09bfa.setIcon(icon_d91b11adcc4ce58a1615e700d88bdcdd);
+        
+    
+        var popup_a8ff17fa2d118ffb851de00b804c506d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c324bbec499a8b4e7f49a846e4659e3b = $(`<div id="html_c324bbec499a8b4e7f49a846e4659e3b" style="width: 100.0%; height: 100.0%;">【名称】イオン市川妙典店駐車場  【住所】千葉県市川市妙典4丁目4-1、5-3-1  【電話番号】ー</div>`)[0];
+                popup_a8ff17fa2d118ffb851de00b804c506d.setContent(html_c324bbec499a8b4e7f49a846e4659e3b);
+            
+        
+
+        marker_828ba00e7bbe6b3aa3f97a2d93c09bfa.bindPopup(popup_a8ff17fa2d118ffb851de00b804c506d)
+        ;
+
+        
+    
+    
+            var marker_d7dd5b6da8f68bfb7ae016c3ac61f923 = L.marker(
+                [35.69523817, 139.9529786],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_810d60eb4c79f0ca47690cb5af3762e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7dd5b6da8f68bfb7ae016c3ac61f923.setIcon(icon_810d60eb4c79f0ca47690cb5af3762e1);
+        
+    
+        var popup_578e1060e4b3a51daa56a73c5bcd77a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf9634c908d9435d3c9be3b5824b311 = $(`<div id="html_acf9634c908d9435d3c9be3b5824b311" style="width: 100.0%; height: 100.0%;">【名称】コーナン市川原木店駐車場  【住所】千葉県市川市原木2526-6  【電話番号】ー</div>`)[0];
+                popup_578e1060e4b3a51daa56a73c5bcd77a5.setContent(html_acf9634c908d9435d3c9be3b5824b311);
+            
+        
+
+        marker_d7dd5b6da8f68bfb7ae016c3ac61f923.bindPopup(popup_578e1060e4b3a51daa56a73c5bcd77a5)
+        ;
+
+        
+    
+    
+            var marker_7a7df8971d37b23cbcc25ea65f7ea638 = L.marker(
+                [35.67397675, 139.9244568],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_79540a6a33b348f0a9233cca23f0850d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a7df8971d37b23cbcc25ea65f7ea638.setIcon(icon_79540a6a33b348f0a9233cca23f0850d);
+        
+    
+        var popup_cd204728b0078341d6c146dd854aacac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd7b3f2188ae30fcc6aedfb9a7f1ee4 = $(`<div id="html_0dd7b3f2188ae30fcc6aedfb9a7f1ee4" style="width: 100.0%; height: 100.0%;">【名称】ユニディ千鳥町店駐車場  【住所】千葉県市川市千鳥町1  【電話番号】ー</div>`)[0];
+                popup_cd204728b0078341d6c146dd854aacac.setContent(html_0dd7b3f2188ae30fcc6aedfb9a7f1ee4);
+            
+        
+
+        marker_7a7df8971d37b23cbcc25ea65f7ea638.bindPopup(popup_cd204728b0078341d6c146dd854aacac)
+        ;
+
+        
+    
+    
+            var marker_5fb7120125a22f0527d64beabce180d5 = L.marker(
+                [35.69836611, 139.9219095],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_6a223bab7ea13ed348f7571c0d0b66de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fb7120125a22f0527d64beabce180d5.setIcon(icon_6a223bab7ea13ed348f7571c0d0b66de);
+        
+    
+        var popup_778e71a019ebac0d50212912cb22665a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e646c17f03bc3c7f21b2f4136dc699bd = $(`<div id="html_e646c17f03bc3c7f21b2f4136dc699bd" style="width: 100.0%; height: 100.0%;">【名称】新宿前公園  【住所】千葉県市川市河原9  【電話番号】ー</div>`)[0];
+                popup_778e71a019ebac0d50212912cb22665a.setContent(html_e646c17f03bc3c7f21b2f4136dc699bd);
+            
+        
+
+        marker_5fb7120125a22f0527d64beabce180d5.bindPopup(popup_778e71a019ebac0d50212912cb22665a)
+        ;
+
+        
+    
+    
+            var marker_1eee5e55760adb8498756af1caf9e659 = L.marker(
+                [35.68723941, 139.9220994],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_027adae743b7a14bca4751a876200a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1eee5e55760adb8498756af1caf9e659.setIcon(icon_027adae743b7a14bca4751a876200a5b);
+        
+    
+        var popup_b2634894f6ce1979f0944e7a951417f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_664d2ede67d76d551d4363654ee4f193 = $(`<div id="html_664d2ede67d76d551d4363654ee4f193" style="width: 100.0%; height: 100.0%;">【名称】行徳中央公園  【住所】千葉県市川市富浜3丁目10  【電話番号】ー</div>`)[0];
+                popup_b2634894f6ce1979f0944e7a951417f2.setContent(html_664d2ede67d76d551d4363654ee4f193);
+            
+        
+
+        marker_1eee5e55760adb8498756af1caf9e659.bindPopup(popup_b2634894f6ce1979f0944e7a951417f2)
+        ;
+
+        
+    
+    
+            var marker_4ece97a03285bffcfa2743db2dc26a46 = L.marker(
+                [35.68489092, 139.9288693],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_6280d44e00ca1b807932d1655d4c93ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ece97a03285bffcfa2743db2dc26a46.setIcon(icon_6280d44e00ca1b807932d1655d4c93ee);
+        
+    
+        var popup_2a62afaa22994864a934985719bfb16e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99e04ae7057a8aded93a7c09af15bbbe = $(`<div id="html_99e04ae7057a8aded93a7c09af15bbbe" style="width: 100.0%; height: 100.0%;">【名称】塩焼中央公園  【住所】千葉県市川市塩焼5丁目6  【電話番号】ー</div>`)[0];
+                popup_2a62afaa22994864a934985719bfb16e.setContent(html_99e04ae7057a8aded93a7c09af15bbbe);
+            
+        
+
+        marker_4ece97a03285bffcfa2743db2dc26a46.bindPopup(popup_2a62afaa22994864a934985719bfb16e)
+        ;
+
+        
+    
+    
+            var marker_2d466356dc21c7dbfe7689876f9842db = L.marker(
+                [35.6786948, 139.9283632],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_3a37e9fee03d09c8eab69ddb78ce0456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d466356dc21c7dbfe7689876f9842db.setIcon(icon_3a37e9fee03d09c8eab69ddb78ce0456);
+        
+    
+        var popup_66fa05e207f945a2c6eb614bb6409349 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab8fc1e4473608cdb6ffd981c703719 = $(`<div id="html_eab8fc1e4473608cdb6ffd981c703719" style="width: 100.0%; height: 100.0%;">【名称】行徳南部公園  【住所】千葉県市川市幸2丁目4  【電話番号】ー</div>`)[0];
+                popup_66fa05e207f945a2c6eb614bb6409349.setContent(html_eab8fc1e4473608cdb6ffd981c703719);
+            
+        
+
+        marker_2d466356dc21c7dbfe7689876f9842db.bindPopup(popup_66fa05e207f945a2c6eb614bb6409349)
+        ;
+
+        
+    
+    
+            var marker_c32c103de65319d6dfe4dbb05125ffbf = L.marker(
+                [35.67918678, 139.9134191],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_9b717368a7202b2df0d6f615fdf87512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c32c103de65319d6dfe4dbb05125ffbf.setIcon(icon_9b717368a7202b2df0d6f615fdf87512);
+        
+    
+        var popup_ba6da27770ca6c39ef6ea5af4318975d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e78611bdc9cf6cebad6822c0d8bef642 = $(`<div id="html_e78611bdc9cf6cebad6822c0d8bef642" style="width: 100.0%; height: 100.0%;">【名称】駅前公園  【住所】千葉県市川市湊新田2丁目4  【電話番号】(047)397-5577</div>`)[0];
+                popup_ba6da27770ca6c39ef6ea5af4318975d.setContent(html_e78611bdc9cf6cebad6822c0d8bef642);
+            
+        
+
+        marker_c32c103de65319d6dfe4dbb05125ffbf.bindPopup(popup_ba6da27770ca6c39ef6ea5af4318975d)
+        ;
+
+        
+    
+    
+            var marker_d0cc1367ffdc1535b5856231ba61551c = L.marker(
+                [35.67515164, 139.9017032],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_b84357fab2fad339a717d97519854457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0cc1367ffdc1535b5856231ba61551c.setIcon(icon_b84357fab2fad339a717d97519854457);
+        
+    
+        var popup_1d7f74de321b68a964daef35d0ab08c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3f01fbd0eae3f90978811f48f9abf48 = $(`<div id="html_e3f01fbd0eae3f90978811f48f9abf48" style="width: 100.0%; height: 100.0%;">【名称】南行徳公園  【住所】千葉県市川市相之川4丁目1  【電話番号】(047)357-7701</div>`)[0];
+                popup_1d7f74de321b68a964daef35d0ab08c1.setContent(html_e3f01fbd0eae3f90978811f48f9abf48);
+            
+        
+
+        marker_d0cc1367ffdc1535b5856231ba61551c.bindPopup(popup_1d7f74de321b68a964daef35d0ab08c1)
+        ;
+
+        
+    
+    
+            var marker_cc676689aa1b2f23782c5a1495fa47eb = L.marker(
+                [35.67869801, 139.8901949],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_506e5120cae5e4ab6209521526ffcd2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc676689aa1b2f23782c5a1495fa47eb.setIcon(icon_506e5120cae5e4ab6209521526ffcd2e);
+        
+    
+        var popup_38623dc1aba436b5c3d1c2ca2749ec99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9acd774f67e37004619979b181d59f4b = $(`<div id="html_9acd774f67e37004619979b181d59f4b" style="width: 100.0%; height: 100.0%;">【名称】広尾防災公園  【住所】千葉県市川市広尾2丁目3-2  【電話番号】(047)359-0155</div>`)[0];
+                popup_38623dc1aba436b5c3d1c2ca2749ec99.setContent(html_9acd774f67e37004619979b181d59f4b);
+            
+        
+
+        marker_cc676689aa1b2f23782c5a1495fa47eb.bindPopup(popup_38623dc1aba436b5c3d1c2ca2749ec99)
+        ;
+
+        
+    
+    
+            var marker_0cdd560fbead19f0ec41bdd5fdeddc4c = L.marker(
+                [35.66512754, 139.9071894],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_81c5f6ffdb5a3b75895d0ed79940a0b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0cdd560fbead19f0ec41bdd5fdeddc4c.setIcon(icon_81c5f6ffdb5a3b75895d0ed79940a0b1);
+        
+    
+        var popup_eec9c02e18c603e561381a92d8f215be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_905a51fd3fcba9929fdcb7155bcdb2b7 = $(`<div id="html_905a51fd3fcba9929fdcb7155bcdb2b7" style="width: 100.0%; height: 100.0%;">【名称】東海面公園  【住所】千葉県市川市南行徳4丁目７  【電話番号】ー</div>`)[0];
+                popup_eec9c02e18c603e561381a92d8f215be.setContent(html_905a51fd3fcba9929fdcb7155bcdb2b7);
+            
+        
+
+        marker_0cdd560fbead19f0ec41bdd5fdeddc4c.bindPopup(popup_eec9c02e18c603e561381a92d8f215be)
+        ;
+
+        
+    
+    
+            var marker_6bf62ae191e3376673367d1421d39c65 = L.marker(
+                [35.66008843, 139.9134086],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_14e7acc66a7ffc70e7f91767c0842458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6bf62ae191e3376673367d1421d39c65.setIcon(icon_14e7acc66a7ffc70e7f91767c0842458);
+        
+    
+        var popup_0e09352db444428c686b086bc5949e4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2440185340fa8b1f416bb3bcfcb5013f = $(`<div id="html_2440185340fa8b1f416bb3bcfcb5013f" style="width: 100.0%; height: 100.0%;">【名称】塩浜一号公園  【住所】千葉県市川市塩浜4丁目9  【電話番号】ー</div>`)[0];
+                popup_0e09352db444428c686b086bc5949e4d.setContent(html_2440185340fa8b1f416bb3bcfcb5013f);
+            
+        
+
+        marker_6bf62ae191e3376673367d1421d39c65.bindPopup(popup_0e09352db444428c686b086bc5949e4d)
+        ;
+
+        
+    
+    
+            var marker_4c0ea9fd09a61ce0d0b388def617978b = L.marker(
+                [35.71462259, 139.9333554],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_9059135531b0e3c5ccd2ca00d04dc4a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c0ea9fd09a61ce0d0b388def617978b.setIcon(icon_9059135531b0e3c5ccd2ca00d04dc4a2);
+        
+    
+        var popup_4386474cd4e95a71457770e10d961e98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e94251b635cfb9f4f9015e28bfe9b9ef = $(`<div id="html_e94251b635cfb9f4f9015e28bfe9b9ef" style="width: 100.0%; height: 100.0%;">【名称】県立現代産業科学館駐車場  【住所】千葉県市川市鬼高1丁目1  【電話番号】ー</div>`)[0];
+                popup_4386474cd4e95a71457770e10d961e98.setContent(html_e94251b635cfb9f4f9015e28bfe9b9ef);
+            
+        
+
+        marker_4c0ea9fd09a61ce0d0b388def617978b.bindPopup(popup_4386474cd4e95a71457770e10d961e98)
+        ;
+
+        
+    
+    
+            var marker_82f48d86bb265643389d08cd7b504149 = L.marker(
+                [35.6878354, 139.9269295],
+                {}
+            ).addTo(marker_cluster_0f11718a57f94659132ef2a3bef55381);
+        
+    
+            var icon_bd6c9110f08b57741b5310aec38ad924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82f48d86bb265643389d08cd7b504149.setIcon(icon_bd6c9110f08b57741b5310aec38ad924);
+        
+    
+        var popup_c341d23e6a332faa406c607fc6247d95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c9298acef067e8b7414b7456410e6f6 = $(`<div id="html_0c9298acef067e8b7414b7456410e6f6" style="width: 100.0%; height: 100.0%;">【名称】塩焼２丁目広場  【住所】千葉県市川市塩焼2丁目2  【電話番号】ー</div>`)[0];
+                popup_c341d23e6a332faa406c607fc6247d95.setContent(html_0c9298acef067e8b7414b7456410e6f6);
+            
+        
+
+        marker_82f48d86bb265643389d08cd7b504149.bindPopup(popup_c341d23e6a332faa406c607fc6247d95)
+        ;
+
+        
+    
+    
+                marker_cluster_0f11718a57f94659132ef2a3bef55381.addTo(map_9b89b71eabdbe1033c6c745a64955938);
+</script>
+</html>
