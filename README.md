@@ -5,4 +5,4 @@
 　  
 　  
 AED設置箇所一覧.csv より folium を用いて AED設置箇所を地図にプロット  
-![https://github.com/whitecat-22/ichikawa_city_info/blob/main/aed-map_20230601.png](https://github.com/whitecat-22/ichikawa_city_info/blob/main/aed-map_20230601.png)
+![https://github.com/whitecat-22/ichikawa_city_info/blob/main/data/108_aed_map.html](https://github.com/whitecat-22/ichikawa_city_info/blob/main/data/108_aed_map.html)
